@@ -20,7 +20,7 @@ notebooks/      Exploratory analysis
 
 | Phase | Description | Status |
 |-------|-------------|--------|
-| 0 | Setup — get DeepSeek-OCR running, confirm router access | ⬜ |
+| 0 | Setup — get DeepSeek-OCR running, confirm router access | ✅ Done |
 | 1 | Build datasets (OCR images + control sets + ground truth) | ⬜ |
 | 2 | Encoder/resolution sweep — is the bottleneck encoder or decoder? | ⬜ |
 | 3 | Router instrumentation — log expert selection per token per layer | ⬜ |
