@@ -18,7 +18,24 @@ All experiments are logged here chronologically. Each entry records what was run
 
 ---
 
-*Phase 0 COMPLETE. Phase 1 (dataset collection) is next.*
+*Phase 1 COMPLETE. Phase 2/3 next.*
+
+---
+
+### 2026-09-29 — [Phase 1] Dataset Collection ✅
+
+**Goal:** Collect OCR images with ground truth + control sets for routing comparison.
+**Result:**
+- **OCR (IAM Handwriting):** 500 line-level images from `Teklia/IAM-line`
+  - 250 with digits, 250 without | 27 with dates | Avg 44.2 chars
+  - Images: 128px height, 227–3811px width (grayscale)
+  - Ground truth: `iam_ground_truth.json` (500 entries)
+- **Control — General QA:** 100 samples (TriviaQA) | 31% with digits
+- **Control — Coding:** 100 samples (MBPP) | 6% with digits
+- **Control — Math:** 100 samples (GSM8K) | 98% with digits
+- **Total: 800 samples** across 4 domains
+**Interpretation:** Good domain contrast — math has digits but no images, OCR has images with digits, coding has neither, QA is mixed. This lets us separate "digit routing" from "image/OCR routing" in Phase 3.
+
 
 ---
 
