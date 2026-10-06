@@ -1,0 +1,3502 @@
+[
+  {
+    "id": "iam_0000",
+    "ground_truth": "\" Unheimliche Geschichten \" ( 1920 ) , five ghost stories",
+    "ocr_output": "\"Distributive properties,\" (DIP), plus great states",
+    "has_digits": true,
+    "digit_count": 4
+  },
+  {
+    "id": "iam_0001",
+    "ground_truth": "Sir Roy's United Federal Party is boycotting",
+    "ocr_output": "His Army's United States of America is beginning",
+    "has_digits": false,
+    "digit_count": 0
+  },
+  {
+    "id": "iam_0002",
+    "ground_truth": "at the same time a door banged - \" but don't",
+    "ocr_output": "of the same time o other keeled \"Out don't",
+    "has_digits": false,
+    "digit_count": 0
+  },
+  {
+    "id": "iam_0003",
+    "ground_truth": "the 6tic douloureux . As early as 1830 , when",
+    "ocr_output": "The other colonnade, as early as 1630 under",
+    "has_digits": true,
+    "digit_count": 5
+  },
+  {
+    "id": "iam_0004",
+    "ground_truth": "diet in 1959 .",
+    "ocr_output": "d x = 1359.",
+    "has_digits": true,
+    "digit_count": 4
+  },
+  {
+    "id": "iam_0005",
+    "ground_truth": "nothing the Chinese would not eat .",
+    "ocr_output": "nothing the Chinese would not eat.",
+    "has_digits": false,
+    "digit_count": 0
+  },
+  {
+    "id": "iam_0006",
+    "ground_truth": "the 1/4 in. ply . Make a very small hole for",
+    "ocr_output": "the 14th in my. Take a very small side for",
+    "has_digits": true,
+    "digit_count": 2
+  },
+  {
+    "id": "iam_0007",
+    "ground_truth": "Harry Carroll from Leicester ( B B C , 8.25 ) . A",
+    "ocr_output": "Harry (control from Leister (B B C, 8.25).",
+    "has_digits": true,
+    "digit_count": 3
+  },
+  {
+    "id": "iam_0008",
+    "ground_truth": "on each side .",
+    "ocr_output": "in each side.",
+    "has_digits": false,
+    "digit_count": 0
+  },
+  {
+    "id": "iam_0009",
+    "ground_truth": "future . Said Mr. Nkumbula last night :",
+    "ocr_output": "futur\u00e9. This is Dr. Huamanhua, don't judge.",
+    "has_digits": false,
+    "digit_count": 0
+  },
+  {
+    "id": "iam_0010",
+    "ground_truth": "desert her friends . HAPPY , happy",
+    "ocr_output": "Desert the friends. Happy, happy, happy",
+    "has_digits": false,
+    "digit_count": 0
+  },
+  {
+    "id": "iam_0011",
+    "ground_truth": "went to catch the 7.42 . Her sister saw her",
+    "ocr_output": "wear to alert the T.I.L. the older was less",
+    "has_digits": true,
+    "digit_count": 3
+  },
+  {
+    "id": "iam_0012",
+    "ground_truth": "what did it say ? Mystery Tour ? \" Oh , very caustic , that",
+    "ocr_output": "What did she say? I forgot how I did, many outside had",
+    "has_digits": false,
+    "digit_count": 0
+  },
+  {
+    "id": "iam_0013",
+    "ground_truth": "treatment . If we can avoid undue",
+    "ocr_output": "Pleasure. If we can avoid such",
+    "has_digits": false,
+    "digit_count": 0
+  },
+  {
+    "id": "iam_0014",
+    "ground_truth": "Derby hat fussed around the stove . \" 2Ain't",
+    "ocr_output": "Debby had refused to answer the phone. \u201cOh, I'm",
+    "has_digits": true,
+    "digit_count": 1
+  },
+  {
+    "id": "iam_0015",
+    "ground_truth": "offered six craft apprenticeships and received 450",
+    "ocr_output": "Asked six capital properties and received 450",
+    "has_digits": true,
+    "digit_count": 3
+  },
+  {
+    "id": "iam_0016",
+    "ground_truth": "them that they were being \" encircled . \" They really",
+    "ocr_output": "What that thing was being carried. You really",
+    "has_digits": false,
+    "digit_count": 0
+  },
+  {
+    "id": "iam_0017",
+    "ground_truth": "at all . He was holding a paper booklet , the top sheet of which",
+    "ocr_output": "for all. He was holding a paper booklet, the top, where a white",
+    "has_digits": false,
+    "digit_count": 0
+  },
+  {
+    "id": "iam_0018",
+    "ground_truth": "unless I 'm exceedingly 2skint . \" But I 'll",
+    "ocr_output": "Unless I'm mistaken, Esthetic \"Bad\"!!!",
+    "has_digits": true,
+    "digit_count": 1
+  },
+  {
+    "id": "iam_0019",
+    "ground_truth": "thought , being then in possession of what",
+    "ocr_output": "through, being thus in possession of under",
+    "has_digits": false,
+    "digit_count": 0
+  },
+  {
+    "id": "iam_0020",
+    "ground_truth": "to subsidise and defend the Cypriots . They will enjoy",
+    "ocr_output": "To subsidise and defend the Cypriots. They will enjoy",
+    "has_digits": false,
+    "digit_count": 0
+  },
+  {
+    "id": "iam_0021",
+    "ground_truth": "But he said discussions \" on a higher",
+    "ocr_output": "But the social discussions \"on a higher",
+    "has_digits": false,
+    "digit_count": 0
+  },
+  {
+    "id": "iam_0022",
+    "ground_truth": "IN 1913 Dr. Burge , Bishop of Southwark , asked me to go as",
+    "ocr_output": "In 1913 Dr. Bruce Billing of Southwark, asked me to go on",
+    "has_digits": true,
+    "digit_count": 4
+  },
+  {
+    "id": "iam_0023",
+    "ground_truth": "of variety and it 's a change . \" Nigel was the hospital's",
+    "ocr_output": "Let myself out in a panic. We're not the first to",
+    "has_digits": false,
+    "digit_count": 0
+  },
+  {
+    "id": "iam_0024",
+    "ground_truth": "2massacree , 2yessir . \" \" If you 'll take a chance",
+    "ocr_output": "[masacre, gressir, \"if you'll take a chance]",
+    "has_digits": true,
+    "digit_count": 2
+  },
+  {
+    "id": "iam_0025",
+    "ground_truth": "In the first place it is not a great deal",
+    "ocr_output": "In the first place it is not a great deal",
+    "has_digits": false,
+    "digit_count": 0
+  },
+  {
+    "id": "iam_0026",
+    "ground_truth": "Mr. Bryan Stonehouse's production is quietly",
+    "ocr_output": "Mr. Buan Shenzhen's population is quite a",
+    "has_digits": false,
+    "digit_count": 0
+  },
+  {
+    "id": "iam_0027",
+    "ground_truth": "As a result , the Glasgow Retirement Council came",
+    "ocr_output": "He's a result, the German Retribution Council came",
+    "has_digits": false,
+    "digit_count": 0
+  },
+  {
+    "id": "iam_0028",
+    "ground_truth": "despair of ever being cured . '",
+    "ocr_output": "display of ever being cured.",
+    "has_digits": false,
+    "digit_count": 0
+  },
+  {
+    "id": "iam_0029",
+    "ground_truth": "6al view ; good intimate furnishing and colour ; running",
+    "ocr_output": "old idea; growth in market familiarity and custom; marriage",
+    "has_digits": true,
+    "digit_count": 1
+  },
+  {
+    "id": "iam_0030",
+    "ground_truth": "were married , Di . Like a patient wishes his operation",
+    "ocr_output": "see wrong! \u2462. Lida a perfect woman was greenish",
+    "has_digits": false,
+    "digit_count": 0
+  },
+  {
+    "id": "iam_0031",
+    "ground_truth": "very fine . '",
+    "ocr_output": "vers fine.",
+    "has_digits": false,
+    "digit_count": 0
+  },
+  {
+    "id": "iam_0032",
+    "ground_truth": "holds that it would be a mistake to expel",
+    "ocr_output": "What kind of music do a musician to express",
+    "has_digits": false,
+    "digit_count": 0
+  },
+  {
+    "id": "iam_0033",
+    "ground_truth": "country who still oppose apartheid will be",
+    "ocr_output": "Coming who shall grow your friend and be",
+    "has_digits": false,
+    "digit_count": 0
+  },
+  {
+    "id": "iam_0034",
+    "ground_truth": "would be 3\" plenty , plenty sad \" not to be back",
+    "ocr_output": "would be 3 plenty plenty said not to be heard at",
+    "has_digits": true,
+    "digit_count": 1
+  },
+  {
+    "id": "iam_0035",
+    "ground_truth": "RELAXED , smiling and clearly in the best of",
+    "ocr_output": "Pulitzer, Pulitzer, and others in the Great",
+    "has_digits": false,
+    "digit_count": 0
+  },
+  {
+    "id": "iam_0036",
+    "ground_truth": "shall come to pass , if 1ye shall 1hearken",
+    "ocr_output": "shall come to pass if we shall thereby",
+    "has_digits": true,
+    "digit_count": 2
+  },
+  {
+    "id": "iam_0037",
+    "ground_truth": "May 1834 .",
+    "ocr_output": "\\[M a g 1 8 3 4 .\\]",
+    "has_digits": true,
+    "digit_count": 4
+  },
+  {
+    "id": "iam_0038",
+    "ground_truth": "The Austrian cuisine embraces the delectable 6Wiener",
+    "ocr_output": "the system assumes unknowns that other than",
+    "has_digits": true,
+    "digit_count": 1
+  },
+  {
+    "id": "iam_0039",
+    "ground_truth": "asking us to believe that , because of their odd",
+    "ocr_output": "making a to believe that, because of your odd",
+    "has_digits": false,
+    "digit_count": 0
+  },
+  {
+    "id": "iam_0040",
+    "ground_truth": "father-in-law , always comically grotesque ;",
+    "ocr_output": "[ ] there isn't any, unless you could explain it.",
+    "has_digits": false,
+    "digit_count": 0
+  },
+  {
+    "id": "iam_0041",
+    "ground_truth": "told Arthur , ' to find this place agree with me better than",
+    "ocr_output": "said Arthur to find this place over half mile below these",
+    "has_digits": false,
+    "digit_count": 0
+  },
+  {
+    "id": "iam_0042",
+    "ground_truth": "job is to make your moulds . In Fig. 1 it quotes 3/4 in. five-ply ,",
+    "ocr_output": "and is a matter of your mind. In 1991, it became 37th in foreign",
+    "has_digits": true,
+    "digit_count": 3
+  },
+  {
+    "id": "iam_0043",
+    "ground_truth": "of Rhodesia and Nyasaland ( 10.30 p.m. ) .",
+    "ocr_output": "if \\( \\text{blobs} \\) are \\( \\text{blobs} \\text{along} \\) (10, 300 \u00b5m).",
+    "has_digits": true,
+    "digit_count": 4
+  },
+  {
+    "id": "iam_0044",
+    "ground_truth": "They considered flowers as forming a very essential",
+    "ocr_output": "They consider themselves as farming a very essential",
+    "has_digits": false,
+    "digit_count": 0
+  },
+  {
+    "id": "iam_0045",
+    "ground_truth": "explicably from appreciable motives . The",
+    "ocr_output": "explicitly from appreciable motion, the",
+    "has_digits": false,
+    "digit_count": 0
+  },
+  {
+    "id": "iam_0046",
+    "ground_truth": "maybe less , depending on the price of the",
+    "ocr_output": "maybe less, accounting on the price of the",
+    "has_digits": false,
+    "digit_count": 0
+  },
+  {
+    "id": "iam_0047",
+    "ground_truth": "1960s , no cure has been found for the 6tic douloureux .",
+    "ocr_output": "Miles no cure his, leave hand for the disadvantage.",
+    "has_digits": true,
+    "digit_count": 5
+  },
+  {
+    "id": "iam_0048",
+    "ground_truth": "and measures approximately 8 ft. by 4 ft. She",
+    "ocr_output": "and measures approximately 8.5E, by 4E. She",
+    "has_digits": true,
+    "digit_count": 2
+  },
+  {
+    "id": "iam_0049",
+    "ground_truth": "sea bottom . It means that the crowding",
+    "ocr_output": "was horrible. It seems that the existing",
+    "has_digits": false,
+    "digit_count": 0
+  },
+  {
+    "id": "iam_0050",
+    "ground_truth": "Nor is this to be wondered at , for even today , in the 1960s ,",
+    "ocr_output": "How is this for the weekend of, I'm sure today, in the future?",
+    "has_digits": true,
+    "digit_count": 4
+  },
+  {
+    "id": "iam_0051",
+    "ground_truth": "the 1960s , no cure has been found for the",
+    "ocr_output": "The Atlas, no cure had been found for the",
+    "has_digits": true,
+    "digit_count": 4
+  },
+  {
+    "id": "iam_0052",
+    "ground_truth": "work in 1960 420000 ( 73 per cent )",
+    "ocr_output": "Test in 4th grade (13 percent)",
+    "has_digits": true,
+    "digit_count": 12
+  },
+  {
+    "id": "iam_0053",
+    "ground_truth": "stricter in recalling existing overdrafts . This is underlined in",
+    "ocr_output": "Martha is usually early everyday. That is, I understand in",
+    "has_digits": false,
+    "digit_count": 0
+  },
+  {
+    "id": "iam_0054",
+    "ground_truth": "the Whigs , and the temporary",
+    "ocr_output": "the wings, and the ternary",
+    "has_digits": false,
+    "digit_count": 0
+  },
+  {
+    "id": "iam_0055",
+    "ground_truth": "Mr. Macmillan .",
+    "ocr_output": "Mr. Neumann.",
+    "has_digits": false,
+    "digit_count": 0
+  },
+  {
+    "id": "iam_0056",
+    "ground_truth": "and unconstitutional \" interference by",
+    "ocr_output": "and unconstrained \"internal\" between the",
+    "has_digits": false,
+    "digit_count": 0
+  },
+  {
+    "id": "iam_0057",
+    "ground_truth": "this in another way as shown in Fig. 4 .",
+    "ocr_output": "This in another way as shown in Fig. 4.",
+    "has_digits": true,
+    "digit_count": 1
+  },
+  {
+    "id": "iam_0058",
+    "ground_truth": "It has aroused strong opposition from the anti-Negro",
+    "ocr_output": "It would seem apparent from the chart that",
+    "has_digits": false,
+    "digit_count": 0
+  },
+  {
+    "id": "iam_0059",
+    "ground_truth": "a roll or a codex . Rolls were prepared for",
+    "ocr_output": "a roll or a cookie, Roll me peanut for",
+    "has_digits": false,
+    "digit_count": 0
+  },
+  {
+    "id": "iam_0060",
+    "ground_truth": "is caused during the daytime , and that",
+    "ocr_output": "In Cloud Services, the advantage, and that",
+    "has_digits": false,
+    "digit_count": 0
+  },
+  {
+    "id": "iam_0061",
+    "ground_truth": "darndest , I offer these sad complexities . IN the 1830's",
+    "ocr_output": "Another, I offer these and complete, all the first",
+    "has_digits": true,
+    "digit_count": 4
+  },
+  {
+    "id": "iam_0062",
+    "ground_truth": "substantially higher last year than in 1959 .",
+    "ocr_output": "Substantially, under last year than in 1959.",
+    "has_digits": true,
+    "digit_count": 4
+  },
+  {
+    "id": "iam_0063",
+    "ground_truth": "climb the stairs , stamping with unnecessary vigour upon",
+    "ocr_output": "With the stars shining with luminescent liquid parts",
+    "has_digits": false,
+    "digit_count": 0
+  },
+  {
+    "id": "iam_0064",
+    "ground_truth": "Soviet Union might retaliate against",
+    "ocr_output": "Soviet Union might retaliate against Japan?",
+    "has_digits": false,
+    "digit_count": 0
+  },
+  {
+    "id": "iam_0065",
+    "ground_truth": "men back on a five-day week .",
+    "ocr_output": "When back on a five-day week.",
+    "has_digits": false,
+    "digit_count": 0
+  },
+  {
+    "id": "iam_0066",
+    "ground_truth": "Since 1958 , 13 Labour life Peers and",
+    "ocr_output": "Since 1958, its Labour like Jews and",
+    "has_digits": true,
+    "digit_count": 6
+  },
+  {
+    "id": "iam_0067",
+    "ground_truth": "What are you waiting for , darling ? The officer is",
+    "ocr_output": "What are you studying for, working? The subject is",
+    "has_digits": false,
+    "digit_count": 0
+  },
+  {
+    "id": "iam_0068",
+    "ground_truth": "but an express took him off yesterday . '",
+    "ocr_output": "but a messy book in of yesterday.",
+    "has_digits": false,
+    "digit_count": 0
+  },
+  {
+    "id": "iam_0069",
+    "ground_truth": "adjournments , until April 7 , finally had to be content to return",
+    "ocr_output": "adjournista, what I'll give you, is to be content to return",
+    "has_digits": true,
+    "digit_count": 1
+  },
+  {
+    "id": "iam_0070",
+    "ground_truth": "and arrived at Hounslow around 5 P.M. , where",
+    "ocr_output": "and joined at thousands around 5 P.T., where",
+    "has_digits": true,
+    "digit_count": 1
+  },
+  {
+    "id": "iam_0071",
+    "ground_truth": "well if you don't wear it for a bit , Di , \" he",
+    "ocr_output": "well I was about twenty in Paris at six, I mean",
+    "has_digits": false,
+    "digit_count": 0
+  },
+  {
+    "id": "iam_0072",
+    "ground_truth": "state visit 40 minutes after Mr. Khrushchov had",
+    "ocr_output": "Stade V\u00e9lizy-Villacoude, 4 km. Ath\u00e9n, Ath\u00e9n, Ath\u00e9n",
+    "has_digits": true,
+    "digit_count": 2
+  },
+  {
+    "id": "iam_0073",
+    "ground_truth": "had been nowhere near the 7.42 that evening .",
+    "ocr_output": "had been nowhere near the 4.12 that ending",
+    "has_digits": true,
+    "digit_count": 3
+  },
+  {
+    "id": "iam_0074",
+    "ground_truth": "could see 3anudder 3t'ing , \" he went on in a",
+    "ocr_output": "Gould see Sennacherf flying in the night on his",
+    "has_digits": true,
+    "digit_count": 2
+  },
+  {
+    "id": "iam_0075",
+    "ground_truth": "and wet pavements , the school play-grounds ,",
+    "ocr_output": "and not pervert, the mother very proud",
+    "has_digits": false,
+    "digit_count": 0
+  },
+  {
+    "id": "iam_0076",
+    "ground_truth": "variation on that sinister yarn in which half the cast",
+    "ocr_output": "Variation on that Sinister may in which half the cast",
+    "has_digits": false,
+    "digit_count": 0
+  },
+  {
+    "id": "iam_0077",
+    "ground_truth": "To Beryl , at least , this was anti-climax with a",
+    "ocr_output": "To begin, at least 4 units was worth 1 dollar.",
+    "has_digits": false,
+    "digit_count": 0
+  },
+  {
+    "id": "iam_0078",
+    "ground_truth": "yield not her fruit and lest 1ye perish quickly from off the",
+    "ocr_output": "yold not live in a land and list the reasons you said, from 0 to the",
+    "has_digits": true,
+    "digit_count": 1
+  },
+  {
+    "id": "iam_0079",
+    "ground_truth": "in Old Palace Yard . About 2,000",
+    "ocr_output": "* 100 \u4e07 \u4e07 \u4ebf \u4e07 \u5343 \u767e \u5341 \u4e07 \u5343 \u767e \u5341 \u5143 \u89d2 \u5206 \uffe5 1000",
+    "has_digits": true,
+    "digit_count": 4
+  },
+  {
+    "id": "iam_0080",
+    "ground_truth": "to mediaeval eyes . It was determined that 100,000",
+    "ocr_output": "to understand you. If busy defined that too,",
+    "has_digits": true,
+    "digit_count": 6
+  },
+  {
+    "id": "iam_0081",
+    "ground_truth": "Since 1958 , 13 Labour life Peers and #",
+    "ocr_output": "Since 1988, AS Kalbari is the first and first",
+    "has_digits": true,
+    "digit_count": 6
+  },
+  {
+    "id": "iam_0082",
+    "ground_truth": "this unity of conception and control are",
+    "ocr_output": "This unity of conception and control are",
+    "has_digits": false,
+    "digit_count": 0
+  },
+  {
+    "id": "iam_0083",
+    "ground_truth": "mighty six these days as rare as frostbite in summer .",
+    "ocr_output": "supply in the bags or not or feasible a number",
+    "has_digits": false,
+    "digit_count": 0
+  },
+  {
+    "id": "iam_0084",
+    "ground_truth": "20-month-old Charles Jun. was sleeping .",
+    "ocr_output": "20-month-old Charles Jim, was shaken.",
+    "has_digits": true,
+    "digit_count": 2
+  },
+  {
+    "id": "iam_0085",
+    "ground_truth": "Prayer Book in 1637 . Significantly this made",
+    "ocr_output": "Player, Book in AISF, significantly this made",
+    "has_digits": true,
+    "digit_count": 4
+  },
+  {
+    "id": "iam_0086",
+    "ground_truth": "done in 1950 because of the financial strain of",
+    "ocr_output": "alone in 1930 because of the financial strain of",
+    "has_digits": true,
+    "digit_count": 4
+  },
+  {
+    "id": "iam_0087",
+    "ground_truth": "those in authority to find some simple",
+    "ocr_output": "Those in authority to find some simpler",
+    "has_digits": false,
+    "digit_count": 0
+  },
+  {
+    "id": "iam_0088",
+    "ground_truth": "from appreciable motives . The rest , one feels , were",
+    "ocr_output": "from practicable motives. The rest, one feels, after the other,",
+    "has_digits": false,
+    "digit_count": 0
+  },
+  {
+    "id": "iam_0089",
+    "ground_truth": "Verwoerd and the Nationalists . They point out",
+    "ocr_output": "However, and the landmark. They point out",
+    "has_digits": false,
+    "digit_count": 0
+  },
+  {
+    "id": "iam_0090",
+    "ground_truth": "concluded , and only cooperation on the type",
+    "ocr_output": "calculated, as on any expenditure, on the basis",
+    "has_digits": false,
+    "digit_count": 0
+  },
+  {
+    "id": "iam_0091",
+    "ground_truth": "construction in lines 9 , 23-25 of the Moabite Stone ,",
+    "ocr_output": "const int& find(int i, int& v) { return v % 2 == 0 ? i : find(v, i); }",
+    "has_digits": true,
+    "digit_count": 5
+  },
+  {
+    "id": "iam_0092",
+    "ground_truth": "whom Anglesey consulted in May 1834 .",
+    "ocr_output": "wilson aubergu consalted in laug desy.",
+    "has_digits": true,
+    "digit_count": 4
+  },
+  {
+    "id": "iam_0093",
+    "ground_truth": "Again the resentment was widespread and",
+    "ocr_output": "Upon the restoration was wild spread and",
+    "has_digits": false,
+    "digit_count": 0
+  },
+  {
+    "id": "iam_0094",
+    "ground_truth": "fighter against apartheid . He must be heard",
+    "ocr_output": "fight against arguments, the must be heard",
+    "has_digits": false,
+    "digit_count": 0
+  },
+  {
+    "id": "iam_0095",
+    "ground_truth": "district and got to know , and be known by , many of",
+    "ocr_output": "District and got to know, and he known by, greatly of",
+    "has_digits": false,
+    "digit_count": 0
+  },
+  {
+    "id": "iam_0096",
+    "ground_truth": "an Italian who is perhaps the best Valet de Chambre",
+    "ocr_output": "an Italian who is primarily the best holder of Chateau",
+    "has_digits": false,
+    "digit_count": 0
+  },
+  {
+    "id": "iam_0097",
+    "ground_truth": "that was done in 1950 because of the financial",
+    "ocr_output": "had me over in 180 because of his financial",
+    "has_digits": true,
+    "digit_count": 4
+  },
+  {
+    "id": "iam_0098",
+    "ground_truth": "to say that its 400 troops in the Congo",
+    "ocr_output": "to say that it's fool knows in the crowd",
+    "has_digits": true,
+    "digit_count": 3
+  },
+  {
+    "id": "iam_0099",
+    "ground_truth": "VINEYARDS ( 1 Kings 4.25 ; S. of Sol. 8.11 ) .",
+    "ocr_output": "UNITED AFRICA'S (1) *trying* 4, 25% of *all* (1) *in*",
+    "has_digits": true,
+    "digit_count": 7
+  },
+  {
+    "id": "iam_0100",
+    "ground_truth": "it has so far , that such a project would",
+    "ocr_output": "It was so hot, but such a good sound",
+    "has_digits": false,
+    "digit_count": 0
+  },
+  {
+    "id": "iam_0101",
+    "ground_truth": "eyes of the spectators were hard with",
+    "ocr_output": "upon of the spectators were loud with",
+    "has_digits": false,
+    "digit_count": 0
+  },
+  {
+    "id": "iam_0102",
+    "ground_truth": "the largest , to number 8 , the smallest .",
+    "ocr_output": "We largest, to number 8, who smallest.",
+    "has_digits": true,
+    "digit_count": 1
+  },
+  {
+    "id": "iam_0103",
+    "ground_truth": "is always from the north ) .",
+    "ocr_output": "no always from the north.",
+    "has_digits": false,
+    "digit_count": 0
+  },
+  {
+    "id": "iam_0104",
+    "ground_truth": "egg-case on June 6 . Both the Chinese",
+    "ocr_output": "\\[\\text{any-case on time 0. 50M} \\quad \\text{while clause}\\]",
+    "has_digits": true,
+    "digit_count": 1
+  },
+  {
+    "id": "iam_0105",
+    "ground_truth": "instalment of almost 8,000,000",
+    "ocr_output": "instead of about $8,000,000",
+    "has_digits": true,
+    "digit_count": 7
+  },
+  {
+    "id": "iam_0106",
+    "ground_truth": "between 55 and 60 hours a week . They also put",
+    "ocr_output": "between 55 and 60 hours a week. They also put",
+    "has_digits": true,
+    "digit_count": 4
+  },
+  {
+    "id": "iam_0107",
+    "ground_truth": "( 1 ) Matzo represents Peshat ; ( 2 ) Moraur",
+    "ocr_output": "(1) Mat20 represent Fesha, (2) Matour",
+    "has_digits": true,
+    "digit_count": 2
+  },
+  {
+    "id": "iam_0108",
+    "ground_truth": "a fighting policy , based on Scarborough .",
+    "ocr_output": "a. putting policy based on Scarborough.",
+    "has_digits": false,
+    "digit_count": 0
+  },
+  {
+    "id": "iam_0109",
+    "ground_truth": "Fay Compton stars in \" No Hiding Place \" (I T V , 9.35 p.m. ) .",
+    "ocr_output": "Evaluate (conj) stands in \"No Thinking Value\" (ITV 1950 u.).",
+    "has_digits": true,
+    "digit_count": 3
+  },
+  {
+    "id": "iam_0110",
+    "ground_truth": "declared , was not to invite war , but",
+    "ocr_output": "relaxing, miss you to visit, wear, buy",
+    "has_digits": false,
+    "digit_count": 0
+  },
+  {
+    "id": "iam_0111",
+    "ground_truth": "15-nation Nato council . Some of his listeners said he was",
+    "ocr_output": "[Establish Work Contract]. Some of his friends said he was",
+    "has_digits": true,
+    "digit_count": 2
+  },
+  {
+    "id": "iam_0112",
+    "ground_truth": "morning . He is to make a 30-minute nation-wide",
+    "ocr_output": "maximum. It is to make a 30-minute motion-wire",
+    "has_digits": true,
+    "digit_count": 2
+  },
+  {
+    "id": "iam_0113",
+    "ground_truth": "Nor is this to be wondered at , for even today , in the 1960s ,",
+    "ocr_output": "We in New York, the numbered of, in our branch, in the 1960s,",
+    "has_digits": true,
+    "digit_count": 4
+  },
+  {
+    "id": "iam_0114",
+    "ground_truth": "has always differed from that of the",
+    "ocr_output": "ross always differed from that of the",
+    "has_digits": false,
+    "digit_count": 0
+  },
+  {
+    "id": "iam_0115",
+    "ground_truth": "your car and then you dancing with",
+    "ocr_output": "your coat and then you dance with",
+    "has_digits": false,
+    "digit_count": 0
+  },
+  {
+    "id": "iam_0116",
+    "ground_truth": "so had left him , on her dignity and not",
+    "ocr_output": "so that the main one cylinder has no",
+    "has_digits": false,
+    "digit_count": 0
+  },
+  {
+    "id": "iam_0117",
+    "ground_truth": "Towards the end of 1956 , Mr. Daniel Grant ,",
+    "ocr_output": "Bouvard, the end of 1936, the twelve great",
+    "has_digits": true,
+    "digit_count": 4
+  },
+  {
+    "id": "iam_0118",
+    "ground_truth": "over vines and peachtrees .",
+    "ocr_output": "derive lines and methods.",
+    "has_digits": false,
+    "digit_count": 0
+  },
+  {
+    "id": "iam_0119",
+    "ground_truth": "3,000 a day .",
+    "ocr_output": "3, 000 a day.",
+    "has_digits": true,
+    "digit_count": 4
+  },
+  {
+    "id": "iam_0120",
+    "ground_truth": "gratefully by a small creek where we watered",
+    "ocr_output": "speculate \u2192 v. a small speech made in answer",
+    "has_digits": false,
+    "digit_count": 0
+  },
+  {
+    "id": "iam_0121",
+    "ground_truth": "1960s , no cure has been found for the 6tic",
+    "ocr_output": "1965, no cure was seen found for the",
+    "has_digits": true,
+    "digit_count": 5
+  },
+  {
+    "id": "iam_0122",
+    "ground_truth": "But in 1897 , alas ! there was no fingerprint bureau ,",
+    "ocr_output": "But in 1974, what's there was no frequency in that era.",
+    "has_digits": true,
+    "digit_count": 4
+  },
+  {
+    "id": "iam_0123",
+    "ground_truth": "lake trout and said - 3\" Bill , he 's better",
+    "ocr_output": "Make travel and social - 3\"B\", the is safer",
+    "has_digits": true,
+    "digit_count": 1
+  },
+  {
+    "id": "iam_0124",
+    "ground_truth": "tober , 1959 , the first experimental day-release course for",
+    "ocr_output": "never. Also, she is the youngest of my twelve children in",
+    "has_digits": true,
+    "digit_count": 4
+  },
+  {
+    "id": "iam_0125",
+    "ground_truth": "in the 1960s , no cure has been found for the",
+    "ocr_output": "en, du 4f03, ne que nos deux figurant de",
+    "has_digits": true,
+    "digit_count": 4
+  },
+  {
+    "id": "iam_0126",
+    "ground_truth": "whom Anglesey consulted in May 1834 .",
+    "ocr_output": "Italian language continued in May after",
+    "has_digits": true,
+    "digit_count": 4
+  },
+  {
+    "id": "iam_0127",
+    "ground_truth": "piece of timber 14 in. long and about 1/2 in.",
+    "ocr_output": "place of tuber in, hung and what is in.",
+    "has_digits": true,
+    "digit_count": 4
+  },
+  {
+    "id": "iam_0128",
+    "ground_truth": "and Mr. Harry Nkumbula's African National",
+    "ocr_output": "and Mr. Barry Edmunds (A) (an American",
+    "has_digits": false,
+    "digit_count": 0
+  },
+  {
+    "id": "iam_0129",
+    "ground_truth": "Platt , both aged 19 . Eric says : \" We believe in the",
+    "ocr_output": "Fall, shouted Mr. Eric Sons: \"We believe in the",
+    "has_digits": true,
+    "digit_count": 2
+  },
+  {
+    "id": "iam_0130",
+    "ground_truth": "in halting 6patois that \" 3Mistah Piers \" had",
+    "ocr_output": "in holding positions back, Switzerland, plus 4",
+    "has_digits": true,
+    "digit_count": 2
+  },
+  {
+    "id": "iam_0131",
+    "ground_truth": "The new century opened with James 1 ascending",
+    "ocr_output": "The new centring opened into the joint 1\u00b0 ascending",
+    "has_digits": true,
+    "digit_count": 1
+  },
+  {
+    "id": "iam_0132",
+    "ground_truth": "God knows what may happen ... .",
+    "ocr_output": "God knows what may happen.",
+    "has_digits": false,
+    "digit_count": 0
+  },
+  {
+    "id": "iam_0133",
+    "ground_truth": "and grow wings . Between the worlds are many strong",
+    "ocr_output": "And grow wings. Between the wilds are many strong",
+    "has_digits": false,
+    "digit_count": 0
+  },
+  {
+    "id": "iam_0134",
+    "ground_truth": "scientific revolution . Out of the 550,000",
+    "ocr_output": "scientific methods. Out of the seven",
+    "has_digits": true,
+    "digit_count": 6
+  },
+  {
+    "id": "iam_0135",
+    "ground_truth": "year , 1914 , when war broke out . Very soon Chaplains for",
+    "ocr_output": "year 1914, when our bride act. Very soon Chaplains to",
+    "has_digits": true,
+    "digit_count": 4
+  },
+  {
+    "id": "iam_0136",
+    "ground_truth": "6tic douloureux . As early as 1830 , when",
+    "ocr_output": "Write ch, ch, ch, ch, ch, ch, ch, ch, ch, ch, ch. At first, all the other",
+    "has_digits": true,
+    "digit_count": 5
+  },
+  {
+    "id": "iam_0137",
+    "ground_truth": "cross pieces and is made of 1/2 in. plywood",
+    "ocr_output": "Cross species and is made of 1/2 in. plywood",
+    "has_digits": true,
+    "digit_count": 2
+  },
+  {
+    "id": "iam_0138",
+    "ground_truth": "bind them to have the vision and then \" And 1ye",
+    "ocr_output": "And then to have the vision and then \"And the",
+    "has_digits": true,
+    "digit_count": 1
+  },
+  {
+    "id": "iam_0139",
+    "ground_truth": "While he was writing this letter he heard of the fall",
+    "ocr_output": "While he was within their borders he raised a large",
+    "has_digits": false,
+    "digit_count": 0
+  },
+  {
+    "id": "iam_0140",
+    "ground_truth": "a detailed account of his movements on the 11th . The dead",
+    "ocr_output": "a duty (duty) occurs to his movements on the 4th July because",
+    "has_digits": true,
+    "digit_count": 2
+  },
+  {
+    "id": "iam_0141",
+    "ground_truth": "as it obviously appeared to everyone else .",
+    "ocr_output": "as it obviously appeared to everyone else.",
+    "has_digits": false,
+    "digit_count": 0
+  },
+  {
+    "id": "iam_0142",
+    "ground_truth": "tions . The Senate Banking Committee , which",
+    "ocr_output": "Now, The Smile Group (Common, What",
+    "has_digits": false,
+    "digit_count": 0
+  },
+  {
+    "id": "iam_0143",
+    "ground_truth": "In 1950 he began to take photographs not",
+    "ocr_output": "In 1950 he began to build photographic",
+    "has_digits": true,
+    "digit_count": 4
+  },
+  {
+    "id": "iam_0144",
+    "ground_truth": "1thy life means even at night-time . \"",
+    "ocr_output": "Why life means new at night-time.",
+    "has_digits": true,
+    "digit_count": 1
+  },
+  {
+    "id": "iam_0145",
+    "ground_truth": "Fall , by Mr. Paul Ferris , was a morality on",
+    "ocr_output": "fall, my Mr. Beauf tenny, was a morality in",
+    "has_digits": false,
+    "digit_count": 0
+  },
+  {
+    "id": "iam_0146",
+    "ground_truth": "timber as shown in Fig. 1 . Although the timber will have already",
+    "ocr_output": "Tucker is shown in Fig. 1. Although the tanker will have already",
+    "has_digits": true,
+    "digit_count": 1
+  },
+  {
+    "id": "iam_0147",
+    "ground_truth": "other man was a priest : here the priest is 1superceded by",
+    "ocr_output": "They mean used a prefix. Use the prefix in \"Ignored by",
+    "has_digits": true,
+    "digit_count": 1
+  },
+  {
+    "id": "iam_0148",
+    "ground_truth": "1952 ) , the praying mantis is trecking",
+    "ocr_output": "(1952), the primary nucleus is radioactive",
+    "has_digits": true,
+    "digit_count": 4
+  },
+  {
+    "id": "iam_0149",
+    "ground_truth": "give me a ring at this number and I 'll",
+    "ocr_output": "give me a tiny bit this number and I'll",
+    "has_digits": false,
+    "digit_count": 0
+  },
+  {
+    "id": "iam_0150",
+    "ground_truth": "is the early payment of a 210million",
+    "ocr_output": "In the early years of a 140-mile",
+    "has_digits": true,
+    "digit_count": 3
+  },
+  {
+    "id": "iam_0151",
+    "ground_truth": "word of God .",
+    "ocr_output": "word of freedom",
+    "has_digits": false,
+    "digit_count": 0
+  },
+  {
+    "id": "iam_0152",
+    "ground_truth": "once-and-for-all cash offer of 357million . President",
+    "ocr_output": "Once and for all, end office of 3F in China, President",
+    "has_digits": true,
+    "digit_count": 3
+  },
+  {
+    "id": "iam_0153",
+    "ground_truth": "cinema . And we know what people want . \" The",
+    "ocr_output": "Gravina. And we know without further mention, \"The",
+    "has_digits": false,
+    "digit_count": 0
+  },
+  {
+    "id": "iam_0154",
+    "ground_truth": "Laos , yesterday addressed all officers",
+    "ocr_output": "have, yesterday, entered all offices in the country.",
+    "has_digits": false,
+    "digit_count": 0
+  },
+  {
+    "id": "iam_0155",
+    "ground_truth": "the government by the Duke of Wellington .",
+    "ocr_output": "The governor by The Order of Wellington.",
+    "has_digits": false,
+    "digit_count": 0
+  },
+  {
+    "id": "iam_0156",
+    "ground_truth": "in the Holy Loch , only 30 miles from Glasgow , a",
+    "ocr_output": "in the high school, only 83 miles from Oregon, a",
+    "has_digits": true,
+    "digit_count": 2
+  },
+  {
+    "id": "iam_0157",
+    "ground_truth": "hardly like to add further to the dullness",
+    "ocr_output": "nearly like to rock further to the dullness",
+    "has_digits": false,
+    "digit_count": 0
+  },
+  {
+    "id": "iam_0158",
+    "ground_truth": "come 2a-calling , \" I said . \" Can't see no reason",
+    "ocr_output": "One can easily see that if we are",
+    "has_digits": true,
+    "digit_count": 1
+  },
+  {
+    "id": "iam_0159",
+    "ground_truth": "drawing-in great breaths that",
+    "ocr_output": "dau-ni-pi-ca-greel-lec-hi-ho",
+    "has_digits": false,
+    "digit_count": 0
+  },
+  {
+    "id": "iam_0160",
+    "ground_truth": "to you ? \" It did . Ian Bawley's name was",
+    "ocr_output": "What? What, don't you believe? You don't",
+    "has_digits": false,
+    "digit_count": 0
+  },
+  {
+    "id": "iam_0161",
+    "ground_truth": "in what aspects ? 3 . Does the evidence",
+    "ocr_output": "Il vaut assez ? 3. Zwei Tee ein brennen",
+    "has_digits": true,
+    "digit_count": 1
+  },
+  {
+    "id": "iam_0162",
+    "ground_truth": "act oddly like the queer foreigners of",
+    "ocr_output": "act calmly like the quiet foreigners of",
+    "has_digits": false,
+    "digit_count": 0
+  },
+  {
+    "id": "iam_0163",
+    "ground_truth": "May 1834 .",
+    "ocr_output": "Max 1834",
+    "has_digits": true,
+    "digit_count": 4
+  },
+  {
+    "id": "iam_0164",
+    "ground_truth": "This was too reminiscent of the nursemaid",
+    "ocr_output": "\u041d\u0430\u043c \u043d\u0430\u0434\u043e \u043f\u043e-\u043d\u0430\u0441\u0442\u043e\u044f\u0449\u0435\u043c\u0443 \u0441\u0434\u0430\u0442\u044c \u043e\u0431\u0435\u0434 \u043d\u0430\u0448\u0443 \u0440\u0430\u0431\u043e\u0442\u0443.",
+    "has_digits": false,
+    "digit_count": 0
+  },
+  {
+    "id": "iam_0165",
+    "ground_truth": "Council meeting on October 16 , 1912 , George",
+    "ocr_output": "Quand m\u00eame si Octave ne parle, George",
+    "has_digits": true,
+    "digit_count": 6
+  },
+  {
+    "id": "iam_0166",
+    "ground_truth": "index , which has risen only slowly since 1956 , was",
+    "ocr_output": "\u0623\u062d\u0645\u062f\u060c \u0661\u0669\u0665\u0664 \u0639\u0647\u062f\u0646\u0627\u060c \u0648\u0644\u064a\u0645\u0627\u0646\u060c \u0648\u0644\u064a\u062f\u0647\u060c \u0648\u0644\u064a\u062f\u0647\u060c \u0639\u0647\u062f\u0646\u0627\u060c \u0648\u0644\u064a\u0645\u0627\u0646\u060c \u0648\u0644\u064a\u062f\u0647\u060c",
+    "has_digits": true,
+    "digit_count": 4
+  },
+  {
+    "id": "iam_0167",
+    "ground_truth": "the editor , always comically abashed by",
+    "ocr_output": "the activity, allowing completely relaxed sleep",
+    "has_digits": false,
+    "digit_count": 0
+  },
+  {
+    "id": "iam_0168",
+    "ground_truth": "charming character , even-tempered and",
+    "ocr_output": "charming character, with a humble and",
+    "has_digits": false,
+    "digit_count": 0
+  },
+  {
+    "id": "iam_0169",
+    "ground_truth": "fight a 30-day war or a 90-day war ?",
+    "ocr_output": "What a 30-day love or a 90-day love?",
+    "has_digits": true,
+    "digit_count": 4
+  },
+  {
+    "id": "iam_0170",
+    "ground_truth": "as before . It is unnecessary to mark the taper with",
+    "ocr_output": "So there it is unnecessary to wash the paper into",
+    "has_digits": false,
+    "digit_count": 0
+  },
+  {
+    "id": "iam_0171",
+    "ground_truth": "But after that slight slip of the tongue on Nigel's part she had",
+    "ocr_output": "But after that slight slap of the tongue on Juliet's part he had",
+    "has_digits": false,
+    "digit_count": 0
+  },
+  {
+    "id": "iam_0172",
+    "ground_truth": "are well known to bring good",
+    "ocr_output": "we will become a big good",
+    "has_digits": false,
+    "digit_count": 0
+  },
+  {
+    "id": "iam_0173",
+    "ground_truth": "\" So there you are , my dear . \" Peggy 's eyes filled",
+    "ocr_output": "'No take your seat, my editor.' Peggy's eyes filled",
+    "has_digits": false,
+    "digit_count": 0
+  },
+  {
+    "id": "iam_0174",
+    "ground_truth": "Nationalists and 20 United party candi-",
+    "ocr_output": "Indications and to maintain purity could =",
+    "has_digits": true,
+    "digit_count": 2
+  },
+  {
+    "id": "iam_0175",
+    "ground_truth": "the 1960 record set last Christmas .",
+    "ocr_output": "The Negro record set (consists",
+    "has_digits": true,
+    "digit_count": 4
+  },
+  {
+    "id": "iam_0176",
+    "ground_truth": "held last autumn , 38 per cent for the",
+    "ocr_output": "hud fort autumn, 38 per cent for the",
+    "has_digits": true,
+    "digit_count": 2
+  },
+  {
+    "id": "iam_0177",
+    "ground_truth": "obscure on Berlin , damaging and obscure",
+    "ocr_output": "satisfies us with, demands big and other",
+    "has_digits": false,
+    "digit_count": 0
+  },
+  {
+    "id": "iam_0178",
+    "ground_truth": "Palestinian teacher , R. Eleazar ( 3rd Cent. ) :",
+    "ocr_output": "Paleochron leader, R. Delage (3d Cent.):",
+    "has_digits": true,
+    "digit_count": 1
+  },
+  {
+    "id": "iam_0179",
+    "ground_truth": "To put it in a slightly different way , do not allow",
+    "ocr_output": "to put in a slightly different way, do not show",
+    "has_digits": false,
+    "digit_count": 0
+  },
+  {
+    "id": "iam_0180",
+    "ground_truth": "always comically grotesque ; they were not asked",
+    "ocr_output": "blow up (unwillingly) grow up; My sister was a child",
+    "has_digits": false,
+    "digit_count": 0
+  },
+  {
+    "id": "iam_0181",
+    "ground_truth": "which again left his household goods",
+    "ocr_output": "which again help us to know what goods",
+    "has_digits": false,
+    "digit_count": 0
+  },
+  {
+    "id": "iam_0182",
+    "ground_truth": "Mr. Diefenbaker 36 per cent , for Mr.",
+    "ocr_output": "4f. Implement 3GPP control, if.",
+    "has_digits": true,
+    "digit_count": 2
+  },
+  {
+    "id": "iam_0183",
+    "ground_truth": "to make it in 1950 . And as a percentage",
+    "ocr_output": "to make it in 1950. But as a result,",
+    "has_digits": true,
+    "digit_count": 4
+  },
+  {
+    "id": "iam_0184",
+    "ground_truth": "was 800 feet high above the sea level ! The",
+    "ocr_output": "but too great life have we done! The",
+    "has_digits": true,
+    "digit_count": 3
+  },
+  {
+    "id": "iam_0185",
+    "ground_truth": "After all it 's them we 're supposed to be",
+    "ocr_output": "After all it's than what's important to be",
+    "has_digits": false,
+    "digit_count": 0
+  },
+  {
+    "id": "iam_0186",
+    "ground_truth": "At one point the astute Miss Cheesecake",
+    "ocr_output": "At our point the author of the first Cleveland",
+    "has_digits": false,
+    "digit_count": 0
+  },
+  {
+    "id": "iam_0187",
+    "ground_truth": "12 o'clock at night . At that time pastries and buns",
+    "ocr_output": "He turns a little at night. At that time parties and buses were sold at 2 pence for one shilling.",
+    "has_digits": true,
+    "digit_count": 2
+  },
+  {
+    "id": "iam_0188",
+    "ground_truth": "as possible . Anyway the Parsifal affair was far",
+    "ocr_output": "as possible. Rhizium is the first alga that has",
+    "has_digits": false,
+    "digit_count": 0
+  },
+  {
+    "id": "iam_0189",
+    "ground_truth": "to Senator Robertson saying the Federal Bureau",
+    "ocr_output": "La famille Mettournaya, qui a \u00e9t\u00e9 fond\u00e9e en 1997",
+    "has_digits": false,
+    "digit_count": 0
+  },
+  {
+    "id": "iam_0190",
+    "ground_truth": "been brought to his notice .",
+    "ocr_output": "then brought the lid under.",
+    "has_digits": false,
+    "digit_count": 0
+  },
+  {
+    "id": "iam_0191",
+    "ground_truth": "We also had a little Mission Hall leading off",
+    "ocr_output": "We also had a little Mission. Hadle leading off",
+    "has_digits": false,
+    "digit_count": 0
+  },
+  {
+    "id": "iam_0192",
+    "ground_truth": "the tiny white figure of 8.5 against which the needle",
+    "ocr_output": "the tiny white figure of a pc against which the model",
+    "has_digits": true,
+    "digit_count": 2
+  },
+  {
+    "id": "iam_0193",
+    "ground_truth": "are parallel horizontally . Next bevel the chines",
+    "ocr_output": "are painted hornpaint, \\underline{Heat bevel the chisel}",
+    "has_digits": false,
+    "digit_count": 0
+  },
+  {
+    "id": "iam_0194",
+    "ground_truth": "6tic douloureux . As early as 1830 , when Anglesey",
+    "ocr_output": "the boundary, as long as \\( \\text{IRS} \\), when Magawa",
+    "has_digits": true,
+    "digit_count": 5
+  },
+  {
+    "id": "iam_0195",
+    "ground_truth": "know . Now , because of prior hypnosis we have es-",
+    "ocr_output": "Mona, Moni, because of pride, Imprison the slave in",
+    "has_digits": false,
+    "digit_count": 0
+  },
+  {
+    "id": "iam_0196",
+    "ground_truth": "\" Willie , \" the judge said huskily ,",
+    "ocr_output": "\"Where the blue bloodships,",
+    "has_digits": false,
+    "digit_count": 0
+  },
+  {
+    "id": "iam_0197",
+    "ground_truth": "But Father Malachias's troubles have only",
+    "ocr_output": "But Father Nicholas' thoughts have only",
+    "has_digits": false,
+    "digit_count": 0
+  },
+  {
+    "id": "iam_0198",
+    "ground_truth": "for three years . \" I have only 2 1/2 years to go before I retire ,",
+    "ocr_output": "for three years. \" I have only a little years to go before I retire.",
+    "has_digits": true,
+    "digit_count": 3
+  },
+  {
+    "id": "iam_0199",
+    "ground_truth": "tongues ; unreasonable surfeit , too , in the",
+    "ocr_output": "through, maneuvered surface, direct, inward",
+    "has_digits": false,
+    "digit_count": 0
+  },
+  {
+    "id": "iam_0200",
+    "ground_truth": "and his family , the youngest of whose three",
+    "ocr_output": "and in faith, he spent of where there",
+    "has_digits": false,
+    "digit_count": 0
+  },
+  {
+    "id": "iam_0201",
+    "ground_truth": "nothing the German would not covet ; and",
+    "ocr_output": "noticing the ground would not count, and",
+    "has_digits": false,
+    "digit_count": 0
+  },
+  {
+    "id": "iam_0202",
+    "ground_truth": "disarming Committee of 100 , the Committee claimed",
+    "ocr_output": "discussing Committee of two, the Committee cleared",
+    "has_digits": true,
+    "digit_count": 3
+  },
+  {
+    "id": "iam_0203",
+    "ground_truth": "tremble for my country ! I may be mistaken , 1tho' I",
+    "ocr_output": "Translate to my language. I was in the mountains. At the",
+    "has_digits": true,
+    "digit_count": 1
+  },
+  {
+    "id": "iam_0204",
+    "ground_truth": "communists' former base 60 miles",
+    "ocr_output": "Grams units for more base 60 units",
+    "has_digits": true,
+    "digit_count": 2
+  },
+  {
+    "id": "iam_0205",
+    "ground_truth": "Derush ; ( 4 ) Leaning-back represents Saud .",
+    "ocr_output": "Deutsch; du leauis-bas le rep\u00e9rester. Sound",
+    "has_digits": true,
+    "digit_count": 1
+  },
+  {
+    "id": "iam_0206",
+    "ground_truth": "Where the 2bhoys are . In the hallway are",
+    "ocr_output": "Where the Clouds are. In the Hellway are",
+    "has_digits": true,
+    "digit_count": 1
+  },
+  {
+    "id": "iam_0207",
+    "ground_truth": "his 61-year-old wife were each jailed for",
+    "ocr_output": "His oil lamps often were each jailed for",
+    "has_digits": true,
+    "digit_count": 2
+  },
+  {
+    "id": "iam_0208",
+    "ground_truth": "left even more isolated and alone .",
+    "ocr_output": "off our next weekend and also",
+    "has_digits": false,
+    "digit_count": 0
+  },
+  {
+    "id": "iam_0209",
+    "ground_truth": "with black , matted hair and a striking",
+    "ocr_output": "in black, marked lines and empty",
+    "has_digits": false,
+    "digit_count": 0
+  },
+  {
+    "id": "iam_0210",
+    "ground_truth": "walking in the streets , smug , content , satisfied ,",
+    "ocr_output": "which in the sketch may contain, indicate,",
+    "has_digits": false,
+    "digit_count": 0
+  },
+  {
+    "id": "iam_0211",
+    "ground_truth": "Fig. 2 . The main idea is to have the moulds standing as",
+    "ocr_output": "Fig. 2 The main idea is to have the wealth showing up",
+    "has_digits": true,
+    "digit_count": 1
+  },
+  {
+    "id": "iam_0212",
+    "ground_truth": "psychologist I am constantly",
+    "ocr_output": "[highlight the right / am / am / am / am / am / am / am / am / am / am /",
+    "has_digits": false,
+    "digit_count": 0
+  },
+  {
+    "id": "iam_0213",
+    "ground_truth": "too . It is said by some that he is a saint ; by",
+    "ocr_output": "too. It is said by some Muslims to be a good, the",
+    "has_digits": false,
+    "digit_count": 0
+  },
+  {
+    "id": "iam_0214",
+    "ground_truth": "6tic douloureux . As early as 1830 , when",
+    "ocr_output": "The discoverer, as usual, is 1872, when",
+    "has_digits": true,
+    "digit_count": 5
+  },
+  {
+    "id": "iam_0215",
+    "ground_truth": "and diagnoses the inner states responsible for them .",
+    "ocr_output": "and allows the inner stores responsible for them.",
+    "has_digits": false,
+    "digit_count": 0
+  },
+  {
+    "id": "iam_0216",
+    "ground_truth": "to 4sub-lil on the lower .",
+    "ocr_output": "To crush, I'll on the lower.",
+    "has_digits": true,
+    "digit_count": 1
+  },
+  {
+    "id": "iam_0217",
+    "ground_truth": "overwhelmed Herculaneum and Pompeii in A.D. 79 , his",
+    "ocr_output": "predetermined minimum and upper i.e. A) 37, but",
+    "has_digits": true,
+    "digit_count": 2
+  },
+  {
+    "id": "iam_0218",
+    "ground_truth": "worry , Judge . Big wind like that can't",
+    "ocr_output": "Ivory, Maple, Sugar, and like each can't",
+    "has_digits": false,
+    "digit_count": 0
+  },
+  {
+    "id": "iam_0219",
+    "ground_truth": "is not new to the American gardener . Lady-",
+    "ocr_output": "'is not sure to the American question, Lady-",
+    "has_digits": false,
+    "digit_count": 0
+  },
+  {
+    "id": "iam_0220",
+    "ground_truth": "with hostelries and lodgings .",
+    "ocr_output": "with hostel, eg and lodgings.",
+    "has_digits": false,
+    "digit_count": 0
+  },
+  {
+    "id": "iam_0221",
+    "ground_truth": "wire as shown in Fig. 6 . Make sure that these",
+    "ocr_output": "Write on Shaving in Fig. 6. Make sure that these",
+    "has_digits": true,
+    "digit_count": 1
+  },
+  {
+    "id": "iam_0222",
+    "ground_truth": "2 . Insert hook through loop and under long",
+    "ocr_output": "2. Insert the language (lang) and understand language",
+    "has_digits": true,
+    "digit_count": 1
+  },
+  {
+    "id": "iam_0223",
+    "ground_truth": "East German disturbances on July 17 , 1953 . And officials",
+    "ocr_output": "For humans, diarrhea or diarrhea in a child, a child, a child, a child, a child, a child, a child, a",
+    "has_digits": true,
+    "digit_count": 6
+  },
+  {
+    "id": "iam_0224",
+    "ground_truth": "reign of Charles 2 stating : ' Lost : a lawn 1hand-",
+    "ocr_output": "Return of Charles 2, Sharing: Last, a Law Among",
+    "has_digits": true,
+    "digit_count": 2
+  },
+  {
+    "id": "iam_0225",
+    "ground_truth": "play any part in # determining its future .",
+    "ocr_output": "Italy on foot, its determination the place.",
+    "has_digits": false,
+    "digit_count": 0
+  },
+  {
+    "id": "iam_0226",
+    "ground_truth": "sordid , and when she experiences it for the",
+    "ocr_output": "exhibit, and when she experiences it by the",
+    "has_digits": false,
+    "digit_count": 0
+  },
+  {
+    "id": "iam_0227",
+    "ground_truth": "they are still holding out despite the presence of 1,400",
+    "ocr_output": "They still hadn't got caught in the reserve of a doctor.",
+    "has_digits": true,
+    "digit_count": 4
+  },
+  {
+    "id": "iam_0228",
+    "ground_truth": "crochet hooks range in size from number 3/0 ,",
+    "ocr_output": "receiver hooks range in size from 1/4\" to 3/16\"",
+    "has_digits": true,
+    "digit_count": 2
+  },
+  {
+    "id": "iam_0229",
+    "ground_truth": "means a masterpiece , it is in many respects",
+    "ocr_output": "means a masterpiece, it is in many ways",
+    "has_digits": false,
+    "digit_count": 0
+  },
+  {
+    "id": "iam_0230",
+    "ground_truth": "is a highly skilled manipulator of contemporary",
+    "ocr_output": "Is a liability. Should maintain a balance of temporary",
+    "has_digits": false,
+    "digit_count": 0
+  },
+  {
+    "id": "iam_0231",
+    "ground_truth": "Something in Sandra's attitude struck",
+    "ocr_output": "Some things in Sandra's attitude toward",
+    "has_digits": false,
+    "digit_count": 0
+  },
+  {
+    "id": "iam_0232",
+    "ground_truth": "them . Last night's play in the \" Play of the",
+    "ocr_output": "When, last night's policy in the \"Play of the",
+    "has_digits": false,
+    "digit_count": 0
+  },
+  {
+    "id": "iam_0233",
+    "ground_truth": "thought that the muster from the 13 States of the",
+    "ocr_output": "though! But the master began the assault of the",
+    "has_digits": true,
+    "digit_count": 2
+  },
+  {
+    "id": "iam_0234",
+    "ground_truth": "felt . In 1944 Herbert Selpin tried a similar feat",
+    "ocr_output": "Call, in reply, Master Solon, friend of Simias, replied:",
+    "has_digits": true,
+    "digit_count": 4
+  },
+  {
+    "id": "iam_0235",
+    "ground_truth": "at all . It 's a rule of I.I.I. You see , you",
+    "ocr_output": "at all. \u8981 \u8fc7 \u4e00 \u4e2a \u5e74 \u5ea6 \u7684 LET'S, You see, you",
+    "has_digits": false,
+    "digit_count": 0
+  },
+  {
+    "id": "iam_0236",
+    "ground_truth": "mistaken , 1tho' I cannot but fear that the",
+    "ocr_output": "unite them, who' I cannot but fear that the",
+    "has_digits": true,
+    "digit_count": 1
+  },
+  {
+    "id": "iam_0237",
+    "ground_truth": "that instead of taking it out of the",
+    "ocr_output": "that \"head of banana's\" and of the",
+    "has_digits": false,
+    "digit_count": 0
+  },
+  {
+    "id": "iam_0238",
+    "ground_truth": "had studied under its founder , the aged",
+    "ocr_output": "hard studied under its founder, the aged",
+    "has_digits": false,
+    "digit_count": 0
+  },
+  {
+    "id": "iam_0239",
+    "ground_truth": "effect . MORE than 100 viewers complained to",
+    "ocr_output": "excited. MORE than 100 owners complained to",
+    "has_digits": true,
+    "digit_count": 3
+  },
+  {
+    "id": "iam_0240",
+    "ground_truth": "book . The same old Nice , creamy ,",
+    "ocr_output": "David. The same old little country,",
+    "has_digits": false,
+    "digit_count": 0
+  },
+  {
+    "id": "iam_0241",
+    "ground_truth": "though somewhat dim picture .",
+    "ocr_output": "\u041f\u0440\u043e\u0448\u0443 \u043f\u043e\u043c\u0435\u0448\u0430\u0442\u044c \u0438\u043b\u0438 \u0440\u0430\u0434\u043e\u0432\u0430\u0442\u044c.",
+    "has_digits": false,
+    "digit_count": 0
+  },
+  {
+    "id": "iam_0242",
+    "ground_truth": "the paragraph 7.53-8.11 , the Woman",
+    "ocr_output": "the paragraph: 7, 5, 5 - 8, 11, 4, the number",
+    "has_digits": true,
+    "digit_count": 6
+  },
+  {
+    "id": "iam_0243",
+    "ground_truth": "A light wind wafted the smoke of diesel exhaust in",
+    "ocr_output": "A light wind caught the smoke of diesel exhaust in",
+    "has_digits": false,
+    "digit_count": 0
+  },
+  {
+    "id": "iam_0244",
+    "ground_truth": "( Fig. 3 ) . Loop thread round little finger ,",
+    "ocr_output": "[Fig. 3]  long shaded round white paper",
+    "has_digits": true,
+    "digit_count": 1
+  },
+  {
+    "id": "iam_0245",
+    "ground_truth": "retrieving lost property .",
+    "ocr_output": "rehearsing for a property.",
+    "has_digits": false,
+    "digit_count": 0
+  },
+  {
+    "id": "iam_0246",
+    "ground_truth": "Levit. 2 , 13 . ) Salt preserves and we should have this salt in",
+    "ocr_output": "point 2. P6. (Subtract) and use should have this light in",
+    "has_digits": true,
+    "digit_count": 3
+  },
+  {
+    "id": "iam_0247",
+    "ground_truth": "1superceded by the soldier - a favourable change",
+    "ocr_output": "disqualified by the voters \u2014 a favourable change",
+    "has_digits": true,
+    "digit_count": 1
+  },
+  {
+    "id": "iam_0248",
+    "ground_truth": "hot water from Butagas installation for washing-up ,",
+    "ocr_output": "and wider from Burstart's island than from Wightman's.",
+    "has_digits": false,
+    "digit_count": 0
+  },
+  {
+    "id": "iam_0249",
+    "ground_truth": "Book was issued in 1604 but the Puritans",
+    "ocr_output": "Bible was issued in Holy Bible, the translation",
+    "has_digits": true,
+    "digit_count": 4
+  },
+  {
+    "id": "iam_0250",
+    "ground_truth": "a few years ago that he made the headlines",
+    "ocr_output": "a four years ago that he made the distinction",
+    "has_digits": false,
+    "digit_count": 0
+  },
+  {
+    "id": "iam_0251",
+    "ground_truth": "Pierre , ' and all mod cons . ' The price was 16,000 francs a",
+    "ocr_output": "Write, and all reason. The price in the man is",
+    "has_digits": true,
+    "digit_count": 5
+  },
+  {
+    "id": "iam_0252",
+    "ground_truth": "and stronger . Now this target which",
+    "ocr_output": "and another. Now that target liquid",
+    "has_digits": false,
+    "digit_count": 0
+  },
+  {
+    "id": "iam_0253",
+    "ground_truth": "for a working week of 34 to 36 hours .",
+    "ocr_output": "for a number wheel of 54 to 56 hours.",
+    "has_digits": true,
+    "digit_count": 4
+  },
+  {
+    "id": "iam_0254",
+    "ground_truth": "Buses crawl . \" Very pale , Broughtons was . But",
+    "ocr_output": "Discuss crucial. Why crucial, Disadvantages and",
+    "has_digits": false,
+    "digit_count": 0
+  },
+  {
+    "id": "iam_0255",
+    "ground_truth": "Minister , to do the honours as host , in which capacity",
+    "ocr_output": "however, to do the heroics as best, in with coach",
+    "has_digits": false,
+    "digit_count": 0
+  },
+  {
+    "id": "iam_0256",
+    "ground_truth": "In this 200-fathom trench the herring do not touch the bottom .",
+    "ocr_output": "In the long-term, break the barriers to land the ships.",
+    "has_digits": true,
+    "digit_count": 3
+  },
+  {
+    "id": "iam_0257",
+    "ground_truth": "to generate a melodramatic inevitability",
+    "ocr_output": "to create a mediator's \"judgment\"",
+    "has_digits": false,
+    "digit_count": 0
+  },
+  {
+    "id": "iam_0258",
+    "ground_truth": "sounds in a confined space combine to produce a",
+    "ocr_output": "Caring in a Confidential Space continues to provide a",
+    "has_digits": false,
+    "digit_count": 0
+  },
+  {
+    "id": "iam_0259",
+    "ground_truth": "lengths of 8 ft. by 4 ft. ply for this",
+    "ocr_output": "lengths of 8 ft. by 4 ft. ply for this",
+    "has_digits": true,
+    "digit_count": 2
+  },
+  {
+    "id": "iam_0260",
+    "ground_truth": "frame .",
+    "ocr_output": "\\[f_{2xue}\\]",
+    "has_digits": false,
+    "digit_count": 0
+  },
+  {
+    "id": "iam_0261",
+    "ground_truth": "But 6,000 miles seems a heck of a way to go",
+    "ocr_output": "But 6.000 miles seems a mile of a way to go.",
+    "has_digits": true,
+    "digit_count": 4
+  },
+  {
+    "id": "iam_0262",
+    "ground_truth": "in our minds about her if she remained",
+    "ocr_output": "in our minds, about the id of the unconscious",
+    "has_digits": false,
+    "digit_count": 0
+  },
+  {
+    "id": "iam_0263",
+    "ground_truth": "talks .",
+    "ocr_output": "t\u00e1ixi\u00e0os\u00ec.",
+    "has_digits": false,
+    "digit_count": 0
+  },
+  {
+    "id": "iam_0264",
+    "ground_truth": "6tic douloureux . As early as 1830 , when",
+    "ocr_output": "Of the authorities, its only on 1830, when",
+    "has_digits": true,
+    "digit_count": 5
+  },
+  {
+    "id": "iam_0265",
+    "ground_truth": "( range 950 miles ) , also provided by the Americans .",
+    "ocr_output": "(Your 5th number), also provided by the Government.",
+    "has_digits": true,
+    "digit_count": 3
+  },
+  {
+    "id": "iam_0266",
+    "ground_truth": "Hahnemann that he found Anglesey a strong , energetic man",
+    "ocr_output": "Tebrewship had the best industry a strong, simple ship",
+    "has_digits": false,
+    "digit_count": 0
+  },
+  {
+    "id": "iam_0267",
+    "ground_truth": "geography . Geography , too , names the",
+    "ocr_output": "geography. Geography, then, means the",
+    "has_digits": false,
+    "digit_count": 0
+  },
+  {
+    "id": "iam_0268",
+    "ground_truth": "unassailable simply because there is no one",
+    "ocr_output": "Impossible, simply because there is no one",
+    "has_digits": false,
+    "digit_count": 0
+  },
+  {
+    "id": "iam_0269",
+    "ground_truth": "unemployment , but there will be 21",
+    "ocr_output": "Une\u00e9morphosaut, but there will be 2!",
+    "has_digits": true,
+    "digit_count": 2
+  },
+  {
+    "id": "iam_0270",
+    "ground_truth": "Party ( 280,000 members ) and Mr. Harry Nkumbula's African",
+    "ocr_output": "Banyu (280,000 inhabitants) and Mr. Cherry, inhabitants of the",
+    "has_digits": true,
+    "digit_count": 6
+  },
+  {
+    "id": "iam_0271",
+    "ground_truth": "the 88-year-old standard bearer of the Ban-",
+    "ocr_output": "the 88-year-old standard bearer of the Gay-",
+    "has_digits": true,
+    "digit_count": 2
+  },
+  {
+    "id": "iam_0272",
+    "ground_truth": "and +2.8 to -2.6 per cent in 1957 . As with the price of energy index ,",
+    "ocr_output": "and +2.3 by -1.6, you could in 1957, ifa would like to pick a young woman.",
+    "has_digits": true,
+    "digit_count": 8
+  },
+  {
+    "id": "iam_0273",
+    "ground_truth": "were sold at 32 pieces for one shilling .",
+    "ocr_output": "were sold at 32 pieces for one shilling.",
+    "has_digits": true,
+    "digit_count": 2
+  },
+  {
+    "id": "iam_0274",
+    "ground_truth": "in the plan , the transoms have a frame 1 in. by 1 in.",
+    "ocr_output": "In the years, the farmers took a leave. In",
+    "has_digits": true,
+    "digit_count": 2
+  },
+  {
+    "id": "iam_0275",
+    "ground_truth": "latter part of the verse by Rami bar Rabh",
+    "ocr_output": "Take part of the verse by Louis Paschal",
+    "has_digits": false,
+    "digit_count": 0
+  },
+  {
+    "id": "iam_0276",
+    "ground_truth": "nation . Now there was no-",
+    "ocr_output": "What's in, I'm not sure I'm in.",
+    "has_digits": false,
+    "digit_count": 0
+  },
+  {
+    "id": "iam_0277",
+    "ground_truth": "furniture , fitments , garden items , toys , etc. ;",
+    "ocr_output": "nature, things, goodness, things, etc.",
+    "has_digits": false,
+    "digit_count": 0
+  },
+  {
+    "id": "iam_0278",
+    "ground_truth": "lasting friendship begun in 1913 in Purley and",
+    "ocr_output": "\\[ \\int_{0}^{1} f(x) dx, \\int_{0}^{1} f(x) dx = 1997 \\]",
+    "has_digits": true,
+    "digit_count": 4
+  },
+  {
+    "id": "iam_0279",
+    "ground_truth": "you came in that 2somep'n happened last",
+    "ocr_output": "you came in that evening, happened last",
+    "has_digits": true,
+    "digit_count": 1
+  },
+  {
+    "id": "iam_0280",
+    "ground_truth": "by 1 1/4 in. by 14 in. timber is fixed across",
+    "ocr_output": "by 1 1/4 in. by 1/4 in. timber is fixed across",
+    "has_digits": true,
+    "digit_count": 5
+  },
+  {
+    "id": "iam_0281",
+    "ground_truth": "Ever been out in a submarine ? I 'll give",
+    "ocr_output": "So, even just in subtraction: \\( 2 \\text{ ml} \\)",
+    "has_digits": false,
+    "digit_count": 0
+  },
+  {
+    "id": "iam_0282",
+    "ground_truth": "his hands . The inquest was opened on February 17 , but ,",
+    "ocr_output": "It's hours. The number was eight. A bell rang. It didn't",
+    "has_digits": true,
+    "digit_count": 2
+  },
+  {
+    "id": "iam_0283",
+    "ground_truth": "that ever was . But he has not one word of English . '",
+    "ocr_output": "That one was, but he had not any idea of English.",
+    "has_digits": false,
+    "digit_count": 0
+  },
+  {
+    "id": "iam_0284",
+    "ground_truth": "speech scared 1,157 East Germans to",
+    "ocr_output": "Smooth scored 4, a SP Great German is to",
+    "has_digits": true,
+    "digit_count": 4
+  },
+  {
+    "id": "iam_0285",
+    "ground_truth": "country lawyer , and we were very small 4microdebs , weren't we ,",
+    "ocr_output": "County dwellers, and we use very small 'f' painted numbers",
+    "has_digits": true,
+    "digit_count": 1
+  },
+  {
+    "id": "iam_0286",
+    "ground_truth": "Congress , representing 800,000 organised",
+    "ocr_output": "\\[\\begin{align*}C_{uniquest},\\quad \\eta_{unsuitable},\\quad \\delta UU\\quad \\mbox{only on}\\quad \\gamma_{sustained}\\end{align*}\\]",
+    "has_digits": true,
+    "digit_count": 6
+  },
+  {
+    "id": "iam_0287",
+    "ground_truth": "3 p.m. .",
+    "ocr_output": "3. p.m.",
+    "has_digits": true,
+    "digit_count": 1
+  },
+  {
+    "id": "iam_0288",
+    "ground_truth": "show business .",
+    "ocr_output": "shower business.",
+    "has_digits": false,
+    "digit_count": 0
+  },
+  {
+    "id": "iam_0289",
+    "ground_truth": "this Conference , held in October , 1957 ,",
+    "ocr_output": "His Confidence, held in October, 1914",
+    "has_digits": true,
+    "digit_count": 4
+  },
+  {
+    "id": "iam_0290",
+    "ground_truth": "place himself in the literary hierarchy .",
+    "ocr_output": "place himself in the liferoom window.",
+    "has_digits": false,
+    "digit_count": 0
+  },
+  {
+    "id": "iam_0291",
+    "ground_truth": "judge always had on the table at dinner , he",
+    "ocr_output": "hinge, others had on the table of dinner the",
+    "has_digits": false,
+    "digit_count": 0
+  },
+  {
+    "id": "iam_0292",
+    "ground_truth": "aware of the moving footrope before",
+    "ocr_output": "Guide of the moving footrope before",
+    "has_digits": false,
+    "digit_count": 0
+  },
+  {
+    "id": "iam_0293",
+    "ground_truth": "of the 18th century - that amazing epoch of",
+    "ocr_output": "of the ADF century - that anyone except of",
+    "has_digits": true,
+    "digit_count": 2
+  },
+  {
+    "id": "iam_0294",
+    "ground_truth": "the fully adult , 2 1/2-in.-long insect ,",
+    "ocr_output": "We finally arrived, 2.72 - 14. - 16kg waste",
+    "has_digits": true,
+    "digit_count": 3
+  },
+  {
+    "id": "iam_0295",
+    "ground_truth": "in our minds about her if she remained",
+    "ocr_output": "In our minds about how if the husband",
+    "has_digits": false,
+    "digit_count": 0
+  },
+  {
+    "id": "iam_0296",
+    "ground_truth": "24 , 1905 , a Sunday , Sub-Inspector Peacock , of",
+    "ocr_output": "24. 1905 a Sunday, Sub-Liquorist preached or",
+    "has_digits": true,
+    "digit_count": 6
+  },
+  {
+    "id": "iam_0297",
+    "ground_truth": "households and by 1-2 per cent for younger childless",
+    "ocr_output": "\u0633\u0647\u0627 \u0627\u0644\u062f\u0644\u064a\u0644 \u0648\u0631\u0633\u0648\u0645\u060c \u0648\u0631\u0645\u060c \u062d\u0633\u0646 \u0648\u0631\u0645\u060c \u0644\u0627 \u0648\u0631\u0645\u060c \u0648\u0644\u0647\u060c \u0648\u0644\u0647\u060c \u0648\u0644\u0647\u060c \u0648\u0644\u0647\u060c \u0648\u0644\u0647\u060c \u0648\u0644\u0647\u060c \u0648\u0644\u0647\u060c",
+    "has_digits": true,
+    "digit_count": 2
+  },
+  {
+    "id": "iam_0298",
+    "ground_truth": "until he was outlawed in 1959 . The record",
+    "ocr_output": "\\[\\begin{align*}and \\quad \\textit{like \\quad } \\qquad \\qquad \\qquad \\qquad \\qquad \\qquad \\qquad \\qquad \\qquad \\qquad \\quad \\qquad \\qquad \\qquad \\qquad \\qquad \\qquad \\qquad \\qquad \\qquad \\textit{like \\quad } \\qquad \\qquad \\qquad \\qquad \\qquad \\qquad \\\\\\qquad \\qquad \\qquad \\qquad \\qquad \\qquad \\qquad \\qquad \\qquad \\qquad\\qquad \\qquad \\qquad \\qquad \\qquad \\qquad \\qquad \\qquad \\qquad \\qquad \\text{and} \\qquad \\qquad \\qquad \\qquad \\qquad \\qquad \\qquad \\qquad \\qquad \\qquotesingle \\qquad \\qquad \\qquad \\qquad \\qquad \\qquad \\qquad \\qquad \\qquad \\end{align*}\\]",
+    "has_digits": true,
+    "digit_count": 4
+  },
+  {
+    "id": "iam_0299",
+    "ground_truth": "Walking out of the chapel later on . Continuing",
+    "ocr_output": "Building out of the shop next to Construction",
+    "has_digits": false,
+    "digit_count": 0
+  },
+  {
+    "id": "iam_0300",
+    "ground_truth": "the People will be so great at the return of",
+    "ocr_output": "the People will be so proud of the return of",
+    "has_digits": false,
+    "digit_count": 0
+  },
+  {
+    "id": "iam_0301",
+    "ground_truth": "by 4 in. attached to the front legs with a pair",
+    "ocr_output": "day, I arrived at the front steps with a pair",
+    "has_digits": true,
+    "digit_count": 1
+  },
+  {
+    "id": "iam_0302",
+    "ground_truth": "everything to his need of inspiration . Henze",
+    "ocr_output": "Everything to his need of inspiration. Please",
+    "has_digits": false,
+    "digit_count": 0
+  },
+  {
+    "id": "iam_0303",
+    "ground_truth": "down the lake . 3\" Big blow , Judge , \" re-",
+    "ocr_output": "down the lake. 8\u00b0 Big blow, Judge,\" he",
+    "has_digits": true,
+    "digit_count": 1
+  },
+  {
+    "id": "iam_0304",
+    "ground_truth": "Richards , the father-in-law , always comically",
+    "ocr_output": "Contact a the father-in-law, always consult",
+    "has_digits": false,
+    "digit_count": 0
+  },
+  {
+    "id": "iam_0305",
+    "ground_truth": "All recent events show how correct the",
+    "ocr_output": "III. Recent events show how correct the",
+    "has_digits": false,
+    "digit_count": 0
+  },
+  {
+    "id": "iam_0306",
+    "ground_truth": "\" mind \" vanishes , at any rate for some time . It seems very difficult",
+    "ocr_output": "said nothing, as every one for once knew. If heaven were different",
+    "has_digits": false,
+    "digit_count": 0
+  },
+  {
+    "id": "iam_0307",
+    "ground_truth": "100,000,000 more than the corresponding",
+    "ocr_output": "100,000,000 more than the corresponding",
+    "has_digits": true,
+    "digit_count": 9
+  },
+  {
+    "id": "iam_0308",
+    "ground_truth": "Market's Council of Ministers draws up the procedure",
+    "ocr_output": "writers found of writers down up the procedure",
+    "has_digits": false,
+    "digit_count": 0
+  },
+  {
+    "id": "iam_0309",
+    "ground_truth": "All Sally's relations were 4makrodeb now , but Tom",
+    "ocr_output": "All sellers' relations were franchisee now, \\( 2+ \\) Franchisee",
+    "has_digits": true,
+    "digit_count": 1
+  },
+  {
+    "id": "iam_0310",
+    "ground_truth": "children , but rose by 3 per cent in the older two-adult",
+    "ocr_output": "\u0633\u06cc\u062f\u0627\u062d\u0645\u062f \u0628\u0647\u0634 \u0639\u0628\u062f\u0627\u0644\u0644\u06c1 \u0639\u0637\u0627 \u0628\u0646 \u062d\u0633\u06cc\u0646 \u0633\u06cc\u0631 - \u0628\u0646 \u062d\u0645\u062f \u0633\u06cc\u0631 - \u0628\u0646 \u062d\u0645\u062f \u0633\u06cc\u0631 - \u0628\u0646 \u062d\u0645\u062f \u0633\u06cc\u0631 - \u0628\u0646 \u062d\u0645\u062f \u0633\u064a\u0631 - \u0628\u0646 \u062d\u0645\u062f \u0633\u06cc\u0631 - \u0628\u0646 \u062d\u0645\u062f \u0633\u06cc\u0631 - \u0628\u0646 \u062d\u0645\u062f \u0633\u06cc\u0631 -",
+    "has_digits": true,
+    "digit_count": 1
+  },
+  {
+    "id": "iam_0311",
+    "ground_truth": "British rocket , Black Knight , for the second",
+    "ocr_output": "Qin's words, Beach hums, for he stands",
+    "has_digits": false,
+    "digit_count": 0
+  },
+  {
+    "id": "iam_0312",
+    "ground_truth": "Thirties .",
+    "ocr_output": "hints.",
+    "has_digits": false,
+    "digit_count": 0
+  },
+  {
+    "id": "iam_0313",
+    "ground_truth": "been an election campaign which more people",
+    "ocr_output": "Dan an exhibition, Campaigns, which have project",
+    "has_digits": false,
+    "digit_count": 0
+  },
+  {
+    "id": "iam_0314",
+    "ground_truth": "that they cannot pay more than 357million",
+    "ocr_output": "did they cough any more than 35% in the",
+    "has_digits": true,
+    "digit_count": 3
+  },
+  {
+    "id": "iam_0315",
+    "ground_truth": "would have to leave the bar and either sit in",
+    "ocr_output": "continued while the data are being saved and stored, and then",
+    "has_digits": false,
+    "digit_count": 0
+  },
+  {
+    "id": "iam_0316",
+    "ground_truth": "in the winter of 1914 and 1915 the matter of War Pensions",
+    "ocr_output": "In the windows of 1444 and 1415 the matter of two trespassing",
+    "has_digits": true,
+    "digit_count": 8
+  },
+  {
+    "id": "iam_0317",
+    "ground_truth": "is in a pub where the author throws a",
+    "ocr_output": "8. In a quiet where the author throws a",
+    "has_digits": false,
+    "digit_count": 0
+  },
+  {
+    "id": "iam_0318",
+    "ground_truth": "psychologist first looks into ...",
+    "ocr_output": "Pour les r\u00e9gistres d'\u00e9tat des biens sur le",
+    "has_digits": false,
+    "digit_count": 0
+  },
+  {
+    "id": "iam_0319",
+    "ground_truth": "1tho' I cannot but fear that the exasperation of",
+    "ocr_output": "I like I cannot trust you with my information of",
+    "has_digits": true,
+    "digit_count": 1
+  },
+  {
+    "id": "iam_0320",
+    "ground_truth": "Sentence Database C02-059",
+    "ocr_output": "Solution Problem CO\u2082 + SO\u2082",
+    "has_digits": true,
+    "digit_count": 5
+  },
+  {
+    "id": "iam_0321",
+    "ground_truth": "the bank is made of boys and girls aged 15",
+    "ocr_output": "The bank is made of bays and girds are of",
+    "has_digits": true,
+    "digit_count": 2
+  },
+  {
+    "id": "iam_0322",
+    "ground_truth": "West Germany . REFUGEES are pouring out",
+    "ocr_output": "Julius Ginnany. REFUSES or protesting",
+    "has_digits": false,
+    "digit_count": 0
+  },
+  {
+    "id": "iam_0323",
+    "ground_truth": "burdens of Egypt . ( 2 ) I will rid you of their bondage .",
+    "ocr_output": "between of guest. (3) I will ride a lot later because",
+    "has_digits": true,
+    "digit_count": 1
+  },
+  {
+    "id": "iam_0324",
+    "ground_truth": "the offer - 357million - was not good enough .",
+    "ocr_output": "the other - 33% index - was up good enough.",
+    "has_digits": true,
+    "digit_count": 3
+  },
+  {
+    "id": "iam_0325",
+    "ground_truth": "the Courier .",
+    "ocr_output": "\u5730\u70b9 Center,",
+    "has_digits": false,
+    "digit_count": 0
+  },
+  {
+    "id": "iam_0326",
+    "ground_truth": "time by more than 15,000,000 # last",
+    "ocr_output": "Write 50 more than 15,000,000 # last",
+    "has_digits": true,
+    "digit_count": 8
+  },
+  {
+    "id": "iam_0327",
+    "ground_truth": "way in which Mr. Ferris manipulated",
+    "ocr_output": "study on such which Mr. Ems complained",
+    "has_digits": false,
+    "digit_count": 0
+  },
+  {
+    "id": "iam_0328",
+    "ground_truth": "now as follows : 1 . Personal adjustment 2 . Health",
+    "ocr_output": "non a fallow : 1. Ground cultivated 2. tilled",
+    "has_digits": true,
+    "digit_count": 2
+  },
+  {
+    "id": "iam_0329",
+    "ground_truth": "no cure has been found for the 6tic douloureux . As early as",
+    "ocr_output": "No use how vain I spend for the love of a girl, I only so",
+    "has_digits": true,
+    "digit_count": 1
+  },
+  {
+    "id": "iam_0330",
+    "ground_truth": "aged 24 , is now studying history at Cambri-",
+    "ocr_output": "against daily, is now studying history at Cambridge.",
+    "has_digits": true,
+    "digit_count": 2
+  },
+  {
+    "id": "iam_0331",
+    "ground_truth": "are backed by a resurgent film industry .",
+    "ocr_output": "She touched by a Newgate fl\u00e8che, industry.",
+    "has_digits": false,
+    "digit_count": 0
+  },
+  {
+    "id": "iam_0332",
+    "ground_truth": "enjoy anything . ' The Pearl ' , he wrote , ' is arrived ,",
+    "ocr_output": "joy, anything. The Devil, he took it away,",
+    "has_digits": false,
+    "digit_count": 0
+  },
+  {
+    "id": "iam_0333",
+    "ground_truth": "at ( B ) , Fig. 1 . To make a leg such as",
+    "ocr_output": "d' (B), les A. Fomule a les victes",
+    "has_digits": true,
+    "digit_count": 1
+  },
+  {
+    "id": "iam_0334",
+    "ground_truth": "don't tell me anything , if you 'd rather",
+    "ocr_output": "don't tell me anything, if you'd rather",
+    "has_digits": false,
+    "digit_count": 0
+  },
+  {
+    "id": "iam_0335",
+    "ground_truth": "police and 16 armoured cars . And how did the",
+    "ocr_output": "police and if convinced cops, that how did the",
+    "has_digits": true,
+    "digit_count": 2
+  },
+  {
+    "id": "iam_0336",
+    "ground_truth": "3\" Blow like hell . Maybe by and by",
+    "ocr_output": "So, like well. Maybe by and by",
+    "has_digits": true,
+    "digit_count": 1
+  },
+  {
+    "id": "iam_0337",
+    "ground_truth": "suitable container available in quantity",
+    "ocr_output": "\u043f\u043e\u0438\u0441\u0442\u0438\u043d\u0435 \u0432\u043e\u0437\u043d\u0438\u043a\u0430\u0435\u0442 \u0440\u0435\u0430\u043b\u044c\u043d\u044b\u0439 \u0438\u0437-\u0437\u0430\u0432\u0438\u0434\u0443",
+    "has_digits": false,
+    "digit_count": 0
+  },
+  {
+    "id": "iam_0338",
+    "ground_truth": "young people aged 15-17 starting",
+    "ocr_output": "(1) Using present day order, 15-17 stands for",
+    "has_digits": true,
+    "digit_count": 4
+  },
+  {
+    "id": "iam_0339",
+    "ground_truth": "early as 1830 , when Anglesey believed himself to be on the",
+    "ocr_output": "Only 10.83, when Gregory believed himself to be on the",
+    "has_digits": true,
+    "digit_count": 4
+  },
+  {
+    "id": "iam_0340",
+    "ground_truth": "when 50 planes are engaged in spreading 1,500 tons",
+    "ocr_output": "I was to pass in my seat, I found myself",
+    "has_digits": true,
+    "digit_count": 6
+  },
+  {
+    "id": "iam_0341",
+    "ground_truth": "consulted in May 1834 .",
+    "ocr_output": "Consulted in May 1834.",
+    "has_digits": true,
+    "digit_count": 4
+  },
+  {
+    "id": "iam_0342",
+    "ground_truth": "had style , moved at a quick pace and everyone did",
+    "ocr_output": "had fully moved at a rush pace and everyone else fell. This was all his fault. I'm in no hurry.",
+    "has_digits": false,
+    "digit_count": 0
+  },
+  {
+    "id": "iam_0343",
+    "ground_truth": "man who 'd brought us into this business .",
+    "ocr_output": "what do you think is the main reason?",
+    "has_digits": false,
+    "digit_count": 0
+  },
+  {
+    "id": "iam_0344",
+    "ground_truth": "place agree with me better than Naples . The",
+    "ocr_output": "place caster with me here Than Wobes. The",
+    "has_digits": false,
+    "digit_count": 0
+  },
+  {
+    "id": "iam_0345",
+    "ground_truth": "three times the rate would produce 66,000 .",
+    "ocr_output": "The finds the pale marble palace belongs to",
+    "has_digits": true,
+    "digit_count": 5
+  },
+  {
+    "id": "iam_0346",
+    "ground_truth": "an effective alleviation of his painful malady . None",
+    "ocr_output": "a. effective differentiation of its profit mainly because",
+    "has_digits": false,
+    "digit_count": 0
+  },
+  {
+    "id": "iam_0347",
+    "ground_truth": "Doc , while she wanted to do no more than",
+    "ocr_output": "The Italian Channel to do no more than",
+    "has_digits": false,
+    "digit_count": 0
+  },
+  {
+    "id": "iam_0348",
+    "ground_truth": "ter Mr Lloyd and his 24-strong delegation landed",
+    "ocr_output": "for, etc. William and his 2 brothers, William and Joseph",
+    "has_digits": true,
+    "digit_count": 2
+  },
+  {
+    "id": "iam_0349",
+    "ground_truth": "Ward 10 .",
+    "ocr_output": "Varcel 100.",
+    "has_digits": true,
+    "digit_count": 2
+  },
+  {
+    "id": "iam_0350",
+    "ground_truth": "for more than 200 yards outside",
+    "ocr_output": "for next lunch 200 years until",
+    "has_digits": true,
+    "digit_count": 3
+  },
+  {
+    "id": "iam_0351",
+    "ground_truth": "This plot to rob a French millionaire of 300,000",
+    "ocr_output": "This dust is like a brand millstone of no one",
+    "has_digits": true,
+    "digit_count": 6
+  },
+  {
+    "id": "iam_0352",
+    "ground_truth": "( Stamp Department ) while Sally sulked at home .",
+    "ocr_output": "Sign? Experiment? While Sally studied at home.",
+    "has_digits": false,
+    "digit_count": 0
+  },
+  {
+    "id": "iam_0353",
+    "ground_truth": "house built earlier than 1918 . \"",
+    "ocr_output": "rose out earlier than 1918.",
+    "has_digits": true,
+    "digit_count": 4
+  },
+  {
+    "id": "iam_0354",
+    "ground_truth": "another sense to their aid .",
+    "ocr_output": "Quick, please. Go ahead.",
+    "has_digits": false,
+    "digit_count": 0
+  },
+  {
+    "id": "iam_0355",
+    "ground_truth": "MR. Macmillan has picked a strong \" brains trust \"",
+    "ocr_output": "MR. Macmillon has prefered a story about \"brains trust\"",
+    "has_digits": false,
+    "digit_count": 0
+  },
+  {
+    "id": "iam_0356",
+    "ground_truth": "ended yesterday in 32 members of the",
+    "ocr_output": "evident verdict in 52 members of the",
+    "has_digits": true,
+    "digit_count": 2
+  },
+  {
+    "id": "iam_0357",
+    "ground_truth": "Self-control gives us : Freedom to worship God . ( 3 ) Salt Water and Charauses :",
+    "ocr_output": "[1] \"Control gives us freedom to worship God. (3) Let us have and change.\"",
+    "has_digits": true,
+    "digit_count": 1
+  },
+  {
+    "id": "iam_0358",
+    "ground_truth": "he respected their views . He saw by reports",
+    "ocr_output": "he saw by reports",
+    "has_digits": false,
+    "digit_count": 0
+  },
+  {
+    "id": "iam_0359",
+    "ground_truth": "cafe*?2 , \" Doc said , \" they are packed",
+    "ocr_output": "Coke \"Z\", \"A\" One said, \"Why are people",
+    "has_digits": true,
+    "digit_count": 1
+  },
+  {
+    "id": "iam_0360",
+    "ground_truth": "Deep .",
+    "ocr_output": "\\[\\mathrm{Deep}.\\]",
+    "has_digits": false,
+    "digit_count": 0
+  },
+  {
+    "id": "iam_0361",
+    "ground_truth": "right 2hyar , Nick , \" said the Sodbuster .",
+    "ocr_output": "right Cherry, Nick, said the Godfather.",
+    "has_digits": true,
+    "digit_count": 1
+  },
+  {
+    "id": "iam_0362",
+    "ground_truth": "crowd had collected . There were firemen",
+    "ocr_output": "found had collected. There were numerous",
+    "has_digits": false,
+    "digit_count": 0
+  },
+  {
+    "id": "iam_0363",
+    "ground_truth": "( Talmud Sanh. 99A ) .",
+    "ocr_output": "(Thaoud Sath, 99 A)",
+    "has_digits": true,
+    "digit_count": 2
+  },
+  {
+    "id": "iam_0364",
+    "ground_truth": "young man was so wholehearted about this",
+    "ocr_output": "young man, has no qualifications about this.",
+    "has_digits": false,
+    "digit_count": 0
+  },
+  {
+    "id": "iam_0365",
+    "ground_truth": "weighs only 60 lb. but can carry three people",
+    "ocr_output": "victims only 60 /6. but can carry those people",
+    "has_digits": true,
+    "digit_count": 2
+  },
+  {
+    "id": "iam_0366",
+    "ground_truth": "the seat to allow for the growth of baby's legs .",
+    "ocr_output": "the seat to when the growth of study legs.",
+    "has_digits": false,
+    "digit_count": 0
+  },
+  {
+    "id": "iam_0367",
+    "ground_truth": "off it , \" said Bawley . \" The proprietor of the Daily",
+    "ocr_output": "And it said Beauty, \"The proprietor of the Daily",
+    "has_digits": false,
+    "digit_count": 0
+  },
+  {
+    "id": "iam_0368",
+    "ground_truth": "Market Commission , or wherever the Six decide",
+    "ocr_output": "What is the minimum or maximum life time needed",
+    "has_digits": false,
+    "digit_count": 0
+  },
+  {
+    "id": "iam_0369",
+    "ground_truth": "matter what was being said because she was",
+    "ocr_output": "make what was being said because she was",
+    "has_digits": false,
+    "digit_count": 0
+  },
+  {
+    "id": "iam_0370",
+    "ground_truth": "majority in Northern Rhodesia , but the",
+    "ocr_output": "mangh in Herhen, Rueda, but the",
+    "has_digits": false,
+    "digit_count": 0
+  },
+  {
+    "id": "iam_0371",
+    "ground_truth": "Indonesia , who arrived by Boeing 707 jet on a",
+    "ocr_output": "Another, who arrived by air, from Paris to an",
+    "has_digits": true,
+    "digit_count": 3
+  },
+  {
+    "id": "iam_0372",
+    "ground_truth": "priest : here the priest is 1superceded by the",
+    "ocr_output": "pursuit: \u8ffd\u6355 the pursuit is impossible by the",
+    "has_digits": true,
+    "digit_count": 1
+  },
+  {
+    "id": "iam_0373",
+    "ground_truth": "Kennedy's rejection of it is a painful blow to the",
+    "ocr_output": "Hundreds of thousands of d in a pencil tube to the",
+    "has_digits": false,
+    "digit_count": 0
+  },
+  {
+    "id": "iam_0374",
+    "ground_truth": "\" It 2jest about leaves everything wide open",
+    "ocr_output": "\"It just about leaves every, thing wide open.\"",
+    "has_digits": true,
+    "digit_count": 1
+  },
+  {
+    "id": "iam_0375",
+    "ground_truth": "a smoothing plane , otherwise the marks left by the cutters",
+    "ocr_output": "In something Jean, otherwise the monk's wife by the actress",
+    "has_digits": false,
+    "digit_count": 0
+  },
+  {
+    "id": "iam_0376",
+    "ground_truth": "showed increases of 4 to 6 per cent for couples without",
+    "ocr_output": "\u0645\u0633\u0645\u0648\u0645\u200c\u0622\u0626\u06cc\u0646\u060c \u0648\u0627\u0645\u0648\u0633\u060c \u0628\u0648\u0645 \u0622\u0626\u06cc\u0646\u060c \u0633\u0645\u060c \u0628\u0648\u0645\u060c \u0628\u0627 \u0628\u060c \u0628\u060c \u0628\u060c \u0628\u060c \u0628\u060c \u0628\u060c \u0628\u060c \u0628\u060c \u0628\u060c \u0628\u060c \u0628",
+    "has_digits": true,
+    "digit_count": 2
+  },
+  {
+    "id": "iam_0377",
+    "ground_truth": "gasp it was scientifically supposed his whole",
+    "ocr_output": "grapht with multiple, unconnected, purported links, attached",
+    "has_digits": false,
+    "digit_count": 0
+  },
+  {
+    "id": "iam_0378",
+    "ground_truth": "good land which the Lord 1giveth you . \"",
+    "ocr_output": "good hand within the hotel. I give you. \"",
+    "has_digits": true,
+    "digit_count": 1
+  },
+  {
+    "id": "iam_0379",
+    "ground_truth": "Wills , if you 're making improper suggestions ... ? \"",
+    "ocr_output": "Will if you are making impact suggestions...?",
+    "has_digits": false,
+    "digit_count": 0
+  },
+  {
+    "id": "iam_0380",
+    "ground_truth": "Macleod , is insisting on a policy of change .",
+    "ocr_output": "Watchout, it's missing on a policy of China.",
+    "has_digits": false,
+    "digit_count": 0
+  },
+  {
+    "id": "iam_0381",
+    "ground_truth": "have us run risks greater than the West",
+    "ocr_output": "about us now. After several years, he didn't",
+    "has_digits": false,
+    "digit_count": 0
+  },
+  {
+    "id": "iam_0382",
+    "ground_truth": "' You are too foul to live ! ' Haris growled . ' Why are",
+    "ocr_output": "You are too fool to live! That's proved 'Why are",
+    "has_digits": false,
+    "digit_count": 0
+  },
+  {
+    "id": "iam_0383",
+    "ground_truth": "is the case in Fanny her first lover is a sailor",
+    "ocr_output": "in the east in France, her first horse in a number",
+    "has_digits": false,
+    "digit_count": 0
+  },
+  {
+    "id": "iam_0384",
+    "ground_truth": "\" My background is a doctor of 68 , who",
+    "ocr_output": "My boyfriend is a doctor of B, who",
+    "has_digits": true,
+    "digit_count": 2
+  },
+  {
+    "id": "iam_0385",
+    "ground_truth": "consulted in May 1834 .",
+    "ocr_output": "Considered in [R_y, A^S_y].",
+    "has_digits": true,
+    "digit_count": 4
+  },
+  {
+    "id": "iam_0386",
+    "ground_truth": "National Congress ( 400,000 ) will meet in London today",
+    "ocr_output": "Make sure to remember (100,000) with use in random storage",
+    "has_digits": true,
+    "digit_count": 6
+  },
+  {
+    "id": "iam_0387",
+    "ground_truth": "Hughes in his \" Make Mine Music \" ( B B C , 9.30 p.m. ) .",
+    "ocr_output": "Hedges in his \"Uncle Mung's\" (BBC, 1930m.)",
+    "has_digits": true,
+    "digit_count": 3
+  },
+  {
+    "id": "iam_0388",
+    "ground_truth": "to a record 2,415,000,000 . This was",
+    "ocr_output": "To a record 2,415,000,000,000,000,000,000,000,000,000,000,001,000,000,000,000,000,000,000,000,000,100,000,000,000,000,000,000,000,000,000,200,000,000,000,000,000,000,000,000,500,000,000,000,000,000,000,000,000,800,000,000,000,000,000,000,000,000,900,000,000,000,000,000,000,000,000,000,700,000,000,000,000,000,000,000,000,000,",
+    "has_digits": true,
+    "digit_count": 10
+  },
+  {
+    "id": "iam_0389",
+    "ground_truth": "That it wouldn't be her fault at all . That",
+    "ocr_output": "That it wouldn't be her fault as well, was",
+    "has_digits": false,
+    "digit_count": 0
+  },
+  {
+    "id": "iam_0390",
+    "ground_truth": "those days , as ever , ate sparingly , but",
+    "ocr_output": "those days, as well, as spending his",
+    "has_digits": false,
+    "digit_count": 0
+  },
+  {
+    "id": "iam_0391",
+    "ground_truth": "the Shamir and Ashmodeus told him that the",
+    "ocr_output": "The charm and charmless toil him that the",
+    "has_digits": false,
+    "digit_count": 0
+  },
+  {
+    "id": "iam_0392",
+    "ground_truth": "the history of Anglesey's unceasing search for an",
+    "ocr_output": "The history of Antiquity is unique search for an",
+    "has_digits": false,
+    "digit_count": 0
+  },
+  {
+    "id": "iam_0393",
+    "ground_truth": "douloureux . As early as 1830 , when Anglesey believed",
+    "ocr_output": "Towerbrunn. As early as 1830, within Knigsbrunn, believed",
+    "has_digits": true,
+    "digit_count": 4
+  },
+  {
+    "id": "iam_0394",
+    "ground_truth": "by September 20 . For nearly a year",
+    "ocr_output": "By September 20, for industry a man",
+    "has_digits": true,
+    "digit_count": 2
+  },
+  {
+    "id": "iam_0395",
+    "ground_truth": "and his symptoms . He told Hahnemann that he found",
+    "ocr_output": "And his sympathies, he held himself warm. He loved his friend",
+    "has_digits": false,
+    "digit_count": 0
+  },
+  {
+    "id": "iam_0396",
+    "ground_truth": "and forefinger . 2 . Make a loop by",
+    "ocr_output": "and therefore 2. Mike a boy by",
+    "has_digits": true,
+    "digit_count": 1
+  },
+  {
+    "id": "iam_0397",
+    "ground_truth": "And they are ( 1 ) Matzo ; ( 2 ) Bitter Herbs ; ( 3 ) Salt-water and",
+    "ocr_output": "that they are (1) Mazen; (2) Othe Herbs; (3) Sahl; and he and",
+    "has_digits": true,
+    "digit_count": 3
+  },
+  {
+    "id": "iam_0398",
+    "ground_truth": "but extremely important \" 1914 \" ( 1931 ) , which",
+    "ocr_output": "but extremely important \"only\" (1831), but it",
+    "has_digits": true,
+    "digit_count": 8
+  },
+  {
+    "id": "iam_0399",
+    "ground_truth": "compressed a long and sometimes rambling",
+    "ocr_output": "Conquered or lying and sincere trembling",
+    "has_digits": false,
+    "digit_count": 0
+  },
+  {
+    "id": "iam_0400",
+    "ground_truth": "tremble for my country ! I may be mistaken , 1tho'",
+    "ocr_output": "Translate for my country! I may be mistaken, that",
+    "has_digits": true,
+    "digit_count": 1
+  },
+  {
+    "id": "iam_0401",
+    "ground_truth": "Jochai ( Tanis 6a ) \" if Israel does not fulfil",
+    "ocr_output": "Stochan (Tunisia)\": if Israel does not fulfill",
+    "has_digits": true,
+    "digit_count": 1
+  },
+  {
+    "id": "iam_0402",
+    "ground_truth": "golf-course Press conference , which he",
+    "ocr_output": "golf. Course Plan examples, unless he",
+    "has_digits": false,
+    "digit_count": 0
+  },
+  {
+    "id": "iam_0403",
+    "ground_truth": "Long before polling closed at 8 p.m. it was",
+    "ocr_output": "in old parlour created as a ruin, it was",
+    "has_digits": true,
+    "digit_count": 1
+  },
+  {
+    "id": "iam_0404",
+    "ground_truth": "real menace to the British people both in",
+    "ocr_output": "travel means to take Disneyland myself but in",
+    "has_digits": false,
+    "digit_count": 0
+  },
+  {
+    "id": "iam_0405",
+    "ground_truth": "disarmament to shift the emphasis of",
+    "ocr_output": "Muhammad is sight the counselor of",
+    "has_digits": false,
+    "digit_count": 0
+  },
+  {
+    "id": "iam_0406",
+    "ground_truth": "with Robert Harbin's \" Mystery and Magic \" ( 7.30 ) . After six years",
+    "ocr_output": "with debate business. Mystery and Magic\" (7.28). After six years",
+    "has_digits": true,
+    "digit_count": 3
+  },
+  {
+    "id": "iam_0407",
+    "ground_truth": "In those early years 1914-18 , life was very full",
+    "ocr_output": "the three early years 1814-16, that was very much",
+    "has_digits": true,
+    "digit_count": 6
+  },
+  {
+    "id": "iam_0408",
+    "ground_truth": "the board . There were only 17 vacancies for the 58",
+    "ocr_output": "the board. There were only 27 securities for the stock",
+    "has_digits": true,
+    "digit_count": 4
+  },
+  {
+    "id": "iam_0409",
+    "ground_truth": "In the following year , 1380 , the last and",
+    "ocr_output": "In the following year, 1800, the last and",
+    "has_digits": true,
+    "digit_count": 4
+  },
+  {
+    "id": "iam_0410",
+    "ground_truth": "was a fairer target , and the Parliament agreed to find",
+    "ocr_output": "Why a fairer world, and the British agreed to free",
+    "has_digits": false,
+    "digit_count": 0
+  },
+  {
+    "id": "iam_0411",
+    "ground_truth": "crushing our soul \" ( see Hab. 2 , 10-11 ) . And it is",
+    "ocr_output": "Crushing our soul? (see [Man, 2, 10-11](#)). And it is",
+    "has_digits": true,
+    "digit_count": 5
+  },
+  {
+    "id": "iam_0412",
+    "ground_truth": "Fig. 3 which also shows how a piece of",
+    "ocr_output": "Fig. 3 which also shows how a piece of",
+    "has_digits": true,
+    "digit_count": 1
+  },
+  {
+    "id": "iam_0413",
+    "ground_truth": "of the cruelty of the world . Finally Catherine",
+    "ocr_output": "of the cruelty of the unjust. Finally, Cadmus",
+    "has_digits": false,
+    "digit_count": 0
+  },
+  {
+    "id": "iam_0414",
+    "ground_truth": "are denied it . One area electricity board in 1958",
+    "ocr_output": "are divided it. One was identifying bread in 1950",
+    "has_digits": true,
+    "digit_count": 4
+  },
+  {
+    "id": "iam_0415",
+    "ground_truth": "block maker and use the money saved on",
+    "ocr_output": "black market and use the money seized for",
+    "has_digits": false,
+    "digit_count": 0
+  },
+  {
+    "id": "iam_0416",
+    "ground_truth": "probably gain . \" Many people feel we have had , perhaps , too",
+    "ocr_output": "probably given. \"Many people live in houses that, perhaps, too",
+    "has_digits": false,
+    "digit_count": 0
+  },
+  {
+    "id": "iam_0417",
+    "ground_truth": "Glasgow and warranted further study , set an informal",
+    "ocr_output": "Dragon and humanized figures study, not can understand",
+    "has_digits": false,
+    "digit_count": 0
+  },
+  {
+    "id": "iam_0418",
+    "ground_truth": "To go gassing to a newspaper man !",
+    "ocr_output": "\u0412 \u044d\u0442\u043e \u0432\u0440\u0435\u043c\u044f, \u043d\u0430 \u0443\u043b\u0438\u0446\u0435, \u0432\u043f\u0435\u0440\u0435\u0434\u0438 \u043c\u0435\u043d\u044f:",
+    "has_digits": false,
+    "digit_count": 0
+  },
+  {
+    "id": "iam_0419",
+    "ground_truth": "inherited desire to snub the man . If he did he",
+    "ocr_output": "informed about the results of the exam, the teacher",
+    "has_digits": false,
+    "digit_count": 0
+  },
+  {
+    "id": "iam_0420",
+    "ground_truth": "' You can't forgive him for this -",
+    "ocr_output": "You can't forgive them for this.",
+    "has_digits": false,
+    "digit_count": 0
+  },
+  {
+    "id": "iam_0421",
+    "ground_truth": "As in 1958 , younger couples paid some 12 1/2 per cent",
+    "ocr_output": "\u0643\u064a\u0633 \u0645\u0646 12 \u0625\u0644\u0649 18\u060c \u062d\u0633\u0628 \u0627\u0644\u0645\u0642\u062f\u0627\u0631\u060c \u0643\u0627\u0641\u0648\u0633 \u0633\u0648\u0633\u0648\u0645\u060c 18 \u0625\u0644\u0649 30\u060c \u0643\u0627\u0641\u0648\u0633",
+    "has_digits": true,
+    "digit_count": 8
+  },
+  {
+    "id": "iam_0422",
+    "ground_truth": "Fiat G-91 , and the F 104 Starfighter ,",
+    "ocr_output": "fish & us, and us & fish out (distributed)",
+    "has_digits": true,
+    "digit_count": 5
+  },
+  {
+    "id": "iam_0423",
+    "ground_truth": "of tiredness to the body . This can be proved by",
+    "ocr_output": "of labour is the day. This can be proved by",
+    "has_digits": false,
+    "digit_count": 0
+  },
+  {
+    "id": "iam_0424",
+    "ground_truth": "Britain should champion Belgium . Not",
+    "ocr_output": "Bri. Nam should be among Belgium. Not",
+    "has_digits": false,
+    "digit_count": 0
+  },
+  {
+    "id": "iam_0425",
+    "ground_truth": "article in their festal preparations ; and it is the",
+    "ocr_output": "article in their textual presentation, and it is the",
+    "has_digits": false,
+    "digit_count": 0
+  },
+  {
+    "id": "iam_0426",
+    "ground_truth": "see that the edge bears the mark , P.M.B.C. Exterior .",
+    "ocr_output": "See, I was a little edge beans a little know, P. M. B. C. Everyone",
+    "has_digits": false,
+    "digit_count": 0
+  },
+  {
+    "id": "iam_0427",
+    "ground_truth": "was true , Pierre was a true Provenc*?6al , thin and",
+    "ocr_output": "Una hay, Drake una a nadie porque iba a nadie.",
+    "has_digits": true,
+    "digit_count": 1
+  },
+  {
+    "id": "iam_0428",
+    "ground_truth": "National Independence Party ( 280,000 members )",
+    "ocr_output": "Initial investment strategy (2000/2001 months)",
+    "has_digits": true,
+    "digit_count": 6
+  },
+  {
+    "id": "iam_0429",
+    "ground_truth": "a \" limited state of emergency \" was declared , giving",
+    "ocr_output": "e. the total state of managers' who collected profit",
+    "has_digits": false,
+    "digit_count": 0
+  },
+  {
+    "id": "iam_0430",
+    "ground_truth": "events , and Mr. Aubrey Richards , the father-in-",
+    "ocr_output": "Quarts, and Mr. Culver Richards, the father-in-",
+    "has_digits": false,
+    "digit_count": 0
+  },
+  {
+    "id": "iam_0431",
+    "ground_truth": "God grant , however , that I may be a false prophet",
+    "ocr_output": "Good grant, however, that I may be a little popular!",
+    "has_digits": false,
+    "digit_count": 0
+  },
+  {
+    "id": "iam_0432",
+    "ground_truth": "20 million acres are sprayed with dieldrin . An eye-",
+    "ocr_output": "\\[13 \\quad u_{m}H_{v_{m}} \\quad v_{m}H_{u_{m}} \\quad u_{m}H_{v_{m}} \\quad v_{m}H_{\\lambda_{m}H_{u_{m}}} \\quad \\lambda_{m} \\quad u_{m} \\quad v_{m}\\]",
+    "has_digits": true,
+    "digit_count": 2
+  },
+  {
+    "id": "iam_0433",
+    "ground_truth": "pinned into place . A similar piece of 1 in.",
+    "ocr_output": "Opined into place. A similar place of a line.",
+    "has_digits": true,
+    "digit_count": 1
+  },
+  {
+    "id": "iam_0434",
+    "ground_truth": "It said that the President and Premier noted \" with satisfaction \" the",
+    "ocr_output": "But that the President and Foreign Minister would establish a",
+    "has_digits": false,
+    "digit_count": 0
+  },
+  {
+    "id": "iam_0435",
+    "ground_truth": "listed by the Government . Immediately",
+    "ocr_output": "\u6839\u636e \u9898\u5e72 \u5b8c\u6210 \u5bf9\u8bdd\u586b\u7a7a\u3002\uff0810 \u5206\uff0c\u6bcf\u7a7a 1 \u5206\uff09",
+    "has_digits": false,
+    "digit_count": 0
+  },
+  {
+    "id": "iam_0436",
+    "ground_truth": "with the Gaitskellites on their policy",
+    "ocr_output": "In the Caribbean on their holiday",
+    "has_digits": false,
+    "digit_count": 0
+  },
+  {
+    "id": "iam_0437",
+    "ground_truth": "performances as tiger and rhino hunts were",
+    "ocr_output": "determines as they and mine hands make",
+    "has_digits": false,
+    "digit_count": 0
+  },
+  {
+    "id": "iam_0438",
+    "ground_truth": "A sum of 160,000 was demanded - a staggering figure",
+    "ocr_output": "if you get the new test packet. a stop-signal figure",
+    "has_digits": true,
+    "digit_count": 6
+  },
+  {
+    "id": "iam_0439",
+    "ground_truth": "of the bar was not 6persona grata . If her",
+    "ocr_output": "of the four guns not performing quite. If the",
+    "has_digits": true,
+    "digit_count": 1
+  },
+  {
+    "id": "iam_0440",
+    "ground_truth": "movement , which had then chosen a vigorous",
+    "ocr_output": "In general, which fact from Chapter 4 is incorrect?",
+    "has_digits": false,
+    "digit_count": 0
+  },
+  {
+    "id": "iam_0441",
+    "ground_truth": "the problem of life cannot be solved . \" Therefore shall 1ye lay",
+    "ocr_output": "the problem of life cannot be solved. Universe shall be laid",
+    "has_digits": true,
+    "digit_count": 1
+  },
+  {
+    "id": "iam_0442",
+    "ground_truth": "transplanted to an island in the North Sea .",
+    "ocr_output": "transformed to an island in the harsh sea.",
+    "has_digits": false,
+    "digit_count": 0
+  },
+  {
+    "id": "iam_0443",
+    "ground_truth": "1superceded by the soldier - a favourable change",
+    "ocr_output": "Unpreceded by the soldiers \u2014 or for invisible change",
+    "has_digits": true,
+    "digit_count": 1
+  },
+  {
+    "id": "iam_0444",
+    "ground_truth": "offer of 357million . President Kennedy's",
+    "ocr_output": "[steps of 33 um] [membrane] [healed]",
+    "has_digits": true,
+    "digit_count": 3
+  },
+  {
+    "id": "iam_0445",
+    "ground_truth": "A MOVE to stop Mr. Gaitskell from nominating",
+    "ocr_output": "A move to stop Mr. Cawdall from winning",
+    "has_digits": false,
+    "digit_count": 0
+  },
+  {
+    "id": "iam_0446",
+    "ground_truth": "year , they are fewer than they were 10",
+    "ocr_output": "never, they are never known they were not",
+    "has_digits": true,
+    "digit_count": 2
+  },
+  {
+    "id": "iam_0447",
+    "ground_truth": "1 . Are there differences in adjustment to ageing",
+    "ocr_output": "In the text differences, \\( i \\), \\( d \\) indicate to apply",
+    "has_digits": true,
+    "digit_count": 1
+  },
+  {
+    "id": "iam_0448",
+    "ground_truth": "newly-weds Ian Carmichael and Janette Scott let",
+    "ocr_output": "widely, by Central and Western Joint leg",
+    "has_digits": false,
+    "digit_count": 0
+  },
+  {
+    "id": "iam_0449",
+    "ground_truth": "appearance of the Progressive party from",
+    "ocr_output": "appreciate of his Principal's pay his",
+    "has_digits": false,
+    "digit_count": 0
+  },
+  {
+    "id": "iam_0450",
+    "ground_truth": "The libretto , by W. H. Auden and Chester Kallman ,",
+    "ocr_output": "The Liberto, by W. H. Auden and Cloister House,",
+    "has_digits": false,
+    "digit_count": 0
+  },
+  {
+    "id": "iam_0451",
+    "ground_truth": "\" Good luck , Air Marshal , \" she said gently . \" I 'll",
+    "ocr_output": "Your luck, the national \"use your quality.\"",
+    "has_digits": false,
+    "digit_count": 0
+  },
+  {
+    "id": "iam_0452",
+    "ground_truth": "playwright Arnold Wesker . \" Instead , Muggeridge's appointment",
+    "ocr_output": "\"Everything around us is a product of our imagination.\"",
+    "has_digits": false,
+    "digit_count": 0
+  },
+  {
+    "id": "iam_0453",
+    "ground_truth": "See Fig. 2 . These are then glued and",
+    "ocr_output": "See fig. 2. These are then called and",
+    "has_digits": true,
+    "digit_count": 1
+  },
+  {
+    "id": "iam_0454",
+    "ground_truth": "the Navy - why should I pick on Pericles ? \"",
+    "ocr_output": "that always was should I pick on ladies?",
+    "has_digits": false,
+    "digit_count": 0
+  },
+  {
+    "id": "iam_0455",
+    "ground_truth": "unlimited in its variety and its presen-",
+    "ocr_output": "individuals in it wasn't and its person-",
+    "has_digits": false,
+    "digit_count": 0
+  },
+  {
+    "id": "iam_0456",
+    "ground_truth": "In 1959 it was suggested by Mr. T. M. Banks , Assistant Director",
+    "ocr_output": "In 1953 it was agreed by Mr. T. M. Squire, chairman of the",
+    "has_digits": true,
+    "digit_count": 4
+  },
+  {
+    "id": "iam_0457",
+    "ground_truth": "an OLD 2pianna instead of a new one . You got to",
+    "ocr_output": "\u041d\u0430\u0447\u0438\u043d\u0430\u044f \u0441 1, 2, 3, ..., 9, \u0433\u0434\u0435 1 \u0438 9 \u043d\u0435 \u043c\u043e\u0433\u0443\u0442 \u0431\u044b\u0442\u044c",
+    "has_digits": true,
+    "digit_count": 1
+  },
+  {
+    "id": "iam_0458",
+    "ground_truth": "the Shmah , loves the Lord God with",
+    "ocr_output": "The sham, loves the lord and with",
+    "has_digits": false,
+    "digit_count": 0
+  },
+  {
+    "id": "iam_0459",
+    "ground_truth": "many people : they too will be glad",
+    "ocr_output": "many people: they too will be dead",
+    "has_digits": false,
+    "digit_count": 0
+  },
+  {
+    "id": "iam_0460",
+    "ground_truth": "By the end of the month he still delighted in Naples . He told",
+    "ocr_output": "So, the cost of the room be still disputed in Paris, the total",
+    "has_digits": false,
+    "digit_count": 0
+  },
+  {
+    "id": "iam_0461",
+    "ground_truth": "of Philip lying in the other",
+    "ocr_output": "of Phillip Lyon in the office",
+    "has_digits": false,
+    "digit_count": 0
+  },
+  {
+    "id": "iam_0462",
+    "ground_truth": "In the exceptional clarity he was even able to",
+    "ocr_output": "In the exception, charity he was even able to",
+    "has_digits": false,
+    "digit_count": 0
+  },
+  {
+    "id": "iam_0463",
+    "ground_truth": "A 90-day war , the West German",
+    "ocr_output": "+ 90-day war the West German",
+    "has_digits": true,
+    "digit_count": 2
+  },
+  {
+    "id": "iam_0464",
+    "ground_truth": "will be that as Labour 0M Ps opposed the Govern-",
+    "ocr_output": "Will the that as Lathrop CHP is approved the Governor",
+    "has_digits": true,
+    "digit_count": 1
+  },
+  {
+    "id": "iam_0465",
+    "ground_truth": "and reserves , with 750 policemen posted",
+    "ocr_output": "and rescue, within it to wilderness, just as",
+    "has_digits": true,
+    "digit_count": 3
+  },
+  {
+    "id": "iam_0466",
+    "ground_truth": "dissolution , which must be had , will be a",
+    "ocr_output": "translation, which puts the head, will be in",
+    "has_digits": false,
+    "digit_count": 0
+  },
+  {
+    "id": "iam_0467",
+    "ground_truth": "Dr Giuseppe Mauro , whom Anglesey consulted in May 1834 .",
+    "ocr_output": "Our supreme future, when nobody trembles in the least",
+    "has_digits": true,
+    "digit_count": 4
+  },
+  {
+    "id": "iam_0468",
+    "ground_truth": "inside of the chair arms about 2 1/2 in. from the",
+    "ocr_output": "inside of the chair was about 2 1/2 in. from the",
+    "has_digits": true,
+    "digit_count": 3
+  },
+  {
+    "id": "iam_0469",
+    "ground_truth": "the lake ? \" 3\" I see him . You don't need",
+    "ocr_output": "the rule: \\( 2^h \\cdot 3^h \\cdot 5^h \\), see lemma. For \\( 2^h \\) need",
+    "has_digits": true,
+    "digit_count": 1
+  },
+  {
+    "id": "iam_0470",
+    "ground_truth": "became mere marauding route marches .",
+    "ocr_output": "Recount the meaning, note, language.",
+    "has_digits": false,
+    "digit_count": 0
+  },
+  {
+    "id": "iam_0471",
+    "ground_truth": "that at ( D ) , Fig. 1 , the square is first",
+    "ocr_output": "Charad (7), Fig. 4. The figures in pairs",
+    "has_digits": true,
+    "digit_count": 1
+  },
+  {
+    "id": "iam_0472",
+    "ground_truth": "have been used , and ( as shown in Table 1 )",
+    "ocr_output": "In a deep sea, an (a solution in) table!",
+    "has_digits": true,
+    "digit_count": 1
+  },
+  {
+    "id": "iam_0473",
+    "ground_truth": "CHRIS CHARLES , 39 , who lives in Stockton-on-Tees , is an accountant .",
+    "ocr_output": "with cherries, 27, with leaves in Stockholm on 7 Feb. (a) on account of",
+    "has_digits": true,
+    "digit_count": 2
+  },
+  {
+    "id": "iam_0474",
+    "ground_truth": "SOME 17 years ago , in the early summer of 1934 ,",
+    "ocr_output": "Since at what age, in the early Summer of 1839,",
+    "has_digits": true,
+    "digit_count": 6
+  },
+  {
+    "id": "iam_0475",
+    "ground_truth": "people . ( 1 ) I will bring you out from under the",
+    "ocr_output": "people. Hi! I will bring you out from under the",
+    "has_digits": true,
+    "digit_count": 1
+  },
+  {
+    "id": "iam_0476",
+    "ground_truth": "man was a priest : here the priest is 1superceded by",
+    "ocr_output": "man was a priest; here the priest is \"Impeached\" by",
+    "has_digits": true,
+    "digit_count": 1
+  },
+  {
+    "id": "iam_0477",
+    "ground_truth": "white spray could be seen flying across the distance",
+    "ocr_output": "Write down could be you. I'm not the ultimate",
+    "has_digits": false,
+    "digit_count": 0
+  },
+  {
+    "id": "iam_0478",
+    "ground_truth": "36 firing ramps , including weapons like Matador",
+    "ocr_output": "By living many, including various Chinese Modern",
+    "has_digits": true,
+    "digit_count": 2
+  },
+  {
+    "id": "iam_0479",
+    "ground_truth": "but boldly and fearlessly . It is time to",
+    "ocr_output": "Our identity and personality, it is time to",
+    "has_digits": false,
+    "digit_count": 0
+  },
+  {
+    "id": "iam_0480",
+    "ground_truth": "country ! I may be mistaken , 1tho' I cannot",
+    "ocr_output": "Country! I may be mistaken, I'm not! I cannot",
+    "has_digits": true,
+    "digit_count": 1
+  },
+  {
+    "id": "iam_0481",
+    "ground_truth": "the outside measurements from transom to transom",
+    "ocr_output": "The outside membrane for frass of brass",
+    "has_digits": false,
+    "digit_count": 0
+  },
+  {
+    "id": "iam_0482",
+    "ground_truth": "back to England , and returned to Rome for the",
+    "ocr_output": "Back to England, and returned to Rome for the",
+    "has_digits": false,
+    "digit_count": 0
+  },
+  {
+    "id": "iam_0483",
+    "ground_truth": "could catch the taste of dead dreams on",
+    "ocr_output": "Guided under the trance of cloud heaven, no",
+    "has_digits": false,
+    "digit_count": 0
+  },
+  {
+    "id": "iam_0484",
+    "ground_truth": "it an Autumn Budget . You can call it a Taxation",
+    "ocr_output": "I am Autumn. Today, you can eat it. I eat it.",
+    "has_digits": false,
+    "digit_count": 0
+  },
+  {
+    "id": "iam_0485",
+    "ground_truth": "in touch in London . Three of them - Canada , Australia ,",
+    "ocr_output": "in touch in London. There of them \"Greece, Australia\"",
+    "has_digits": false,
+    "digit_count": 0
+  },
+  {
+    "id": "iam_0486",
+    "ground_truth": "made first rate works in the last 25 years",
+    "ocr_output": "would first make sure in the land is free",
+    "has_digits": true,
+    "digit_count": 2
+  },
+  {
+    "id": "iam_0487",
+    "ground_truth": "Russ Conway , who has tinkled his way to fame on an old 2pianna ,",
+    "ocr_output": "Let's Company, who has finished his map to Europe, or an old drawing",
+    "has_digits": true,
+    "digit_count": 1
+  },
+  {
+    "id": "iam_0488",
+    "ground_truth": "in the history of Anglesey's unceasing search for",
+    "ocr_output": "In the history of America's success, there is a great deal",
+    "has_digits": false,
+    "digit_count": 0
+  },
+  {
+    "id": "iam_0489",
+    "ground_truth": "for my country ! I may be mistaken , 1tho' I cannot but",
+    "ocr_output": "for my exam. I may be mistaken, I hope I can get first",
+    "has_digits": true,
+    "digit_count": 1
+  },
+  {
+    "id": "iam_0490",
+    "ground_truth": "3 . Hold loop in place between thumb",
+    "ocr_output": "3. Had long to place between himself",
+    "has_digits": true,
+    "digit_count": 1
+  },
+  {
+    "id": "iam_0491",
+    "ground_truth": "control are everywhere apparent .",
+    "ocr_output": "control the enemy's aircraft.",
+    "has_digits": false,
+    "digit_count": 0
+  },
+  {
+    "id": "iam_0492",
+    "ground_truth": "this hem , with 3 dc at each corner .",
+    "ocr_output": "This item, with 3 de at each carat.",
+    "has_digits": true,
+    "digit_count": 1
+  },
+  {
+    "id": "iam_0493",
+    "ground_truth": "most of the hopeful 15-year-olds leaving school",
+    "ocr_output": "What of the popular 15-year-olds having shorter",
+    "has_digits": true,
+    "digit_count": 2
+  },
+  {
+    "id": "iam_0494",
+    "ground_truth": "thought he could recognise the route of N12 ,",
+    "ocr_output": "Kontrol the credit receipts. The trunk of NDE",
+    "has_digits": true,
+    "digit_count": 2
+  },
+  {
+    "id": "iam_0495",
+    "ground_truth": "week last year and 37,000,000 up on",
+    "ocr_output": "week last year and 37,000,000 people",
+    "has_digits": true,
+    "digit_count": 8
+  },
+  {
+    "id": "iam_0496",
+    "ground_truth": "\" He 's got to be 35 , \" says Bobby Darin ,",
+    "ocr_output": "\"He's got to be 35,\" says Bobby. \"Orin,\"",
+    "has_digits": true,
+    "digit_count": 2
+  },
+  {
+    "id": "iam_0497",
+    "ground_truth": "NUF 121 . \" \" He probably loaned his car",
+    "ocr_output": "Will you? The possibility, however, is that",
+    "has_digits": true,
+    "digit_count": 3
+  },
+  {
+    "id": "iam_0498",
+    "ground_truth": "Pearson 34 per cent ) . How far is Mr.",
+    "ocr_output": "Prison 34 per cent). How far is it.",
+    "has_digits": true,
+    "digit_count": 2
+  },
+  {
+    "id": "iam_0499",
+    "ground_truth": "2e-and-nightie ensembles not too well designed for sleeping in ,",
+    "ocr_output": "Let \\( C \\) stand for the unweighted, not too well designed for elegance in",
+    "has_digits": true,
+    "digit_count": 1
+  }
+]

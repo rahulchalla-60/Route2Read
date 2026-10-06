@@ -1,0 +1,325 @@
+{
+  "unpruned_baseline": {
+    "cer": 42.94,
+    "dem": 21.21,
+    "params": "3.34B"
+  },
+  "physically_pruned": {
+    "cer": 45.47,
+    "dem": 12.12,
+    "params": "2.79B"
+  },
+  "pruned_lora_recovered": {
+    "cer": 45.46684709066306,
+    "cer_digit": 50.04329004329004,
+    "cer_nodigit": 40.48964218455744,
+    "dem": 12.121212121212121,
+    "delta_cer_vs_pruned": -0.003152909336940013,
+    "delta_dem_vs_pruned": 0.001212121212121886,
+    "delta_cer_vs_base": 2.526847090663061,
+    "delta_dem_vs_base": -9.08878787878788,
+    "trainable_params": 2753452800
+  },
+  "predictions": [
+    {
+      "id": "iam_0000",
+      "gt": "\" Unheimliche Geschichten \" ( 1920 ) , five ghost stories",
+      "pred": "\"Distributable production,\" (DGP), plus growth stimulus",
+      "ed": 40
+    },
+    {
+      "id": "iam_0003",
+      "gt": "the 6tic douloureux . As early as 1830 , when",
+      "pred": "The other colon, next to it, is empty. It is also known",
+      "ed": 37
+    },
+    {
+      "id": "iam_0004",
+      "gt": "diet in 1959 .",
+      "pred": "\\[ d \\text{ is } 135 \\text{ . }",
+      "ed": 21
+    },
+    {
+      "id": "iam_0006",
+      "gt": "the 1/4 in. ply . Make a very small hole for",
+      "pred": "the 14 in. fly. Take a very small bird for",
+      "ed": 8
+    },
+    {
+      "id": "iam_0007",
+      "gt": "Harry Carroll from Leicester ( B B C , 8.25 ) . A",
+      "pred": "Harry (control from Leicester (B B C, 8.25). A",
+      "ed": 10
+    },
+    {
+      "id": "iam_0011",
+      "gt": "went to catch the 7.42 . Her sister saw her",
+      "pred": "wear to alert the T.I.L. the older was less",
+      "ed": 23
+    },
+    {
+      "id": "iam_0014",
+      "gt": "Derby hat fussed around the stove . \" 2Ain't",
+      "pred": "Debby had missed around the stove.",
+      "ed": 14
+    },
+    {
+      "id": "iam_0015",
+      "gt": "offered six craft apprenticeships and received 450",
+      "pred": "paid six coffee shops and received 450",
+      "ed": 20
+    },
+    {
+      "id": "iam_0018",
+      "gt": "unless I 'm exceedingly 2skint . \" But I 'll",
+      "pred": "Unless I'm understanding, Esther. But I'll",
+      "ed": 21
+    },
+    {
+      "id": "iam_0022",
+      "gt": "IN 1913 Dr. Burge , Bishop of Southwark , asked me to go as",
+      "pred": "in 1913 Dr. Bruce Billing of Southwark, asked me to go to",
+      "ed": 15
+    },
+    {
+      "id": "iam_0024",
+      "gt": "2massacree , 2yessir . \" \" If you 'll take a chance",
+      "pred": "[masacre, priest, \"if you'll take a chair]",
+      "ed": 20
+    },
+    {
+      "id": "iam_0029",
+      "gt": "6al view ; good intimate furnishing and colour ; running",
+      "pred": "did like; ground in under finishing and colour; enjoying",
+      "ed": 24
+    },
+    {
+      "id": "iam_0034",
+      "gt": "would be 3\" plenty , plenty sad \" not to be back",
+      "pred": "would be 30 plenty, plenty said, and to be heard at",
+      "ed": 15
+    },
+    {
+      "id": "iam_0036",
+      "gt": "shall come to pass , if 1ye shall 1hearken",
+      "pred": "shall come to pass if we shall thereby",
+      "ed": 9
+    },
+    {
+      "id": "iam_0037",
+      "gt": "May 1834 .",
+      "pred": "\\[M a \\frac { 1 8 3 4 } { 3 } .",
+      "ed": 22
+    },
+    {
+      "id": "iam_0038",
+      "gt": "The Austrian cuisine embraces the delectable 6Wiener",
+      "pred": "The system assumes that the teacher is",
+      "ed": 33
+    },
+    {
+      "id": "iam_0042",
+      "gt": "job is to make your moulds . In Fig. 1 it quotes 3/4 in. five-ply ,",
+      "pred": "and is a matter of your mind. In spite of your mind, it's going to grow.",
+      "ed": 49
+    },
+    {
+      "id": "iam_0043",
+      "gt": "of Rhodesia and Nyasaland ( 10.30 p.m. ) .",
+      "pred": "If Bladesa and Bladesalong (10, 30 p.m.)",
+      "ed": 17
+    },
+    {
+      "id": "iam_0047",
+      "gt": "1960s , no cure has been found for the 6tic douloureux .",
+      "pred": "Miles no cut his, long hand for the deadline.",
+      "ed": 30
+    },
+    {
+      "id": "iam_0048",
+      "gt": "and measures approximately 8 ft. by 4 ft. She",
+      "pred": "and measles approximately 8,000, by 4,000. She",
+      "ed": 11
+    },
+    {
+      "id": "iam_0050",
+      "gt": "Nor is this to be wondered at , for even today , in the 1960s ,",
+      "pred": "How is this for the weekend of, I'm sure.",
+      "ed": 41
+    },
+    {
+      "id": "iam_0051",
+      "gt": "the 1960s , no cure has been found for the",
+      "pred": "The Atlas, no one had been found for the",
+      "ed": 10
+    },
+    {
+      "id": "iam_0052",
+      "gt": "work in 1960 420000 ( 73 per cent )",
+      "pred": "\\[ \\text{rock} \\] in \\text{ab} \\text{you} \\text{do} ( \\text{3} \\text{percent} )",
+      "ed": 59
+    },
+    {
+      "id": "iam_0057",
+      "gt": "this in another way as shown in Fig. 4 .",
+      "pred": "This is another way as shown in Fig. 4.",
+      "ed": 3
+    },
+    {
+      "id": "iam_0061",
+      "gt": "darndest , I offer these sad complexities . IN the 1830's",
+      "pred": "Bradley, I offer here real competitive, all the profit",
+      "ed": 26
+    },
+    {
+      "id": "iam_0001",
+      "gt": "Sir Roy's United Federal Party is boycotting",
+      "pred": "His Army United States at Battery is beginning",
+      "ed": 24
+    },
+    {
+      "id": "iam_0002",
+      "gt": "at the same time a door banged - \" but don't",
+      "pred": "of the same time or other learned \"Out of",
+      "ed": 20
+    },
+    {
+      "id": "iam_0005",
+      "gt": "nothing the Chinese would not eat .",
+      "pred": "nothing. The Chinese would not eat",
+      "ed": 4
+    },
+    {
+      "id": "iam_0008",
+      "gt": "on each side .",
+      "pred": "in each side.",
+      "ed": 2
+    },
+    {
+      "id": "iam_0009",
+      "gt": "future . Said Mr. Nkumbula last night :",
+      "pred": "future. That's all right.",
+      "ed": 23
+    },
+    {
+      "id": "iam_0010",
+      "gt": "desert her friends . HAPPY , happy",
+      "pred": "Desert the friends, happy, happy",
+      "ed": 11
+    },
+    {
+      "id": "iam_0012",
+      "gt": "what did it say ? Mystery Tour ? \" Oh , very caustic , that",
+      "pred": "What did it say? Gregory knew it. It was exactly that",
+      "ed": 30
+    },
+    {
+      "id": "iam_0013",
+      "gt": "treatment . If we can avoid undue",
+      "pred": "purchase. If we can avoid buying",
+      "ed": 14
+    },
+    {
+      "id": "iam_0016",
+      "gt": "them that they were being \" encircled . \" They really",
+      "pred": "When that time was being \"corrected\" You really",
+      "ed": 22
+    },
+    {
+      "id": "iam_0017",
+      "gt": "at all . He was holding a paper booklet , the top sheet of which",
+      "pred": "for all, the notion of proper boundary, the top is used within",
+      "ed": 37
+    },
+    {
+      "id": "iam_0019",
+      "gt": "thought , being then in possession of what",
+      "pred": "though, being thin in possession of what",
+      "ed": 3
+    },
+    {
+      "id": "iam_0020",
+      "gt": "to subsidise and defend the Cypriots . They will enjoy",
+      "pred": "To subsist, and defend the Cypriots. They will enjoy",
+      "ed": 6
+    },
+    {
+      "id": "iam_0021",
+      "gt": "But he said discussions \" on a higher",
+      "pred": "But the social discussions on a higher",
+      "ed": 7
+    },
+    {
+      "id": "iam_0023",
+      "gt": "of variety and it 's a change . \" Nigel was the hospital's",
+      "pred": "the mystery about it is a question. Where was the question?",
+      "ed": 36
+    },
+    {
+      "id": "iam_0025",
+      "gt": "In the first place it is not a great deal",
+      "pred": "In the first place it is not a great deal",
+      "ed": 0
+    },
+    {
+      "id": "iam_0026",
+      "gt": "Mr. Bryan Stonehouse's production is quietly",
+      "pred": "Mr. Buon Sembarres's prediction is quite ...",
+      "ed": 18
+    },
+    {
+      "id": "iam_0027",
+      "gt": "As a result , the Glasgow Retirement Council came",
+      "pred": "He is really the Superman, the ultimate genius!",
+      "ed": 37
+    },
+    {
+      "id": "iam_0028",
+      "gt": "despair of ever being cured . '",
+      "pred": "display of ever being cured.",
+      "ed": 7
+    },
+    {
+      "id": "iam_0030",
+      "gt": "were married , Di . Like a patient wishes his operation",
+      "pred": "see wrong! \u2462. Lida a perfect woman was given",
+      "ed": 34
+    },
+    {
+      "id": "iam_0031",
+      "gt": "very fine . '",
+      "pred": "vers fine.",
+      "ed": 4
+    },
+    {
+      "id": "iam_0032",
+      "gt": "holds that it would be a mistake to expel",
+      "pred": "what hurt it would be a mistake to expect",
+      "ed": 10
+    },
+    {
+      "id": "iam_0033",
+      "gt": "country who still oppose apartheid will be",
+      "pred": "cooking who shall grow special and be",
+      "ed": 24
+    },
+    {
+      "id": "iam_0035",
+      "gt": "RELAXED , smiling and clearly in the best of",
+      "pred": "Pulitzer, Pulitzer, and others in the field of",
+      "ed": 26
+    },
+    {
+      "id": "iam_0039",
+      "gt": "asking us to believe that , because of their odd",
+      "pred": "doing us to believe that, because of your odd",
+      "ed": 8
+    },
+    {
+      "id": "iam_0040",
+      "gt": "father-in-law , always comically grotesque ;",
+      "pred": "after-in-lieu, double concilil croisale :",
+      "ed": 23
+    }
+  ]
+}

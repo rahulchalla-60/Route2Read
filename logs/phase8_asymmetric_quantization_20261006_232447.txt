@@ -1,0 +1,48 @@
+======================================================================
+PHASE 8 — Asymmetric Quantization Benchmark (H4 & SQ5)
+Project root: /content/drive/MyDrive/Route2Read
+======================================================================
+
+[1/5] Verifying model environment & loading evaluation set...
+  Loaded 50 evaluation lines (25 with digits, 25 text-only).
+
+[2/5] Setting up Post-Training Quantization (PTQ) engine...
+  ✓ Backed up 1722 decoder linear projection matrices.
+
+[4/5] Executing Asymmetric Quantization Evaluations...
+
+  >> [1/3] Benchmarking BF16 Reference (Vision BF16 + Decoder BF16)...
+     CER: 45.47% | Text-only: 40.49% | D-EM: 12.12% | Latency: 0.94s
+
+  >> [2/3] Applying Asymmetric INT8 (Vision BF16 + Decoder INT8)...
+     Quantized 1722 decoder linear modules to INT8 (256 levels).
+     CER: 45.92% (Δ +0.45%) | D-EM: 12.12% (Δ +0.00%)
+
+  >> [3/3] Applying Asymmetric INT4 (Vision BF16 + Decoder INT4)...
+     Quantized 1722 decoder linear modules to INT4 (16 levels).
+     CER: 49.71% (Δ +4.24%) | D-EM: 15.15% (Δ +3.03%)
+
+[5/5] Testing Hypothesis H4 (Numeric Fragility under INT4 vs INT8)...
+
+======================================================================
+HYPOTHESIS H4 EVALUATION RESULTS:
+======================================================================
+  Stage                 | VRAM (GB) | CER (%) | ΔCER (%) | D-EM (%) | ΔD-EM (%)
+  ----------------------|-----------|---------|----------|----------|----------
+  BF16 Pruned Reference |      5.37 |   45.47 |    0.00% |    12.12 |    0.00%
+  Asymmetric INT8       |      3.35 |   45.92 |   +0.45% |    12.12 |   -0.00%
+  Asymmetric INT4       |      2.30 |   49.71 |   +4.24% |    15.15 |   +3.03%
+======================================================================
+  Hypothesis H4 Outcome: REFUTED
+  (INT4 causes disproportionate degradation in numeric exact match relative to INT8)
+======================================================================
+  ✓ Saved results to /content/drive/MyDrive/Route2Read/results/eval_metrics/asymmetric_quantization_results.json
+  ✓ Saved report to /content/drive/MyDrive/Route2Read/results/tables/phase8_quantization_summary.md
+
+======================================================================
+PHASE 8 COMPLETE
+======================================================================
+Next: Phase 9 — End-to-End Pareto Curves & Paper Synthesis
+======================================================================
+
+✓ Saved Figure 7 to /content/drive/MyDrive/Route2Read/results/figures/fig7_asymmetric_quantization_frontier.png

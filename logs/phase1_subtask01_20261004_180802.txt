@@ -1,0 +1,9 @@
+Route2Read — Phase 1, Subtask 1.1 — IAM Dataset Download
+Timestamp: 2026-10-04T18:08:02.379633
+Dataset: Teklia/IAM-line (HuggingFace)
+Total images saved: 500
+With digits: 250
+Without digits: 250
+With dates: 27
+Avg text length: 44.2
+Citation: Marti & Bunke, The IAM-database, IJDAR 2002

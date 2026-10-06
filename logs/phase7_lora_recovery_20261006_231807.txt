@@ -1,0 +1,55 @@
+======================================================================
+PHASE 7 — LoRA Recovery Fine-Tuning on Pruned Checkpoint (SQ5)
+Project root: /content/drive/MyDrive/Route2Read
+======================================================================
+
+[1/6] Verifying model state and preparing data splits...
+  Data Splits: 450 Training lines | 50 Unseen Test lines.
+  ✓ Model already physically pruned in session (546 experts across 11 layers).
+
+[2/6] Constructing lightweight LoRA adapter architecture...
+  ✓ Attached LoRA adapters to 24 projection matrices:
+    - Total Parameters:     2,792,774,400
+    - Trainable Parameters: 2,753,452,800 (98.592%)
+    - Frozen Base Ratio:    1.41%
+
+[4/6] Executing Numeric-Curriculum LoRA fine-tuning...
+  Training Set: 100 lines (50 with digits)
+  Training schedule: 100 steps (accumulate=4) | lr=2e-4 | BF16/AMP
+    Step [ 5/25] completed | Loss: 0.0037
+    Step [10/25] completed | Loss: 0.0036
+    Step [15/25] completed | Loss: 0.0033
+    Step [20/25] completed | Loss: 0.0030
+    Step [25/25] completed | Loss: 0.0029
+  ✓ LoRA fine-tuning completed in 1.2s (0.0 min).
+
+[5/6] Evaluating LoRA-Recovered model on 50 unseen test samples...
+  [10/50] test samples evaluated | 10.2s elapsed
+  [20/50] test samples evaluated | 23.8s elapsed
+  [30/50] test samples evaluated | 33.3s elapsed
+  [40/50] test samples evaluated | 42.0s elapsed
+  [50/50] test samples evaluated | 50.7s elapsed
+
+======================================================================
+PHASE 7 BENCHMARK RESULTS — PRUNED + LoRA RECOVERED MODEL
+======================================================================
+  Model Size:                  2.79B parameters (-16.3% compressed)
+  LoRA Adapter Overhead:       +3.15M parameters (0.09% trainable)
+  Overall CER:                 45.47% (Δ -0.00% vs Pruned | Δ +2.53% vs Unpruned)
+  CER (Lines with digits):     50.04%
+  CER (Text-only lines):       40.49%
+  Digit Exact Match (D-EM):    12.12% (Δ +0.00% vs Pruned | Δ -9.09% vs Unpruned)
+======================================================================
+
+[6/6] Saving recovery artifacts & publication tables...
+  ✓ Saved LoRA adapter checkpoint to /content/drive/MyDrive/Route2Read/models/lora_recovery_weights.pt
+  ✓ Saved recovery metrics to /content/drive/MyDrive/Route2Read/results/eval_metrics/lora_recovery_results.json
+  ✓ Saved report to /content/drive/MyDrive/Route2Read/results/tables/phase7_lora_recovery_summary.md
+
+======================================================================
+PHASE 7 COMPLETE
+======================================================================
+Next: Phase 8 — Asymmetric Quantization (INT8/INT4 Benchmark)
+======================================================================
+
+✓ Saved Figure 6 to /content/drive/MyDrive/Route2Read/results/figures/fig6_lora_recovery_pipeline.png

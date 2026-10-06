@@ -1,0 +1,212 @@
+{
+  "baseline": {
+    "cer": 42.94091114118178,
+    "dem": 21.21212121212121,
+    "eval_samples_count": 50
+  },
+  "correlation_h2": {
+    "spearman_rho_delta_cer": 0.5663118813587966,
+    "p_value_delta_cer": 0.02774453276055433,
+    "spearman_rho_delta_dem": -0.3401545651687306,
+    "p_value_delta_dem": 0.21477983132405035
+  },
+  "single_expert_ablations": [
+    {
+      "tag": "L1:E43",
+      "type": "Tier 1 (Core OCR)",
+      "spec_score": 0.61,
+      "cer": 43.34686513306269,
+      "delta_cer": 0.40595399188091363,
+      "dem": 21.21212121212121,
+      "delta_dem": 0.0,
+      "interceptions": 2529
+    },
+    {
+      "tag": "L3:E26",
+      "type": "Tier 1 (Core OCR)",
+      "spec_score": 0.65,
+      "cer": 43.39197113216058,
+      "delta_cer": 0.45105999097879845,
+      "dem": 21.21212121212121,
+      "delta_dem": 0.0,
+      "interceptions": 2503
+    },
+    {
+      "tag": "L4:E13",
+      "type": "Tier 1 (Core OCR)",
+      "spec_score": 0.74,
+      "cer": 46.9553450608931,
+      "delta_cer": 4.014433919711323,
+      "dem": 15.151515151515152,
+      "delta_dem": -6.060606060606059,
+      "interceptions": 2781
+    },
+    {
+      "tag": "L5:E17",
+      "type": "Tier 1 (Core OCR)",
+      "spec_score": 0.58,
+      "cer": 44.29409111411818,
+      "delta_cer": 1.3531799729364025,
+      "dem": 21.21212121212121,
+      "delta_dem": 0.0,
+      "interceptions": 2299
+    },
+    {
+      "tag": "L7:E11",
+      "type": "Tier 1 (Core OCR)",
+      "spec_score": 0.52,
+      "cer": 43.52728912945422,
+      "delta_cer": 0.5863779882724387,
+      "dem": 21.21212121212121,
+      "delta_dem": 0.0,
+      "interceptions": 1695
+    },
+    {
+      "tag": "L11:E59",
+      "type": "Tier 1 (Core OCR)",
+      "spec_score": 0.49,
+      "cer": 42.98601714027966,
+      "delta_cer": 0.045105999097877714,
+      "dem": 21.21212121212121,
+      "delta_dem": 0.0,
+      "interceptions": 1549
+    },
+    {
+      "tag": "L1:E38",
+      "type": "Tier 3 (Non-OCR)",
+      "spec_score": -0.55,
+      "cer": 42.2192151556157,
+      "delta_cer": -0.721695985566079,
+      "dem": 21.21212121212121,
+      "delta_dem": 0.0,
+      "interceptions": 140
+    },
+    {
+      "tag": "L3:E32",
+      "type": "Tier 3 (Non-OCR)",
+      "spec_score": -0.5,
+      "cer": 42.85069914298602,
+      "delta_cer": -0.09021199819576253,
+      "dem": 21.21212121212121,
+      "delta_dem": 0.0,
+      "interceptions": 396
+    },
+    {
+      "tag": "L4:E39",
+      "type": "Tier 3 (Non-OCR)",
+      "spec_score": -0.6,
+      "cer": 42.94091114118178,
+      "delta_cer": 0.0,
+      "dem": 21.21212121212121,
+      "delta_dem": 0.0,
+      "interceptions": 376
+    },
+    {
+      "tag": "L5:E51",
+      "type": "Tier 3 (Non-OCR)",
+      "spec_score": -0.51,
+      "cer": 45.421741091565174,
+      "delta_cer": 2.480829950383395,
+      "dem": 21.21212121212121,
+      "delta_dem": 0.0,
+      "interceptions": 1937
+    },
+    {
+      "tag": "L7:E20",
+      "type": "Tier 3 (Non-OCR)",
+      "spec_score": -0.58,
+      "cer": 43.25665313486694,
+      "delta_cer": 0.3157419936851582,
+      "dem": 21.21212121212121,
+      "delta_dem": 0.0,
+      "interceptions": 632
+    },
+    {
+      "tag": "L11:E36",
+      "type": "Tier 3 (Non-OCR)",
+      "spec_score": -0.64,
+      "cer": 42.94091114118178,
+      "delta_cer": 0.0,
+      "dem": 21.21212121212121,
+      "delta_dem": 0.0,
+      "interceptions": 765
+    },
+    {
+      "tag": "L1:E15",
+      "type": "Tier 2 (Universal)",
+      "spec_score": 0.02,
+      "cer": 44.65493910690122,
+      "delta_cer": 1.7140279657194384,
+      "dem": 18.181818181818183,
+      "delta_dem": -3.0303030303030276,
+      "interceptions": 144
+    },
+    {
+      "tag": "L6:E10",
+      "type": "Tier 2 (Universal)",
+      "spec_score": -0.04,
+      "cer": 42.8958051420839,
+      "delta_cer": -0.045105999097877714,
+      "dem": 18.181818181818183,
+      "delta_dem": -3.0303030303030276,
+      "interceptions": 431
+    },
+    {
+      "tag": "L4:E11",
+      "type": "Tier 4 (Dead)",
+      "spec_score": -0.15,
+      "cer": 42.94091114118178,
+      "delta_cer": 0.0,
+      "dem": 21.21212121212121,
+      "delta_dem": 0.0,
+      "interceptions": 10
+    }
+  ],
+  "group_ablations": [
+    {
+      "name": "Group: Tier 4 Dead Experts (5 experts)",
+      "expert_count": 5,
+      "cer": 42.760487144790254,
+      "delta_cer": -0.18042399639152507,
+      "dem": 21.21212121212121,
+      "delta_dem": 0.0,
+      "interceptions": 872
+    },
+    {
+      "name": "Group: Non-OCR Specialists 10% (70 experts)",
+      "expert_count": 70,
+      "cer": 1594.0009021199821,
+      "delta_cer": 1551.0599909788004,
+      "dem": 18.181818181818183,
+      "delta_dem": -3.0303030303030276,
+      "interceptions": 75637
+    },
+    {
+      "name": "Group: Non-OCR Specialists Full (153 experts)",
+      "expert_count": 153,
+      "cer": 48.84979702300406,
+      "delta_cer": 5.908885881822279,
+      "dem": 15.151515151515152,
+      "delta_dem": -6.060606060606059,
+      "interceptions": 70039
+    },
+    {
+      "name": "Group: Core OCR Specialists (70 experts) [NEG CONTROL]",
+      "expert_count": 70,
+      "cer": 814.3888137122237,
+      "delta_cer": 771.4479025710419,
+      "dem": 21.21212121212121,
+      "delta_dem": 0.0,
+      "interceptions": 131755
+    },
+    {
+      "name": "Group: Random 70 Experts (10%) [RAND CONTROL]",
+      "expert_count": 70,
+      "cer": 42.35453315290933,
+      "delta_cer": -0.5863779882724458,
+      "dem": 24.242424242424242,
+      "delta_dem": 3.030303030303031,
+      "interceptions": 42045
+    }
+  ]
+}

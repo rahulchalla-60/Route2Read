@@ -1,0 +1,11 @@
+Route2Read — Phase 0, Subtask 0.2 — Model Download & Test
+Timestamp: 2026-10-04T18:04:00.743431
+Model: deepseek-ai/DeepSeek-OCR
+Model class: DeepseekOCRForCausalLM
+Parameters: 3.34B
+dtype: torch.float16
+Load time: 114.4s
+VRAM allocated: 6.77 GB
+VRAM reserved: 6.81 GB
+MoE layers found: 3598
+MoE layer names (first 10): ['model.layers.0.mlp.gate_proj', 'model.layers.1.mlp.experts', 'model.layers.1.mlp.experts.0', 'model.layers.1.mlp.experts.0.gate_proj', 'model.layers.1.mlp.experts.0.up_proj', 'model.layers.1.mlp.experts.0.down_proj', 'model.layers.1.mlp.experts.0.act_fn', 'model.layers.1.mlp.experts.1', 'model.layers.1.mlp.experts.1.gate_proj', 'model.layers.1.mlp.experts.1.up_proj']

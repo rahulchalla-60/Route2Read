@@ -1,0 +1,74 @@
+======================================================================
+PHASE 6 — Physical Expert Pruning & Checkpoint Surgery (SQ5)
+Project root: /content/drive/MyDrive/Route2Read
+======================================================================
+
+[1/6] Verifying model environment & loading evaluation set...
+  Loaded 50 evaluation lines (25 with digits, 25 text-only).
+  Cleared all runtime hooks from previous sessions.
+
+[2/6] Designing expert pruning mask...
+  Pruning Strategy (Guided Non-OCR + Dead):
+    - Original Routed Experts: 704 (64 per layer × 11 layers)
+    - Experts to Prune:        158 (22.4%)
+    - Experts to Retain:       546 (77.6%)
+
+  Layer-by-Layer Retained Count:
+    L 1: Keeping 46/64 experts (Pruning 18)
+    L 2: Keeping 50/64 experts (Pruning 14)
+    L 3: Keeping 49/64 experts (Pruning 15)
+    L 4: Keeping 48/64 experts (Pruning 16)
+    L 5: Keeping 48/64 experts (Pruning 16)
+    L 6: Keeping 49/64 experts (Pruning 15)
+    L 7: Keeping 50/64 experts (Pruning 14)
+    L 8: Keeping 55/64 experts (Pruning  9)
+    L 9: Keeping 50/64 experts (Pruning 14)
+    L10: Keeping 49/64 experts (Pruning 15)
+    L11: Keeping 52/64 experts (Pruning 12)
+
+[3/6] Benchmarking unpruned model baseline (Memory & Speed)...
+  Unpruned Model Parameter Count: 3,336,106,240
+  Unpruned VRAM In-Use:           6.32 GB
+
+[4/6] EXECUTING PHYSICAL CHECKPOINT SURGERY...
+  ✓ Surgery completed in 0.03s!
+    - Post-Surgery Parameter Count:  2,792,282,880
+    - Parameters Removed:            543,823,360 (16.30%)
+    - Post-Surgery VRAM In-Use:      5.37 GB
+    - VRAM Freed:                    0.95 GB
+
+[5/6] DIAGNOSTIC — testing physically pruned model on sample 0...
+  Test image:        iam_0000.png
+  Ground truth:      " Unheimliche Geschichten " ( 1920 ) , five ghost stories...
+  Pruned OCR output: "Distributable production," (DGP), plus growth stimulus...
+  DIAGNOSTIC PASSED ✓ — Physically pruned model generates valid OCR without crashing.
+
+[6/6] Evaluating physically pruned model on 50 stratified IAM lines...
+  [10/50] samples evaluated | 19.3s elapsed
+  [20/50] samples evaluated | 33.8s elapsed
+  [30/50] samples evaluated | 43.1s elapsed
+  [40/50] samples evaluated | 51.5s elapsed
+  [50/50] samples evaluated | 59.9s elapsed
+
+======================================================================
+PHASE 6 BENCHMARK RESULTS — PHYSICALLY PRUNED MODEL
+======================================================================
+  Parameter Reduction:      -16.30% (-543.8M parameters)
+  VRAM Saved:               0.95 GB (6.32 GB -> 5.37 GB)
+  Inference Speed:          1.20s per line image
+  Overall CER:              45.47% (Δ +2.53%) [Baseline: 42.94%]
+  CER (Lines with digits):  50.04%
+  CER (Text-only lines):    40.49%
+  Digit Exact Match (D-EM): 12.12% (Δ -9.09%) [Baseline: 21.21%]
+======================================================================
+  Saved evaluation metrics to /content/drive/MyDrive/Route2Read/results/eval_metrics/physical_pruning_results.json
+  Saved surgery manifest to /content/drive/MyDrive/Route2Read/results/eval_metrics/physical_pruning_manifest.json
+  Saved report to /content/drive/MyDrive/Route2Read/results/tables/phase6_physical_pruning_summary.md
+
+======================================================================
+PHASE 6 COMPLETE
+======================================================================
+Next: Phase 7 — LoRA Recovery Fine-Tuning (Recovering the ΔCER gap)
+======================================================================
+
+✓ Saved Figure 5 to /content/drive/MyDrive/Route2Read/results/figures/fig5_physical_pruning_hardware_tradeoff.png

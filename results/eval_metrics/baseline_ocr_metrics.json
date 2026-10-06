@@ -1,0 +1,13 @@
+{
+  "total_samples": 500,
+  "aggregate_cer": 0.488,
+  "cer_pct": 48.8,
+  "digit_samples_cer_pct": 54.46366177498253,
+  "nodigit_samples_cer_pct": 42.72735787206144,
+  "digit_exact_match_accuracy_pct": 28.71287128712871,
+  "total_gt_numeric_tokens": 303,
+  "matched_numeric_tokens": 87,
+  "date_exact_match_accuracy_pct": 100.0,
+  "total_date_tokens": 0,
+  "matched_date_tokens": 0
+}

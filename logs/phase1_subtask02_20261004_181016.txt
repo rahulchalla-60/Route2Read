@@ -1,0 +1,6 @@
+Route2Read — Phase 1, Subtask 1.2 — Control Sets
+Timestamp: 2026-10-04T18:10:16.411024
+General QA: 100 (TriviaQA)
+Coding: 100 (MBPP)
+Math: 100 (GSM8K)
+Total: 300
