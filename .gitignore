@@ -1,0 +1,25 @@
+# Python bytecode
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Large model checkpoints (>100MB, keep local, don't push to GitHub)
+models/*.bin
+models/*.safetensors
+models/deepseek-ocr-pruned-2.79B/
+models/deepseek-ocr-cache/
+
+# Keep small LoRA weights if desired
+!models/lora_recovery_weights.pt
+
+# Large dataset raw files
+data/ocr_images/
+data/iam_lines/
+*.zip
+*.tar.gz
+
+# Environment & Jupyter
+.ipynb_checkpoints/
+.env
+.venv/
+env/

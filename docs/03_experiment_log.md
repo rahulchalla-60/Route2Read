@@ -18,7 +18,36 @@ All experiments are logged here chronologically. Each entry records what was run
 
 ---
 
-*Phases 3, 4, 5, 6, 7, & 8 COMPLETE. Phase 9 (Paper Synthesis & Pareto Curves) next.*
+*ALL PHASES COMPLETE (Phases 0 through 9). Research Pipeline Finished!*
+
+---
+
+### 2026-10-06 — [Phase 9] End-to-End Pareto Curves & Master Paper Synthesis ✅
+
+**Goal:** Synthesize empirical data from all experimental phases into the master Pareto frontier, generate camera-ready publication figures and LaTeX tables, and summarize hypothesis verdicts for publication.
+**Setup:** End-to-end integration across all 5 benchmark configurations evaluated on IAM test lines.
+**Result:**
+- **Master Pareto Frontier (Figure 8):**
+  - Synthesized 4-panel publication visualization:
+    - (a) VRAM vs CER Pareto Frontier
+    - (b) VRAM vs Digit Exact Match Frontier (SQ4)
+    - (c) Inference Throughput Acceleration (1.53s $\to$ 0.88s)
+    - (d) Metric Divergence across Compression Stages
+- **Master LaTeX Table:**
+  - `results/tables/table1_route2read_compression_results.tex` generated and validated.
+- **Master Synthesis Report:**
+  - `results/tables/route2read_final_synthesis.md` generated with definitive verdicts on H1, H2, H3, and H4.
+- **Artifacts Saved:**
+  - `results/figures/fig8_route2read_master_pareto_frontier.png`
+  - `results/tables/table1_route2read_compression_results.tex`
+  - `results/tables/route2read_final_synthesis.md`
+**Interpretation:** 
+The Route2Read empirical investigation is complete. We have successfully demonstrated:
+1. MoE routing exhibits domain modularity (H1).
+2. Routing frequency is an imperfect proxy for causal importance (H2).
+3. Compression disproportionately damages numeric exact-match before general CER (H3).
+4. Asymmetric quantization (preserving vision encoder in BF16) prevents catastrophic numeric collapse in sub-4-bit regimes (H4).
+**Next:** Paper Writing & Manuscript Drafting.
 
 ---
 
