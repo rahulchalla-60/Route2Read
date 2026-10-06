@@ -18,6 +18,10 @@ data/iam_lines/
 *.zip
 *.tar.gz
 
+# Large raw routing dumps (>50MB, keep local)
+results/routing_logs/**/checkpoint*.json
+results/routing_logs/**/*_routing_full.json
+
 # Environment & Jupyter
 .ipynb_checkpoints/
 .env
