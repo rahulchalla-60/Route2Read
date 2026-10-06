@@ -1,0 +1,20 @@
+% ============================================================
+% Route2Read: End-to-End Compression Results Table (LaTeX)
+% ============================================================
+\begin{table*}[t]
+\centering
+\small
+\caption{End-to-end compression pipeline results on DeepSeek-OCR across 50 IAM test lines. Asymmetric quantization preserves the vision encoder at BF16 while quantizing the MoE decoder.}
+\label{tab:main_results}
+\begin{tabular}{lcccccc}
+\toprule
+\textbf{Model Configuration} & \textbf{Params (B)} & \textbf{VRAM (GB)} & \textbf{Latency (s)} & \textbf{CER (\%)} & \textbf{Text CER (\%)} & \textbf{Digit-EM (\%)} \\
+\midrule
+1. Unpruned Baseline & 3.34 & 6.32 & 1.53 & 42.94 & 42.73 & 21.21 \\
+2. Physically Pruned (-16.3%) & 2.79 & 5.37 & 1.20 & 45.47 & 40.49 & 12.12 \\
+3. Pruned + LoRA Recovery & 2.79 & 5.39 & 1.21 & 45.47 & 40.49 & 12.12 \\
+4. Asymmetric INT8 & 2.79 & 3.35 & 0.94 & 45.92 & 40.85 & 12.12 \\
+5. Asymmetric INT4 & 2.79 & 2.30 & 0.88 & 49.71 & 44.52 & 15.15 \\
+\bottomrule
+\end{tabular}
+\end{table*}
