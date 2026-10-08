@@ -1,18 +1,38 @@
-# ============================================================
-# Route2Read — Phase 3, Subtask 3.1 DIAGNOSTIC
-# Run on 1 image to find what's failing in routing capture
-# ============================================================
-# Same session, model already loaded.
-# ============================================================
+"""
+Route2Read: Phase 3 Diagnostic - Single-Sample Routing Hook Diagnostic.
+Tests non-invasive activation interception on a single image to ensure tensor integrity.
+"""
 
-import os, torch, traceback
+import os
+import sys
+import traceback
+from pathlib import Path
 from collections import defaultdict
 
-PROJECT_ROOT = "/content/drive/MyDrive/Route2Read"
+# Add project root to sys.path so 'src' can be imported reliably
+REPO_ROOT = Path(__file__).resolve().parents[2]
+if str(REPO_ROOT) not in sys.path:
+    sys.path.insert(0, str(REPO_ROOT))
+
+from src.utils.paths import PROJECT_ROOT, DATA_DIR, ensure_dirs
+
+ensure_dirs()
 
 print("=" * 60)
-print("DIAGNOSTIC — Testing routing capture on 1 image")
+print("Route2Read — Phase 3 Diagnostic (1-Sample Hook Validation)")
+print(f"Project root: {PROJECT_ROOT}")
 print("=" * 60)
+
+try:
+    import torch
+    HAS_TORCH = True
+except ImportError:
+    HAS_TORCH = False
+
+if not HAS_TORCH or 'model' not in globals():
+    print("[Notice] Active model or PyTorch not available in this environment.")
+    print("         Run inside an active GPU session to test hooks.")
+    sys.exit(0)
 
 # ---- Setup hooks ----
 current_routing = {}

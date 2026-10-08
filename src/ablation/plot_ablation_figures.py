@@ -14,26 +14,36 @@ Reads `results/eval_metrics/causal_ablation_results.json` and generates:
 import os
 import json
 import numpy as np
-import matplotlib
-matplotlib.use('Agg')
-import matplotlib.pyplot as plt
+import sys
+from pathlib import Path
 
-# Determine Project Root
-if os.path.exists("/content/drive/MyDrive/Route2Read"):
-    PROJECT_ROOT = "/content/drive/MyDrive/Route2Read"
-elif os.path.exists(os.path.abspath(os.path.join(os.path.dirname(__file__), "..", ".."))):
-    PROJECT_ROOT = os.path.abspath(os.path.join(os.path.dirname(__file__), "..", ".."))
-else:
-    PROJECT_ROOT = os.getcwd()
+# Add project root to sys.path so 'src' can be imported reliably
+REPO_ROOT = Path(__file__).resolve().parents[2]
+if str(REPO_ROOT) not in sys.path:
+    sys.path.insert(0, str(REPO_ROOT))
 
-JSON_PATH = os.path.join(PROJECT_ROOT, "results", "eval_metrics", "causal_ablation_results.json")
-FIG_DIR = os.path.join(PROJECT_ROOT, "results", "figures")
-os.makedirs(FIG_DIR, exist_ok=True)
+from src.utils.paths import PROJECT_ROOT, EVAL_DIR, FIGURES_DIR, ensure_dirs
 
-if not os.path.exists(JSON_PATH):
+try:
+    import matplotlib
+    matplotlib.use('Agg')
+    import matplotlib.pyplot as plt
+    HAS_MATPLOTLIB = True
+except ImportError:
+    HAS_MATPLOTLIB = False
+
+ensure_dirs()
+JSON_PATH = EVAL_DIR / "causal_ablation_results.json"
+FIG_DIR = FIGURES_DIR
+
+if not HAS_MATPLOTLIB:
+    print("Notice: matplotlib not installed. Skipping plot generation.")
+    sys.exit(0)
+
+if not JSON_PATH.exists():
     print(f"Error: Missing ablation results file at {JSON_PATH}")
-    print("Please run phase5_causal_ablation.py first!")
-    exit(1)
+    print("Please run run_causal_ablation.py first!")
+    sys.exit(0)
 
 with open(JSON_PATH, "r") as f:
     data = json.load(f)

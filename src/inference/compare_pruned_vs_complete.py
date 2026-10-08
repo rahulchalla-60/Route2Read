@@ -32,73 +32,43 @@ import warnings
 from datetime import datetime
 from collections import defaultdict
 import numpy as np
-import torch
-import torch.nn as nn
-from PIL import Image
+from pathlib import Path
+
+try:
+    import torch
+    import torch.nn as nn
+    HAS_TORCH = True
+except ImportError:
+    HAS_TORCH = False
+
+try:
+    from PIL import Image
+    HAS_PIL = True
+except ImportError:
+    HAS_PIL = False
+
+# Add project root to sys.path so 'src' can be imported reliably
+REPO_ROOT = Path(__file__).resolve().parents[2]
+if str(REPO_ROOT) not in sys.path:
+    sys.path.insert(0, str(REPO_ROOT))
+
+from src.utils.paths import PROJECT_ROOT, DATA_DIR, EVAL_DIR, ensure_dirs
+from src.utils.metrics import (
+    levenshtein_distance,
+    extract_numeric_tokens,
+    clean_ocr_stdout,
+)
 
 # Suppress verbose warnings
 warnings.filterwarnings('ignore')
 os.environ['TRANSFORMERS_NO_ADVISORY_WARNINGS'] = '1'
 
-# -----------------------------------------------------------------------------
-# [0] Environment Setup & Project Root Detection
-# -----------------------------------------------------------------------------
-if os.path.exists("/content/drive/MyDrive/Route2Read"):
-    PROJECT_ROOT = "/content/drive/MyDrive/Route2Read"
-elif os.path.exists(os.path.abspath(os.path.join(os.path.dirname(__file__), "..", ".."))):
-    PROJECT_ROOT = os.path.abspath(os.path.join(os.path.dirname(__file__), "..", ".."))
-else:
-    PROJECT_ROOT = os.getcwd()
+ensure_dirs()
 
 print("=" * 80)
-print("ROUTE2READ: COMPLETE DEEPSEEK-OCR vs PHYSICALLY PRUNED (2.79B)")
+print("Route2Read: Head-to-Head Benchmark — Complete vs Physically Pruned (2.79B)")
 print(f"Project root: {PROJECT_ROOT}")
 print("=" * 80)
-
-# Ensure Custom Model Architecture is importable
-REPO_DIR = "/content/DeepSeek-OCR"
-if os.path.exists(REPO_DIR):
-    hf_path = os.path.join(REPO_DIR, "DeepSeek-OCR-master", "DeepSeek-OCR-hf")
-    if hf_path not in sys.path:
-        sys.path.insert(0, hf_path)
-
-
-# -----------------------------------------------------------------------------
-# Metric Helpers: Levenshtein Distance & Numeric Token Extraction
-# -----------------------------------------------------------------------------
-def levenshtein_distance(s1: str, s2: str) -> int:
-    """Computes character-level Levenshtein edit distance."""
-    if len(s1) < len(s2):
-        return levenshtein_distance(s2, s1)
-    if len(s2) == 0:
-        return len(s1)
-    previous_row = range(len(s2) + 1)
-    for i, c1 in enumerate(s1):
-        current_row = [i + 1]
-        for j, c2 in enumerate(s2):
-            insertions = previous_row[j + 1] + 1
-            deletions = current_row[j] + 1
-            substitutions = previous_row[j] + (c1 != c2)
-            current_row.append(min(insertions, deletions, substitutions))
-        previous_row = current_row
-    return previous_row[-1]
-
-
-def extract_numeric_tokens(text: str):
-    """Extracts numeric digit sequences (dates, quantities, numbers)."""
-    return re.findall(r'\b\d+(?:[\.,/:\-]\d+)*\b|\d+', text)
-
-
-def extract_ocr_text(raw_stdout: str) -> str:
-    """Extracts clean predicted OCR text from model.infer() console buffer."""
-    ocr_lines = []
-    for line in raw_stdout.split('\n'):
-        line = line.strip()
-        if (line and not line.startswith('=') and not line.startswith('BASE:')
-            and not line.startswith('NO PATCHES') and not line.startswith('directly')
-            and not line.startswith('Setting') and not line.startswith('The attention')):
-            ocr_lines.append(line)
-    return ' '.join(ocr_lines).strip()
 
 
 def run_single_inference(eval_model, eval_tokenizer, img_path: str) -> str:
@@ -119,7 +89,7 @@ def run_single_inference(eval_model, eval_tokenizer, img_path: str) -> str:
     finally:
         sys.stdout = old_stdout
         sys.stderr = old_stderr
-    return extract_ocr_text(buffer_out.getvalue())
+    return clean_ocr_stdout(buffer_out.getvalue())
 
 
 # -----------------------------------------------------------------------------
@@ -128,17 +98,10 @@ def run_single_inference(eval_model, eval_tokenizer, img_path: str) -> str:
 print("\n[1/4] Checking Model & Tokenizer Environment...")
 
 if 'model' not in globals() or 'tokenizer' not in globals():
-    print("  'model' not found in current namespace. Attempting to load from session_resume...")
-    resume_script = os.path.join(PROJECT_ROOT, "src", "session_resume.py")
-    if os.path.exists(resume_script):
-        # Execute session_resume in caller namespace
-        with open(resume_script, "r") as f:
-            exec(f.read(), globals())
-    else:
-        raise RuntimeError(
-            "Could not locate model in session or find src/session_resume.py.\n"
-            "Please run session_resume.py first to initialize model and tokenizer."
-        )
+    print("  [Notice] 'model' and 'tokenizer' not found in active session.")
+    print("           To run live comparative inference, execute inside an active GPU session")
+    print("           (e.g., via session_resume.py).")
+    sys.exit(0)
 
 # Ensure tokenizer pad token is set
 if tokenizer.pad_token_id is None:

@@ -1,27 +1,29 @@
-#!/usr/bin/env python3
 """
-Route2Read — Artifact Exporter & Checkpoint Saver
-=================================================
-1. Permanently saves the 2.79B physically pruned model weights to Google Drive
-   (/content/drive/MyDrive/Route2Read/models/deepseek-ocr-pruned-2.79B/).
-2. Bundles all generated figures (Figs 1–8), logs, tables, and eval metrics
-   into a single ZIP file for easy download and git tracking.
-3. Automatically triggers browser download in Google Colab.
+Route2Read: Artifact Packaging & Export Utility.
+Saves model checkpoints and bundles figures, tables, and eval metrics into a distributable archive.
 """
 
 import os
 import sys
-import shutil
 import zipfile
+from pathlib import Path
 from datetime import datetime
 
-# Determine Project Root
-if os.path.exists("/content/drive/MyDrive/Route2Read"):
-    PROJECT_ROOT = "/content/drive/MyDrive/Route2Read"
-elif os.path.exists(os.path.abspath(os.path.join(os.path.dirname(__file__), ".."))):
-    PROJECT_ROOT = os.path.abspath(os.path.join(os.path.dirname(__file__), ".."))
-else:
-    PROJECT_ROOT = os.getcwd()
+# Add project root to sys.path so 'src' can be imported reliably
+REPO_ROOT = Path(__file__).resolve().parents[1]
+if str(REPO_ROOT) not in sys.path:
+    sys.path.insert(0, str(REPO_ROOT))
+
+from src.utils.paths import (
+    PROJECT_ROOT,
+    FIGURES_DIR,
+    TABLES_DIR,
+    EVAL_DIR,
+    MODELS_DIR,
+    ensure_dirs,
+)
+
+ensure_dirs()
 
 print("=" * 70)
 print("Route2Read — Artifact Exporter & Checkpoint Saver")
@@ -29,80 +31,74 @@ print(f"Project root: {PROJECT_ROOT}")
 print("=" * 70)
 
 # -------------------------------------------------------------------------
-# [1/3] Permanently Save Pruned Model Weights to Drive
+# [1/3] Checking / Saving Pruned Model Weights
 # -------------------------------------------------------------------------
-print("\n[1/3] Checking / Saving Pruned Model Weights to Drive...")
-PRUNED_MODEL_DIR = os.path.join(PROJECT_ROOT, "models", "deepseek-ocr-pruned-2.79B")
-os.makedirs(PRUNED_MODEL_DIR, exist_ok=True)
-
-weights_path = os.path.join(PRUNED_MODEL_DIR, "pytorch_model.bin")
+print("\n[1/3] Checking / Saving Pruned Model Weights...")
+pruned_model_dir = MODELS_DIR / "deepseek-ocr-pruned-2.79B"
+pruned_model_dir.mkdir(parents=True, exist_ok=True)
+weights_path = pruned_model_dir / "pytorch_model.bin"
 
 if 'model' in globals():
-    import torch
-    print(f"  Active model found in memory ({type(model).__name__}). Saving weights...")
-    t0 = __import__('time').time()
-    torch.save(model.state_dict(), weights_path)
-    if 'tokenizer' in globals():
-        tokenizer.save_pretrained(PRUNED_MODEL_DIR)
+    try:
+        import torch
+        print(f"  Active model found in memory ({type(model).__name__}). Saving weights...")
+        torch.save(model.state_dict(), weights_path)
+        if 'tokenizer' in globals():
+            tokenizer.save_pretrained(pruned_model_dir)
+        sz_gb = os.path.getsize(weights_path) / (1024**3)
+        print(f"  [+] Pruned model weights saved ({sz_gb:.2f} GB) to {weights_path}")
+    except Exception as e:
+        print(f"  [!] Error saving active model: {e}")
+elif weights_path.exists():
     sz_gb = os.path.getsize(weights_path) / (1024**3)
-    print(f"  ✓ Pruned model weights saved ({sz_gb:.2f} GB) in {__import__('time').time()-t0:.1f}s to:")
-    print(f"    {weights_path}")
-elif os.path.exists(weights_path):
-    sz_gb = os.path.getsize(weights_path) / (1024**3)
-    print(f"  ✓ Pruned model weights already saved on Drive ({sz_gb:.2f} GB):")
-    print(f"    {weights_path}")
+    print(f"  [+] Pruned model weights found on disk ({sz_gb:.2f} GB): {weights_path}")
 else:
-    print(f"  Note: 'model' not in global scope. (If running in Colab, run this from the active session).")
-
+    print(f"  [Notice] Active model not in memory. To export weights, run in an active session.")
 
 # -------------------------------------------------------------------------
 # [2/3] Package Figures, Tables, Logs & Metrics into ZIP
 # -------------------------------------------------------------------------
-print("\n[2/3] Packaging figures, logs, tables, and metrics for Git...")
+print("\n[2/3] Packaging figures, tables, and metrics archive...")
 
-ZIP_PATH = "/content/route2read_git_artifacts.zip" if os.path.exists("/content") else os.path.join(PROJECT_ROOT, "route2read_git_artifacts.zip")
-
+zip_path = PROJECT_ROOT / "route2read_git_artifacts.zip"
 dirs_to_bundle = [
-    os.path.join(PROJECT_ROOT, "results", "figures"),
-    os.path.join(PROJECT_ROOT, "results", "tables"),
-    os.path.join(PROJECT_ROOT, "results", "eval_metrics"),
-    os.path.join(PROJECT_ROOT, "logs"),
+    FIGURES_DIR,
+    TABLES_DIR,
+    EVAL_DIR,
+    PROJECT_ROOT / "logs",
 ]
 
 total_files_packed = 0
-with zipfile.ZipFile(ZIP_PATH, 'w', zipfile.ZIP_DEFLATED) as zipf:
+with zipfile.ZipFile(zip_path, 'w', zipfile.ZIP_DEFLATED) as zipf:
     for folder in dirs_to_bundle:
-        if not os.path.exists(folder):
+        if not folder.exists():
             continue
-        rel_base = os.path.relpath(folder, PROJECT_ROOT)
         for root, _, files in os.walk(folder):
             for file in files:
-                full_path = os.path.join(root, file)
-                # Skip massive multi-GB checkpoint files from the zip
-                if file.endswith('.bin') or file.endswith('.safetensors') or file.endswith('.pt'):
-                    if 'lora' not in file:
-                        continue
-                rel_path = os.path.relpath(full_path, PROJECT_ROOT)
-                zipf.write(full_path, arcname=rel_path)
+                full_path = Path(root) / file
+                # Exclude large binary weights from zip archive
+                if file.endswith(('.bin', '.safetensors', '.pt')) and 'lora' not in file:
+                    continue
+                rel_path = full_path.relative_to(PROJECT_ROOT)
+                zipf.write(full_path, arcname=str(rel_path))
                 total_files_packed += 1
 
-zip_mb = os.path.getsize(ZIP_PATH) / (1024**2)
-print(f"  ✓ Packaged {total_files_packed} files into ZIP archive ({zip_mb:.2f} MB):")
-print(f"    {ZIP_PATH}")
-
+zip_mb = os.path.getsize(zip_path) / (1024**2)
+print(f"  [+] Packaged {total_files_packed} files into ZIP archive ({zip_mb:.2f} MB):")
+print(f"      {zip_path}")
 
 # -------------------------------------------------------------------------
-# [3/3] Trigger Browser Download (if in Google Colab)
+# [3/3] Colab Browser Download Trigger
 # -------------------------------------------------------------------------
-print("\n[3/3] Initiating download...")
+print("\n[3/3] Finalizing export...")
 try:
     from google.colab import files
     print("  Triggering Colab browser download...")
-    files.download(ZIP_PATH)
-    print("  ✓ Download initiated in browser!")
+    files.download(str(zip_path))
+    print("  [+] Download initiated in browser.")
 except ImportError:
-    print(f"  Zip file created locally at: {ZIP_PATH}")
+    print(f"  [+] Archive ready for inspection: {zip_path}")
 
 print("\n" + "=" * 70)
-print("ALL ARTIFACTS SECURED & READY FOR GIT")
+print("ALL ARTIFACTS PACKAGED SUCCESSFULLY")
 print("=" * 70)

@@ -23,6 +23,15 @@ import sys
 import json
 import numpy as np
 from datetime import datetime
+from pathlib import Path
+
+# Add project root to sys.path so 'src' can be imported reliably
+REPO_ROOT = Path(__file__).resolve().parents[2]
+if str(REPO_ROOT) not in sys.path:
+    sys.path.insert(0, str(REPO_ROOT))
+
+from src.utils.paths import PROJECT_ROOT, EVAL_DIR, FIGURES_DIR, TABLES_DIR, ensure_dirs
+
 try:
     import matplotlib
     matplotlib.use('Agg')
@@ -31,24 +40,14 @@ try:
 except ImportError:
     HAS_MATPLOTLIB = False
 
-# Determine Project Root
-if os.path.exists("/content/drive/MyDrive/Route2Read"):
-    PROJECT_ROOT = "/content/drive/MyDrive/Route2Read"
-elif os.path.exists(os.path.abspath(os.path.join(os.path.dirname(__file__), "..", ".."))):
-    PROJECT_ROOT = os.path.abspath(os.path.join(os.path.dirname(__file__), "..", ".."))
-else:
-    PROJECT_ROOT = os.getcwd()
+ensure_dirs()
+FIG_DIR = FIGURES_DIR
+TABLE_DIR = TABLES_DIR
 
 print("=" * 70)
-print("PHASE 9 — End-to-End Pareto Curves & Master Paper Synthesis")
+print("Route2Read — Phase 9: End-to-End Pareto Curves & Paper Synthesis")
 print(f"Project root: {PROJECT_ROOT}")
 print("=" * 70)
-
-EVAL_DIR = os.path.join(PROJECT_ROOT, "results", "eval_metrics")
-FIG_DIR = os.path.join(PROJECT_ROOT, "results", "figures")
-TABLE_DIR = os.path.join(PROJECT_ROOT, "results", "tables")
-os.makedirs(FIG_DIR, exist_ok=True)
-os.makedirs(TABLE_DIR, exist_ok=True)
 
 # Pipeline summary data points (empirically measured across Phases 0–8)
 pipeline_stages = [

@@ -1,20 +1,39 @@
-# ============================================================
-# Route2Read — Phase 0, Subtask 0.2
-# Download DeepSeek-OCR & Run Test Inference
-# ============================================================
-# Run in a NEW Colab cell (same session as Subtask 0.1).
-# This will download ~7GB on first run.
-# Paste the FULL output back.
-# ============================================================
+"""
+Route2Read: Phase 0.2 - Model Initialization & Inference Smoke Test.
+Verifies DeepSeek-OCR checkpoint loading, precision dtype, VRAM allocation, and base inference.
+"""
 
-import os, sys, time, torch
+import os
+import sys
+import time
+import warnings
 from datetime import datetime
+from pathlib import Path
 
-PROJECT_ROOT = "/content/drive/MyDrive/Route2Read"
+# Add project root to sys.path so 'src' can be imported reliably
+REPO_ROOT = Path(__file__).resolve().parents[2]
+if str(REPO_ROOT) not in sys.path:
+    sys.path.insert(0, str(REPO_ROOT))
+
+from src.utils.paths import PROJECT_ROOT, DATA_DIR, ensure_dirs
+
+ensure_dirs()
 
 print("=" * 60)
-print("SUBTASK 0.2 — Download Model & Test Inference")
+print("Route2Read — Phase 0.2: Model Initialization & Smoke Test")
+print(f"Project root: {PROJECT_ROOT}")
 print("=" * 60)
+
+try:
+    import torch
+    HAS_TORCH = True
+except ImportError:
+    HAS_TORCH = False
+
+if not HAS_TORCH:
+    print("[Notice] PyTorch not installed in this environment.")
+    print("         Run within a GPU-enabled environment to test model loading.")
+    sys.exit(0)
 
 # ---- [1/5] Clone the repo (needed for custom model code) ----
 print("\n[1/5] Cloning DeepSeek-OCR repo for model code...")

@@ -1,20 +1,42 @@
-# ============================================================
-# Route2Read — Phase 0, Subtask 0.3
-# Find Router Modules & Learn Inference API
-# ============================================================
-# Run in a NEW Colab cell (same session as 0.1 + 0.2).
-# model and tokenizer must already be loaded.
-# Paste the FULL output back.
-# ============================================================
+"""
+Route2Read: Phase 0.3 - MoE Router Module Inspection.
+Locates MoE gating router projection weights across all 11 MoE layers ([64, 1280] linear matrices).
+"""
 
-import os, torch
+import os
+import sys
 from datetime import datetime
+from pathlib import Path
 
-PROJECT_ROOT = "/content/drive/MyDrive/Route2Read"
+# Add project root to sys.path so 'src' can be imported reliably
+REPO_ROOT = Path(__file__).resolve().parents[2]
+if str(REPO_ROOT) not in sys.path:
+    sys.path.insert(0, str(REPO_ROOT))
+
+from src.utils.paths import PROJECT_ROOT, ensure_dirs
+
+ensure_dirs()
 
 print("=" * 60)
-print("SUBTASK 0.3 — Router Internals & Inference API")
+print("Route2Read — Phase 0.3: Router Internals & Architecture Inspection")
+print(f"Project root: {PROJECT_ROOT}")
 print("=" * 60)
+
+try:
+    import torch
+    HAS_TORCH = True
+except ImportError:
+    HAS_TORCH = False
+
+if not HAS_TORCH:
+    print("[Notice] PyTorch not installed in this environment.")
+    print("         Run within a GPU-enabled environment to inspect router layers.")
+    sys.exit(0)
+
+if 'model' not in globals():
+    print("[Notice] 'model' not found in active session.")
+    print("         Run within an active session with DeepSeek-OCR loaded to inspect weights.")
+    sys.exit(0)
 
 # ---- [1/4] Read the official inference script ----
 print("\n[1/4] Official inference script (run_dpsk_ocr.py):")

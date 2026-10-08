@@ -32,12 +32,39 @@ import time
 import copy
 import re
 import warnings
-from datetime import datetime
+from pathlib import Path
 from collections import defaultdict
 import numpy as np
-import torch
-import torch.nn as nn
-from PIL import Image
+
+try:
+    import torch
+    import torch.nn as nn
+    HAS_TORCH = True
+except ImportError:
+    HAS_TORCH = False
+
+try:
+    from PIL import Image
+    HAS_PIL = True
+except ImportError:
+    HAS_PIL = False
+
+# Add project root to sys.path so 'src' can be imported reliably
+REPO_ROOT = Path(__file__).resolve().parents[2]
+if str(REPO_ROOT) not in sys.path:
+    sys.path.insert(0, str(REPO_ROOT))
+
+from src.utils.paths import (
+    PROJECT_ROOT,
+    EVAL_DIR,
+    TABLES_DIR,
+    DATA_DIR,
+    ensure_dirs,
+)
+from src.utils.metrics import (
+    levenshtein_distance,
+    extract_numeric_tokens,
+)
 
 # Suppress warnings
 warnings.filterwarnings('ignore')
@@ -48,53 +75,14 @@ try:
 except Exception:
     pass
 
-# Determine Project Root
-if os.path.exists("/content/drive/MyDrive/Route2Read"):
-    PROJECT_ROOT = "/content/drive/MyDrive/Route2Read"
-elif os.path.exists(os.path.abspath(os.path.join(os.path.dirname(__file__), "..", ".."))):
-    PROJECT_ROOT = os.path.abspath(os.path.join(os.path.dirname(__file__), "..", ".."))
-else:
-    PROJECT_ROOT = os.getcwd()
+ensure_dirs()
+LOGS_DIR = PROJECT_ROOT / "logs"
+LOGS_DIR.mkdir(parents=True, exist_ok=True)
 
 print("=" * 70)
-print("PHASE 8 — Asymmetric Quantization Benchmark (H4 & SQ5)")
+print("Route2Read — Phase 8: Asymmetric Quantization Benchmark (H4 & SQ5)")
 print(f"Project root: {PROJECT_ROOT}")
 print("=" * 70)
-
-# Paths
-EVAL_DIR = os.path.join(PROJECT_ROOT, "results", "eval_metrics")
-TABLE_DIR = os.path.join(PROJECT_ROOT, "results", "tables")
-LOGS_DIR = os.path.join(PROJECT_ROOT, "logs")
-
-for d in [EVAL_DIR, TABLE_DIR, LOGS_DIR]:
-    os.makedirs(d, exist_ok=True)
-
-
-# =========================================================================
-# Helper: Levenshtein Distance & Token Extraction
-# =========================================================================
-def levenshtein_distance(s1: str, s2: str) -> int:
-    """Computes Levenshtein edit distance between two strings."""
-    if len(s1) < len(s2):
-        return levenshtein_distance(s2, s1)
-    if len(s2) == 0:
-        return len(s1)
-
-    previous_row = range(len(s2) + 1)
-    for i, c1 in enumerate(s1):
-        current_row = [i + 1]
-        for j, c2 in enumerate(s2):
-            insertions = previous_row[j + 1] + 1
-            deletions = current_row[j] + 1
-            substitutions = previous_row[j] + (c1 != c2)
-            current_row.append(min(insertions, deletions, substitutions))
-        previous_row = current_row
-    return previous_row[-1]
-
-
-def extract_numeric_tokens(text: str):
-    """Extracts all numeric sequences from a string."""
-    return re.findall(r'\b\d+(?:[\.,/:\-]\d+)*\b|\d+', text)
 
 
 # =========================================================================
@@ -103,10 +91,10 @@ def extract_numeric_tokens(text: str):
 print("\n[1/5] Verifying model environment & loading evaluation set...")
 
 if 'model' not in globals() or 'tokenizer' not in globals():
-    raise RuntimeError(
-        "Model or tokenizer not found in session memory!\n"
-        "Please run session_resume.py first in Colab before executing this script."
-    )
+    print("\n[Notice] 'model' and 'tokenizer' not found in active session.")
+    print("         To execute quantization and live evaluation,")
+    print("         run within an active GPU session (e.g., via session_resume.py).")
+    sys.exit(0)
 
 GT_PATH = os.path.join(PROJECT_ROOT, "data", "ground_truth", "iam_ground_truth.json")
 with open(GT_PATH, "r") as f:

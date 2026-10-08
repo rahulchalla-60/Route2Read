@@ -1,26 +1,35 @@
-# ============================================================
-# Route2Read — Phase 3, Subtask 3.1 (FIXED)
-# Full Router Instrumentation — OCR Images (IAM)
-# ============================================================
-# CAPTURES EVERYTHING NEEDED FOR THE RESEARCH:
-#   1. Expert indices (which 6/64 experts, per token, per layer)
-#   2. Expert weights (routing probabilities)
-#   3. Prefill vs decode separation (image tokens vs text tokens)
-#   4. OCR output text (captured from stdout)
-#   5. Aggregate expert frequency per layer
-#   6. Per-sample metadata (digits, dates, ground truth)
-# ============================================================
-# Run in Colab. GPU REQUIRED. Model must be loaded.
-# If fresh session: run 0.1 (env) + 0.2 (model load) first.
-# Takes ~20 minutes for 500 images.
-# ============================================================
+"""
+Route2Read: Phase 3.1 - Full Router Instrumentation on IAM Handwriting Images.
+Captures per-token top-k expert decisions, routing probabilities, and prefill/decode
+expert usage patterns across 500 OCR samples.
+"""
 
-import os, sys, io, json, time, torch, contextlib, warnings
-import numpy as np
+import os
+import sys
+import io
+import json
+import time
+import contextlib
+import warnings
 from datetime import datetime
 from collections import defaultdict
+from pathlib import Path
+import numpy as np
 
-# Suppress noisy transformer warnings (attention_mask, pad_token_id, etc.)
+try:
+    import torch
+    HAS_TORCH = True
+except ImportError:
+    HAS_TORCH = False
+
+# Add project root to sys.path so 'src' can be imported reliably
+REPO_ROOT = Path(__file__).resolve().parents[2]
+if str(REPO_ROOT) not in sys.path:
+    sys.path.insert(0, str(REPO_ROOT))
+
+from src.utils.paths import PROJECT_ROOT, DATA_DIR, ROUTING_DIR, ensure_dirs
+
+# Suppress noisy transformer warnings
 warnings.filterwarnings('ignore')
 os.environ['TRANSFORMERS_NO_ADVISORY_WARNINGS'] = '1'
 try:
@@ -29,20 +38,21 @@ try:
 except Exception:
     pass
 
-PROJECT_ROOT = "/content/drive/MyDrive/Route2Read"
+ensure_dirs()
 
 print("=" * 60)
-print("PHASE 3.1 — Full Router Instrumentation (500 OCR Images)")
+print("Route2Read — Phase 3.1: Router Instrumentation (500 OCR Images)")
+print(f"Project root: {PROJECT_ROOT}")
 print("=" * 60)
 
-# ---- [0] Model check & BF16 ----
-try:
-    _ = model
-    print(f"\nModel: {type(model).__name__}")
-except NameError:
-    print("\nERROR: Model not loaded! Run Phase 0 cells first.")
-    raise SystemExit
+# ---- [0] Model session check ----
+if 'model' not in globals() or 'tokenizer' not in globals():
+    print("\n[Notice] 'model' and 'tokenizer' not found in active session.")
+    print("         To execute router instrumentation on GPU, run within an active session")
+    print("         with DeepSeek-OCR initialized (e.g., via session_resume.py).")
+    sys.exit(0)
 
+print(f"\nModel: {type(model).__name__}")
 if next(model.parameters()).dtype != torch.bfloat16:
     print("Casting to bfloat16...")
     model = model.to(torch.bfloat16)

@@ -1,25 +1,46 @@
-# ============================================================
-# Route2Read — Phase 0, Subtask 0.4
-# Image Inference + Live Router Hook Test
-# ============================================================
-# Run in a NEW Colab cell (same session as 0.1-0.3).
-# model and tokenizer must already be loaded.
-# Paste the FULL output back.
-# ============================================================
+"""
+Route2Read: Phase 0.4 - Forward Hook Validation & Router Probing.
+Registers PyTorch forward hooks on all 11 MoE gating layers and validates non-invasive activation interception.
+"""
 
-import os, torch, json
-import numpy as np
+import os
+import sys
+import json
 from datetime import datetime
+from pathlib import Path
+import numpy as np
 
-PROJECT_ROOT = "/content/drive/MyDrive/Route2Read"
+# Add project root to sys.path so 'src' can be imported reliably
+REPO_ROOT = Path(__file__).resolve().parents[2]
+if str(REPO_ROOT) not in sys.path:
+    sys.path.insert(0, str(REPO_ROOT))
+
+from src.utils.paths import PROJECT_ROOT, ensure_dirs
+
+ensure_dirs()
 
 print("=" * 60)
-print("SUBTASK 0.4 — Image Inference + Router Hooks")
+print("Route2Read — Phase 0.4: Inference & Router Hook Validation")
+print(f"Project root: {PROJECT_ROOT}")
 print("=" * 60)
 
-# Fix dtype: vision encoder outputs FP32, which clashes with FP16.
-# Official script uses BF16. T4 can emulate it (slower but works).
-print("\nCasting model to bfloat16 (matching official script)...")
+try:
+    import torch
+    HAS_TORCH = True
+except ImportError:
+    HAS_TORCH = False
+
+if not HAS_TORCH:
+    print("[Notice] PyTorch not installed in this environment.")
+    print("         Run within a GPU-enabled environment to test router hooks.")
+    sys.exit(0)
+
+if 'model' not in globals():
+    print("[Notice] 'model' not found in active session.")
+    print("         Run within an active session with DeepSeek-OCR loaded to test hooks.")
+    sys.exit(0)
+
+print("\nCasting model to bfloat16 (matching official configuration)...")
 model = model.to(torch.bfloat16)
 print(f"  Model dtype: {next(model.parameters()).dtype}")
 

@@ -1,26 +1,38 @@
-# ============================================================
-# Route2Read — Phase 3, Subtask 3.2
-# Full Router Instrumentation — Control Sets (QA, Coding, Math)
-# ============================================================
-# Captures MoE expert activation on 300 non-OCR control samples:
-#   - General QA: 100 samples (TriviaQA)
-#   - Coding:     100 samples (MBPP)
-#   - Math:       100 samples (GSM8K)
-#
-# Together with Phase 3.1 (OCR IAM), this provides the baseline
-# needed to compute Domain Specialization Scores (SQ2):
-#   Specialization(E) = Freq_OCR(E) - Freq_Control(E)
-# ============================================================
-# Run in Colab. GPU REQUIRED. Model & tokenizer must be loaded.
-# (If fresh session: run session_resume.py first).
-# Takes ~7-10 minutes for 300 samples.
-# ============================================================
+"""
+Route2Read: Phase 3.2 - Router Instrumentation on Non-OCR Control Sets.
+Captures MoE expert activation distributions across 300 non-OCR control samples
+(General QA, Python Coding, Mathematical Reasoning) to isolate domain specialization.
+"""
 
-import os, sys, io, json, time, torch, warnings
-import numpy as np
+import os
+import sys
+import io
+import json
+import time
+import warnings
 from datetime import datetime
 from collections import defaultdict
-from PIL import Image
+from pathlib import Path
+import numpy as np
+
+try:
+    import torch
+    HAS_TORCH = True
+except ImportError:
+    HAS_TORCH = False
+
+try:
+    from PIL import Image
+    HAS_PIL = True
+except ImportError:
+    HAS_PIL = False
+
+# Add project root to sys.path so 'src' can be imported reliably
+REPO_ROOT = Path(__file__).resolve().parents[2]
+if str(REPO_ROOT) not in sys.path:
+    sys.path.insert(0, str(REPO_ROOT))
+
+from src.utils.paths import PROJECT_ROOT, DATA_DIR, ROUTING_DIR, ensure_dirs
 
 # Suppress noisy transformer warnings
 warnings.filterwarnings('ignore')
@@ -31,20 +43,21 @@ try:
 except Exception:
     pass
 
-PROJECT_ROOT = "/content/drive/MyDrive/Route2Read"
+ensure_dirs()
 
 print("=" * 60)
-print("PHASE 3.2 — Router Instrumentation on Control Sets (300 Samples)")
+print("Route2Read — Phase 3.2: Router Instrumentation (300 Control Prompts)")
+print(f"Project root: {PROJECT_ROOT}")
 print("=" * 60)
 
-# ---- [0] Model check & BF16 ----
-try:
-    _ = model
-    print(f"\nModel: {type(model).__name__}")
-except NameError:
-    print("\nERROR: Model not loaded! Run session_resume.py first.")
-    raise SystemExit
+# ---- [0] Model session check ----
+if 'model' not in globals() or 'tokenizer' not in globals():
+    print("\n[Notice] 'model' and 'tokenizer' not found in active session.")
+    print("         To execute router instrumentation on GPU, run within an active session")
+    print("         with DeepSeek-OCR initialized (e.g., via session_resume.py).")
+    sys.exit(0)
 
+print(f"\nModel: {type(model).__name__}")
 if next(model.parameters()).dtype != torch.bfloat16:
     print("Casting to bfloat16...")
     model = model.to(torch.bfloat16)

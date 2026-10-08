@@ -21,68 +21,54 @@ import re
 from datetime import datetime
 import numpy as np
 
-# Plotting libraries
-import matplotlib
-matplotlib.use('Agg')
-import matplotlib.pyplot as plt
-import matplotlib.colors as mcolors
+from pathlib import Path
 
-# Statistical tests
-from scipy.spatial.distance import jensenshannon
-from scipy.stats import chi2_contingency
+# Add project root to sys.path so 'src' can be imported reliably
+REPO_ROOT = Path(__file__).resolve().parents[2]
+if str(REPO_ROOT) not in sys.path:
+    sys.path.insert(0, str(REPO_ROOT))
 
-# Determine Project Root
-if os.path.exists("/content/drive/MyDrive/Route2Read"):
-    PROJECT_ROOT = "/content/drive/MyDrive/Route2Read"
-elif os.path.exists(os.path.abspath(os.path.join(os.path.dirname(__file__), "..", ".."))):
-    PROJECT_ROOT = os.path.abspath(os.path.join(os.path.dirname(__file__), "..", ".."))
-else:
-    PROJECT_ROOT = os.getcwd()
+from src.utils.paths import (
+    PROJECT_ROOT,
+    FIGURES_DIR,
+    TABLES_DIR,
+    ROUTING_DIR,
+    EVAL_DIR,
+    ensure_dirs,
+)
+from src.utils.metrics import (
+    levenshtein_distance,
+    extract_numeric_tokens,
+)
+
+# Optional Plotting & Stats libraries
+try:
+    import matplotlib
+    matplotlib.use('Agg')
+    import matplotlib.pyplot as plt
+    import matplotlib.colors as mcolors
+    HAS_MATPLOTLIB = True
+except ImportError:
+    HAS_MATPLOTLIB = False
+
+try:
+    from scipy.spatial.distance import jensenshannon
+    from scipy.stats import chi2_contingency
+    HAS_SCIPY = True
+except ImportError:
+    HAS_SCIPY = False
+
+ensure_dirs()
+FIG_DIR = str(FIGURES_DIR)
+TABLE_DIR = str(TABLES_DIR)
+OCR_FREQ_PATH = os.path.join(str(ROUTING_DIR), "ocr_iam", "ocr_expert_frequency.json")
+CTRL_FREQ_PATH = os.path.join(str(ROUTING_DIR), "controls", "control_expert_frequency.json")
+OCR_PRED_PATH = os.path.join(str(ROUTING_DIR), "ocr_iam", "ocr_predictions.json")
 
 print("=" * 70)
-print("PHASE 4 — Expert Specialization Analysis & Publication Figures (SQ2)")
+print("Route2Read — Phase 4: Expert Specialization Analysis & Figures (SQ2)")
 print(f"Project root: {PROJECT_ROOT}")
 print("=" * 70)
-
-# Paths
-OCR_FREQ_PATH = os.path.join(PROJECT_ROOT, "results", "routing_logs", "ocr_iam", "ocr_expert_frequency.json")
-CTRL_FREQ_PATH = os.path.join(PROJECT_ROOT, "results", "routing_logs", "controls", "control_expert_frequency.json")
-OCR_PRED_PATH = os.path.join(PROJECT_ROOT, "results", "routing_logs", "ocr_iam", "ocr_predictions.json")
-
-FIG_DIR = os.path.join(PROJECT_ROOT, "results", "figures")
-TABLE_DIR = os.path.join(PROJECT_ROOT, "results", "tables")
-ROUTING_DIR = os.path.join(PROJECT_ROOT, "results", "routing_logs")
-EVAL_DIR = os.path.join(PROJECT_ROOT, "results", "eval_metrics")
-
-for d in [FIG_DIR, TABLE_DIR, ROUTING_DIR, EVAL_DIR]:
-    os.makedirs(d, exist_ok=True)
-
-
-# =========================================================================
-# Helper: Levenshtein Distance & Text Metrics
-# =========================================================================
-def levenshtein_distance(s1: str, s2: str) -> int:
-    """Computes Levenshtein edit distance between two strings."""
-    if len(s1) < len(s2):
-        return levenshtein_distance(s2, s1)
-    if len(s2) == 0:
-        return len(s1)
-
-    previous_row = range(len(s2) + 1)
-    for i, c1 in enumerate(s1):
-        current_row = [i + 1]
-        for j, c2 in enumerate(s2):
-            insertions = previous_row[j + 1] + 1
-            deletions = current_row[j] + 1
-            substitutions = previous_row[j] + (c1 != c2)
-            current_row.append(min(insertions, deletions, substitutions))
-        previous_row = current_row
-    return previous_row[-1]
-
-
-def extract_numeric_tokens(text: str):
-    """Extracts all digit/numeric sequences from a string."""
-    return re.findall(r'\b\d+(?:[\.,/:\-]\d+)*\b|\d+', text)
 
 
 # =========================================================================
