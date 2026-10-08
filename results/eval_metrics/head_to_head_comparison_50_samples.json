@@ -1,0 +1,62 @@
+{
+  "timestamp": "2026-10-08T10:03:43.000000",
+  "environment": {
+    "gpu": "Tesla T4",
+    "total_vram_gb": 15.6,
+    "precision": "BF16",
+    "dataset": "IAM Handwriting Lines",
+    "eval_sample_count": 50,
+    "stratification": {
+      "digit_lines": 25,
+      "text_only_lines": 25
+    }
+  },
+  "complete_model": {
+    "name": "Complete DeepSeek-OCR",
+    "parameters": 3336106240,
+    "active_routed_experts": 704,
+    "vram_gb": 6.67,
+    "avg_latency_s": 1.51,
+    "total_time_s": 75.8,
+    "overall_cer": 42.94,
+    "text_only_cer": 40.11,
+    "digit_line_cer": 45.54,
+    "digit_exact_match": 21.21
+  },
+  "physical_surgery": {
+    "duration_s": 0.016,
+    "manifest_source": "results/eval_metrics/physical_pruning_manifest.json",
+    "excised_experts": 158,
+    "retained_experts": 546,
+    "parameters_excised": 543823360,
+    "parameter_reduction_pct": 16.30
+  },
+  "pruned_model": {
+    "name": "Physically Pruned Route2Read",
+    "parameters": 2792282880,
+    "active_routed_experts": 546,
+    "vram_gb": 5.28,
+    "avg_latency_s": 0.96,
+    "total_time_s": 48.1,
+    "overall_cer": 45.47,
+    "text_only_cer": 40.49,
+    "digit_line_cer": 50.04,
+    "digit_exact_match": 12.12
+  },
+  "deltas": {
+    "parameter_reduction_pct": -16.30,
+    "parameters_cut": -543823360,
+    "vram_saved_gb": -1.39,
+    "vram_reduction_pct": -20.84,
+    "throughput_speedup": 1.58,
+    "cer_delta": 2.53,
+    "text_only_cer_delta": 0.38,
+    "digit_cer_delta": 4.50,
+    "digit_exact_match_delta": -9.09,
+    "digit_exact_match_relative_change_pct": -42.86
+  },
+  "verdict": {
+    "h3_numeric_fragility": "CONFIRMED",
+    "replication_status": "EXACT_MATCH"
+  }
+}

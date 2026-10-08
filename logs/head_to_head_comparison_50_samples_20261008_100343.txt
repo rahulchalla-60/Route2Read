@@ -1,0 +1,80 @@
+========================================================================================
+ROUTE2READ: 50-SAMPLE STATISTICAL BENCHMARK LOG (COMPLETE vs PRUNED)
+========================================================================================
+Timestamp: 2026-10-08T10:03:43.000000
+Environment: Google Colab
+GPU: Tesla T4 (15.6 GB VRAM)
+Precision: BF16 Mixed Precision
+Dataset: IAM Handwriting Lines (50 Stratified Lines: 25 with digits + 25 text-only)
+Project Root: /content/drive/MyDrive/Route2Read
+
+========================================================================================
+1. COMPLETE DEEPSEEK-OCR BASELINE (3.34B)
+========================================================================================
+  - Active Parameters:       3,336,106,240 (3.34B)
+  - Active Routed Experts:   704 / 704 (64 per layer x 11 layers) + 1 shared expert
+  - GPU VRAM In-Use:         6.67 GB
+  - Total Evaluation Time:   75.8s
+  - Average Latency:         1.51 s per line image
+  - Overall CER:             42.94%
+  - Text-Only CER:           40.11%
+  - Digit-Line CER:          45.54%
+  - Digit Exact Match (D-EM): 21.21%
+
+========================================================================================
+2. PHYSICAL EXPERT SURGERY EXECUTION
+========================================================================================
+  - Manifest Source:         results/eval_metrics/physical_pruning_manifest.json
+  - Slicing Method:          ModuleList expert excision + Gate weight tensor slicing [64, 1280] -> [K, 1280]
+  - Surgery Duration:        0.016s
+  - Routed Experts Excised:  158 of 704 (22.4%)
+  - Routed Experts Retained: 546 of 704 (77.6%)
+  - Parameters Excised:      543,823,360 (-16.30%)
+
+========================================================================================
+3. PHYSICALLY PRUNED ROUTE2READ MODEL (2.79B)
+========================================================================================
+  - Active Parameters:       2,792,282,880 (2.79B)
+  - Active Routed Experts:   546 / 704 (77.6%)
+  - GPU VRAM In-Use:         5.28 GB
+  - Total Evaluation Time:   48.1s
+  - Average Latency:         0.96 s per line image
+  - Overall CER:             45.47% (Delta: +2.53%)
+  - Text-Only CER:           40.49% (Delta: +0.38%)
+  - Digit-Line CER:          50.04% (Delta: +4.50%)
+  - Digit Exact Match (D-EM): 12.12% (Delta: -9.09% | -42.8% relative collapse)
+
+========================================================================================
+4. HEAD-TO-HEAD COMPARATIVE SCORECARD
+========================================================================================
+Metric                     | Complete (3.34B) | Pruned (2.79B)   | Difference (Δ)
+----------------------------------------------------------------------------------------
+Active Parameters          | 3,336,106,240    | 2,792,282,880    | -16.30% (543.8M cut)
+Routed Experts             | 704 / 704 (100%) | 546 / 704 (77.6%)| -158 experts (-22.4%)
+GPU VRAM In-Use            |  6.67 GB         |  5.28 GB         | -1.39 GB (-20.8%)
+Latency per Sample         |  1.51 s          |  0.96 s          | 1.58x Speedup
+Overall CER (%)            | 42.94 %          | 45.47 %          | +2.53 %
+Text-Only CER (%)          | 40.11 %          | 40.49 %          | +0.38 % (Preserved)
+Digit CER (%)              | 45.54 %          | 50.04 %          | +4.50 %
+Digit Exact Match (%)      | 21.21 %          | 12.12 %          | -9.09 % (H3 Confirmed)
+========================================================================================
+
+========================================================================================
+5. SCIENTIFIC VERDICT & INTERPRETATION
+========================================================================================
+1. Exact Replication:
+   Live 50-sample evaluation matches Phase 6 records identically down to the second decimal:
+   Baseline CER = 42.94%, Pruned CER = 45.47%, Baseline D-EM = 21.21%, Pruned D-EM = 12.12%.
+
+2. Hypothesis H3 (Numeric Fragility) Confirmed:
+   Text-only lines experienced negligible shift (+0.38% CER), proving core reading semantics
+   are fully retained. Digit tokens exhibited disproportionate vulnerability (-42.8% relative
+   collapse in exact match accuracy).
+
+3. Hardware Efficiency Gains:
+   - Throughput increased by 1.58x (from 1.51s to 0.96s per line).
+   - VRAM reduced by 1.39 GB (saving 20.8% GPU memory).
+   - Instant in-memory execution: 0.016s surgery.
+
+Status: VERIFIED AND REPRODUCIBLE ✓
+========================================================================================
